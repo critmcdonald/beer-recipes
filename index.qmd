@@ -2,5 +2,5 @@
 title: "All Grain Beer Recipes"
 ---
 
-
+This is a work in progress to create a website to preserved and find the SoCo Homebrew All Grain recipes before the store closes.
 

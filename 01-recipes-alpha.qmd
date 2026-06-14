@@ -1,15 +1,23 @@
 ---
-title: "Recipe Index 1"
+title: "Recipes (Alpha)"
 format: html
 ---
 
+## 2
+
 - [22nd State Amber Ale All Grain Recipe Instructions](recipe-pdfs/22nd%20State%20Amber%20Ale%20All%20Grain%20Recipe%20Instructions.pdf)
+
+## A
+
 - [A to CTZ IPA All Grain Recipe Instructions](recipe-pdfs/A%20to%20CTZ%20IPA%20All%20Grain%20Recipe%20Instructions.pdf)
 - [Amarillo Pale Ale All Grain Recipe Instructions - SHS](recipe-pdfs/Amarillo%20Pale%20Ale%20All%20Grain%20Recipe%20Instructions%20-%20SHS.pdf)
 - [Amberlievable Amber Ale All Grain Recipe Instructions](recipe-pdfs/Amberlievable%20Amber%20Ale%20All%20Grain%20Recipe%20Instructions.pdf)
 - [Apollo Single Hop Pale Ale All Grain Recipe Instructions](recipe-pdfs/Apollo%20Single%20Hop%20Pale%20Ale%20All%20Grain%20Recipe%20Instructions.pdf)
 - [Appalled Apollo IPA All Grain Recipe Instructions](recipe-pdfs/Appalled%20Apollo%20IPA%20All%20Grain%20Recipe%20Instructions.pdf)
 - [Azacca Pale Ale All Grain Recipe Instructions](recipe-pdfs/Azacca%20Pale%20Ale%20All%20Grain%20Recipe%20Instructions.pdf)
+
+## B
+
 - [Beans The Elf Christmas Ale All Grain Recipe Instructions](recipe-pdfs/Beans%20The%20Elf%20Christmas%20Ale%20All%20Grain%20Recipe%20Instructions.pdf)
 - [Biscuits and Jam ESB All Grain Recipe Instructions](recipe-pdfs/Biscuits%20and%20Jam%20ESB%20All%20Grain%20Recipe%20Instructions.pdf)
 - [Bitter Butler All Grain Recipe Instructions](recipe-pdfs/Bitter%20Butler%20All%20Grain%20Recipe%20Instructions.pdf)
@@ -18,34 +26,67 @@ format: html
 - [Bourbon Barrel Porter All Grain Recipe Instructions](recipe-pdfs/Bourbon%20Barrel%20Porter%20All%20Grain%20Recipe%20Instructions.pdf)
 - [British Sunset Golden Ale All Grain Recipe Instructions](recipe-pdfs/British%20Sunset%20Golden%20Ale%20All%20Grain%20Recipe%20Instructions.pdf)
 - [Butlers Irish Red Ale All Grain Recipe Instructions](recipe-pdfs/Butlers%20Irish%20Red%20Ale%20All%20Grain%20Recipe%20Instructions.pdf)
+
+## C
+
 - [Cashmere Blonde Ale All Grain Recipe Instructions](recipe-pdfs/Cashmere%20Blonde%20Ale%20All%20Grain%20Recipe%20Instructions.pdf)
 - [Chinook IPA All Grain Recipe Instructions](recipe-pdfs/Chinook%20IPA%20All%20Grain%20Recipe%20Instructions.pdf)
 - [Christmas Porter All Grain Recipe Instructions](recipe-pdfs/Christmas%20Porter%20All%20Grain%20Recipe%20Instructions.pdf)
 - [Cluster SMaSH Pale Ale All Grain Recipe Instructions](recipe-pdfs/Cluster%20SMaSH%20Pale%20Ale%20All%20Grain%20Recipe%20Instructions.pdf)
 - [Coconut Hefeweizen All Grain Recipe Instructions](recipe-pdfs/Coconut%20Hefeweizen%20All%20Grain%20Recipe%20Instructions.pdf)
 - [Cruisin Canoe IPA All Grain Recipe Instructions](recipe-pdfs/Cruisin%20Canoe%20IPA%20All%20Grain%20Recipe%20Instructions.pdf)
+
+## D
+
 - [Dark Chocolate Strawberry Stout All Grain Recipe Instructions](recipe-pdfs/Dark%20Chocolate%20Strawberry%20Stout%20All%20Grain%20Recipe%20Instructions.pdf)
 - [Dillo Trolley Pale Ale All Grain Recipe Instructions](recipe-pdfs/Dillo%20Trolley%20Pale%20Ale%20All%20Grain%20Recipe%20Instructions.pdf)
 - [Dry Hop Blonde Ale All Grain Recipe Instructions](recipe-pdfs/Dry%20Hop%20Blonde%20Ale%20All%20Grain%20Recipe%20Instructions.pdf)
 - [Dunkles Bock All Grain Recipe Instructions](recipe-pdfs/Dunkles%20Bock%20All%20Grain%20Recipe%20Instructions.pdf)
+
+## E
+
 - [Elani Pale Ale All Grain Recipe Instructions](recipe-pdfs/Elani%20Pale%20Ale%20All%20Grain%20Recipe%20Instructions.pdf)
 - [English Pale Ale All Grain Recipe Instructions](recipe-pdfs/English%20Pale%20Ale%20All%20Grain%20Recipe%20Instructions.pdf)
+
+## F
+
 - [Frayed Aglet IPA All Grain Recipe Instructions](recipe-pdfs/Frayed%20Aglet%20IPA%20All%20Grain%20Recipe%20Instructions.pdf)
 - [Fruity McCutie Juicy IPA All Grain Recipe Sheet](recipe-pdfs/Fruity%20McCutie%20Juicy%20IPA%20All%20Grain%20Recipe%20Sheet.pdf)
+
+## G
+
 - [Glaring Grackle Imperial Stout All Grain Recipe Instructions](recipe-pdfs/Glaring%20Grackle%20Imperial%20Stout%20All%20Grain%20Recipe%20Instructions.pdf)
 - [Granite Dome Oat Stout All Grain Recipe Instructions](recipe-pdfs/Granite%20Dome%20Oat%20Stout%20All%20Grain%20Recipe%20Instructions.pdf)
+
+## H
+
 - [Haze Austin Juicy NEIPA All Grain Recipe Sheet](recipe-pdfs/Haze%20Austin%20Juicy%20NEIPA%20All%20Grain%20Recipe%20Sheet.pdf)
+
+## I
+
 - [Imperial Bourbon Barrel Chocolate Stout All Grain Recipe Instructions](recipe-pdfs/Imperial%20Bourbon%20Barrel%20Chocolate%20Stout%20All%20Grain%20Recipe%20Instructions.pdf)
+
+## J
+
 - [Janets Brown Ale All Grain Recipe Instructions](recipe-pdfs/Janets%20Brown%20Ale%20All%20Grain%20Recipe%20Instructions.pdf)
 - [Jollyville Red Ale All Grain Recipe Instructions](recipe-pdfs/Jollyville%20Red%20Ale%20All%20Grain%20Recipe%20Instructions.pdf)
+
+## L
+
 - [Lake Buchana IPA All Grain Recipe Sheet](recipe-pdfs/Lake%20Buchana%20IPA%20All%20Grain%20Recipe%20Sheet.pdf)
 - [Lake Travis IPA All Grain Recipe Instructions](recipe-pdfs/Lake%20Travis%20IPA%20All%20Grain%20Recipe%20Instructions.pdf)
 - [Lemondrop Blonde Ale All Grain Recipe Instructions](recipe-pdfs/Lemondrop%20Blonde%20Ale%20All%20Grain%20Recipe%20Instructions.pdf)
 - [Lofty Loblolly IPA All Grain Recipe Instructions](recipe-pdfs/Lofty%20Loblolly%20IPA%20All%20Grain%20Recipe%20Instructions.pdf)
 - [Lonely Pier Wheat Ale All Grain Recipe Instructions](recipe-pdfs/Lonely%20Pier%20Wheat%20Ale%20All%20Grain%20Recipe%20Instructions.pdf)
+
+## M
+
 - [Mad Jacks Hoppy Amber Ale All Grain Recipe Instructions](recipe-pdfs/Mad%20Jacks%20Hoppy%20Amber%20Ale%20All%20Grain%20Recipe%20Instructions.pdf)
 - [Mars the Duck Oat Pale Ale All Grain Recipe Instructions](recipe-pdfs/Mars%20the%20Duck%20Oat%20Pale%20Ale%20All%20Grain%20Recipe%20Instructions.pdf)
 - [Mosaic & Citra Pale Ale All Grain Recipe Instructions](recipe-pdfs/Mosaic%20&%20Citra%20Pale%20Ale%20All%20Grain%20Recipe%20Instructions.pdf)
+
+## N
+
 - [Nearly Nirvana All Grain Recipe Instructions](recipe-pdfs/Nearly%20Nirvana%20All%20Grain%20Recipe%20Instructions.pdf)
 - [Nectaron & Elani IPA All Grain Recipe Instructions](recipe-pdfs/Nectaron%20&%20Elani%20IPA%20All%20Grain%20Recipe%20Instructions.pdf)
 - [Nectaron IPA All Grain Recipe Instructions](recipe-pdfs/Nectaron%20IPA%20All%20Grain%20Recipe%20Instructions.pdf)
@@ -53,13 +94,25 @@ format: html
 - [New House English Brown Ale All Grain Recipe Instructions](recipe-pdfs/New%20House%20English%20Brown%20Ale%20All%20Grain%20Recipe%20Instructions.pdf)
 - [New Zealand Blonde Ale All Grain Recipe Instructions](recipe-pdfs/New%20Zealand%20Blonde%20Ale%20All%20Grain%20Recipe%20Instructions.pdf)
 - [New Zealand IPA All Grain Recipe Instructions](recipe-pdfs/New%20Zealand%20IPA%20All%20Grain%20Recipe%20Instructions.pdf)
+
+## O
+
 - [Oat Dear I Created A Maltster Oat Stout All Grain Recipe Instructions](recipe-pdfs/Oat%20Dear%20I%20Created%20A%20Maltster%20Oat%20Stout%20All%20Grain%20Recipe%20Instructions.pdf)
 - [Oat of Luck All Grain Recipe Instructions](recipe-pdfs/Oat%20of%20Luck%20All%20Grain%20Recipe%20Instructions.pdf)
 - [Oatmeal Pale Ale All Grain Recipe Instructions](recipe-pdfs/Oatmeal%20Pale%20Ale%20All%20Grain%20Recipe%20Instructions.pdf)
+
+## P
+
 - [Pacific Coast Juicy IPA All Grain Recipe Instructions](recipe-pdfs/Pacific%20Coast%20Juicy%20IPA%20All%20Grain%20Recipe%20Instructions.pdf)
 - [Plodding Bear Porter All Grain Recipe Instructions](recipe-pdfs/Plodding%20Bear%20Porter%20All%20Grain%20Recipe%20Instructions.pdf)
 - [Pool Floatie Amber Ale All Grain Recipe Instructions](recipe-pdfs/Pool%20Floatie%20Amber%20Ale%20All%20Grain%20Recipe%20Instructions.pdf)
+
+## R
+
 - [Rooftop Sunbathing NEIPA All Grain Recipe Instructions](recipe-pdfs/Rooftop%20Sunbathing%20NEIPA%20All%20Grain%20Recipe%20Instructions.pdf)
+
+## S
+
 - [Sabro Pale Ale All Grain Recipe Instructions](recipe-pdfs/Sabro%20Pale%20Ale%20All%20Grain%20Recipe%20Instructions.pdf)
 - [SandyPupJuicyIPA_AllGrain](recipe-pdfs/SandyPupJuicyIPA_AllGrain.pdf)
 - [Seaside Ride All Grain Recipe Instructions](recipe-pdfs/Seaside%20Ride%20All%20Grain%20Recipe%20Instructions.pdf)
@@ -269,6 +322,9 @@ format: html
 - [Strawberry Milk Stout All Grain Recipe Instructions](recipe-pdfs/Strawberry%20Milk%20Stout%20All%20Grain%20Recipe%20Instructions.pdf)
 - [Summer Waves All Grain Recipe Instructions](recipe-pdfs/Summer%20Waves%20All%20Grain%20Recipe%20Instructions.pdf)
 - [Superdelic Pale Ale All Grain Recipe Instructions](recipe-pdfs/Superdelic%20Pale%20Ale%20All%20Grain%20Recipe%20Instructions.pdf)
+
+## T
+
 - [Talus Pale Ale All Grain Recipe Instructions](recipe-pdfs/Talus%20Pale%20Ale%20All%20Grain%20Recipe%20Instructions.pdf)
 - [Texas Best Bitter All Grain Recipe Instructions](recipe-pdfs/Texas%20Best%20Bitter%20All%20Grain%20Recipe%20Instructions.pdf)
 - [Texas Christmas Red Ale All Grain Recipe Instructions](recipe-pdfs/Texas%20Christmas%20Red%20Ale%20All%20Grain%20Recipe%20Instructions.pdf)
@@ -283,11 +339,23 @@ format: html
 - [Tropical Heavens IPA All Grain Recipe Instructions](recipe-pdfs/Tropical%20Heavens%20IPA%20All%20Grain%20Recipe%20Instructions.pdf)
 - [Turtle Pile Golden Ale All Grain Recipe Instructions](recipe-pdfs/Turtle%20Pile%20Golden%20Ale%20All%20Grain%20Recipe%20Instructions.pdf)
 - [Two Z's IPA All Grain Recipe Instructions](recipe-pdfs/Two%20Z's%20IPA%20All%20Grain%20Recipe%20Instructions.pdf)
+
+## V
+
 - [Vienna Amber All Grain Recipe Instructions](recipe-pdfs/Vienna%20Amber%20All%20Grain%20Recipe%20Instructions.pdf)
+
+## W
+
 - [Wauterss Belgian Dubbel All Grain Recipe Instructions](recipe-pdfs/Wauterss%20Belgian%20Dubbel%20All%20Grain%20Recipe%20Instructions.pdf)
 - [West Coast Blonde Ale All Grain Recipe Instructions](recipe-pdfs/West%20Coast%20Blonde%20Ale%20All%20Grain%20Recipe%20Instructions.pdf)
 - [West Coast Lager All Grain Recipe Instructions](recipe-pdfs/West%20Coast%20Lager%20All%20Grain%20Recipe%20Instructions.pdf)
 - [Wheatys Comet All Grain Recipe Instructions](recipe-pdfs/Wheatys%20Comet%20All%20Grain%20Recipe%20Instructions.pdf)
 - [Winter Red Ale All Grain Recipe Instructions](recipe-pdfs/Winter%20Red%20Ale%20All%20Grain%20Recipe%20Instructions.pdf)
+
+## Y
+
 - [You Had Me At Amber Ale All Grain Recipe Instructions](recipe-pdfs/You%20Had%20Me%20At%20Amber%20Ale%20All%20Grain%20Recipe%20Instructions.pdf)
+
+## Z
+
 - [Zappa IPA All Grain Recipe Instructions](recipe-pdfs/Zappa%20IPA%20All%20Grain%20Recipe%20Instructions.pdf)

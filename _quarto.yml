@@ -1,11 +1,11 @@
 project:
   type: website
   render:
-  - "!01-scrape.qmd"
+  - "!x-scrape.qmd"
   - "*.qmd"
 
 website:
-  title: "Beer recipe scraper"
+  title: "Beer recipes"
   sidebar:
     contents:
       - href: index.qmd

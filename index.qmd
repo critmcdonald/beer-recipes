@@ -2,5 +2,22 @@
 title: "All Grain Beer Recipes"
 ---
 
-This is a work in progress to create a website to preserved and find the SoCo Homebrew All Grain recipes before the store closes.
+This is a work in progress to create a website to preserved [SoCo Homebrew All Grain recipes](https://socohomebrew.com/homebrew-recipe-kits/all-grain-recipe-kits/?page=1) before the store closes.
 
+The recipes are saved as PDFs.
+
+There are several organizations of the same recipes:
+
+- [Recipes (Alpha)](01-recipes-alpha.qmd) is in alphabetical order by name.
+- [Recipes (No Soco)](02-recipes-nosoco.qmd) is similar, but removes "SoCo" from recipe names.
+- [Recipes (Filter)](03-recipes-filter.qmd) allows you to filter the list based on keywords to find things more quickly.
+- [Recipes (Style)](04-recipes-by-style.qmd) organizes the recipes by beer style.
+
+## Future work?
+
+- I'd like the scrape the main information from the pdfs and create a simple Quarto page for each recipe.
+- And/or make a database.
+
+## How this was done
+
+I used Posit Assistant (AI) to build the scraper and make most of the indexes.

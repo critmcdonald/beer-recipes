@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>About – Beer recipe scraper</title>
+<title>About – Beer recipes</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -136,7 +136,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
-      <a href="./">Beer recipe scraper</a> 
+      <a href="./">Beer recipes</a> 
     </div>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -154,14 +154,26 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./02-recipe-list.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Recipe Index 1</span></a>
+  <a href="./01-recipes-alpha.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Recipes (Alpha)</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./03-recipe-list.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Recipe Index 2</span></a>
+  <a href="./02-recipes-nosoco.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Recipes (No SoCo)</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./03-recipes-filter.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Recipe (Filter)</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./04-recipes-by-style.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Recipes (Style)</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -284,7 +296,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/critmcdonald\.github\.io\/beer-recipes\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

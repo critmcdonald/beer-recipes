@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>All Grain Beer Recipes – Beer recipe scraper</title>
+<title>All Grain Beer Recipes – Beer recipes</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -99,7 +99,7 @@ ul.task-list li input[type="checkbox"] {
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
-      <a href="./">Beer recipe scraper</a> 
+      <a href="./">Beer recipes</a> 
     </div>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -117,14 +117,26 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./02-recipe-list.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Recipe Index 1</span></a>
+  <a href="./01-recipes-alpha.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Recipes (Alpha)</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./03-recipe-list.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Recipe Index 2</span></a>
+  <a href="./02-recipes-nosoco.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Recipes (No SoCo)</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./03-recipes-filter.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Recipe (Filter)</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./04-recipes-by-style.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Recipes (Style)</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -138,8 +150,15 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#future-work" id="toc-future-work" class="nav-link active" data-scroll-target="#future-work">Future work?</a></li>
+  <li><a href="#how-this-was-done" id="toc-how-this-was-done" class="nav-link" data-scroll-target="#how-this-was-done">How this was done</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -163,9 +182,28 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>This is a work in progress to create a website to preserved and find the SoCo Homebrew All Grain recipes before the store closes.</p>
+<p>This is a work in progress to create a website to preserved <a href="https://socohomebrew.com/homebrew-recipe-kits/all-grain-recipe-kits/?page=1">SoCo Homebrew All Grain recipes</a> before the store closes.</p>
+<p>The recipes are saved as PDFs.</p>
+<p>There are several organizations of the same recipes:</p>
+<ul>
+<li><a href="./01-recipes-alpha.html">Recipes (Alpha)</a> is in alphabetical order by name.</li>
+<li><a href="./02-recipes-nosoco.html">Recipes (No Soco)</a> is similar, but removes “SoCo” from recipe names.</li>
+<li><a href="./03-recipes-filter.html">Recipes (Filter)</a> allows you to filter the list based on keywords to find things more quickly.</li>
+<li><a href="./04-recipes-by-style.html">Recipes (Style)</a> organizes the recipes by beer style.</li>
+</ul>
+<section id="future-work" class="level2">
+<h2 class="anchored" data-anchor-id="future-work">Future work?</h2>
+<ul>
+<li>I’d like the scrape the main information from the pdfs and create a simple Quarto page for each recipe.</li>
+<li>And/or make a database.</li>
+</ul>
+</section>
+<section id="how-this-was-done" class="level2">
+<h2 class="anchored" data-anchor-id="how-this-was-done">How this was done</h2>
+<p>I used Posit Assistant (AI) to build the scraper and make most of the indexes.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -241,7 +279,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/critmcdonald\.github\.io\/beer-recipes\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

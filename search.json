@@ -4,29 +4,689 @@
     "href": "index.html",
     "title": "All Grain Beer Recipes",
     "section": "",
-    "text": "This is a work in progress to create a website to preserved and find the SoCo Homebrew All Grain recipes before the store closes.",
+    "text": "This is a work in progress to create a website to preserved SoCo Homebrew All Grain recipes before the store closes.\nThe recipes are saved as PDFs.\nThere are several organizations of the same recipes:",
     "crumbs": [
       "Home"
     ]
   },
   {
-    "objectID": "03-recipe-list.html",
-    "href": "03-recipe-list.html",
-    "title": "Recipe Index 2",
-    "section": "",
-    "text": "2 · A · B · C · D · E · F · G · H · I · J · L · M · N · O · P · R · S · T · V · W · Y · Z\n\n\n\n2\n\n  22nd State Amber Ale All Grain Recipe Instructions\n\n\n\n\nA\n\n  A to CTZ IPA All Grain Recipe Instructions\n  Amarillo Pale Ale All Grain Recipe Instructions - SHS\n  Amberlievable Amber Ale All Grain Recipe Instructions\n  Apollo Single Hop Pale Ale All Grain Recipe Instructions\n  Appalled Apollo IPA All Grain Recipe Instructions\n  Azacca Pale Ale All Grain Recipe Instructions\n\n\n\n\nB\n\n  Beans The Elf Christmas Ale All Grain Recipe Instructions\n  Biscuits and Jam ESB All Grain Recipe Instructions\n  Bitter Butler All Grain Recipe Instructions\n  Bitter Texan IPA All Grain Recipe Instructions\n  Blackberry Witbier All Grain Recipe Instructions\n  Bourbon Barrel Porter All Grain Recipe Instructions\n  British Sunset Golden Ale All Grain Recipe Instructions\n  Butlers Irish Red Ale All Grain Recipe Instructions\n\n\n\n\nC\n\n  Cashmere Blonde Ale All Grain Recipe Instructions\n  Chinook IPA All Grain Recipe Instructions\n  Christmas Porter All Grain Recipe Instructions\n  Cluster SMaSH Pale Ale All Grain Recipe Instructions\n  Coconut Hefeweizen All Grain Recipe Instructions\n  Cruisin Canoe IPA All Grain Recipe Instructions\n\n\n\n\nD\n\n  Dark Chocolate Strawberry Stout All Grain Recipe Instructions\n  Dillo Trolley Pale Ale All Grain Recipe Instructions\n  Dry Hop Blonde Ale All Grain Recipe Instructions\n  Dunkles Bock All Grain Recipe Instructions\n\n\n\n\nE\n\n  Elani Pale Ale All Grain Recipe Instructions\n  English Pale Ale All Grain Recipe Instructions\n\n\n\n\nF\n\n  Frayed Aglet IPA All Grain Recipe Instructions\n  Fruity McCutie Juicy IPA All Grain Recipe Sheet\n\n\n\n\nG\n\n  Glaring Grackle Imperial Stout All Grain Recipe Instructions\n  Granite Dome Oat Stout All Grain Recipe Instructions\n\n\n\n\nH\n\n  Haze Austin Juicy NEIPA All Grain Recipe Sheet\n\n\n\n\nI\n\n  Imperial Bourbon Barrel Chocolate Stout All Grain Recipe Instructions\n\n\n\n\nJ\n\n  Janets Brown Ale All Grain Recipe Instructions\n  Jollyville Red Ale All Grain Recipe Instructions\n\n\n\n\nL\n\n  Lake Buchana IPA All Grain Recipe Sheet\n  Lake Travis IPA All Grain Recipe Instructions\n  Lemondrop Blonde Ale All Grain Recipe Instructions\n  Lofty Loblolly IPA All Grain Recipe Instructions\n  Lonely Pier Wheat Ale All Grain Recipe Instructions\n\n\n\n\nM\n\n  Mad Jacks Hoppy Amber Ale All Grain Recipe Instructions\n  Mars the Duck Oat Pale Ale All Grain Recipe Instructions\n  Mosaic & Citra Pale Ale All Grain Recipe Instructions\n\n\n\n\nN\n\n  Nearly Nirvana All Grain Recipe Instructions\n  Nectaron & Elani IPA All Grain Recipe Instructions\n  Nectaron IPA All Grain Recipe Instructions\n  Nectaron Pale Ale All Grain Recipe Instructions\n  New House English Brown Ale All Grain Recipe Instructions\n  New Zealand Blonde Ale All Grain Recipe Instructions\n  New Zealand IPA All Grain Recipe Instructions\n\n\n\n\nO\n\n  Oat Dear I Created A Maltster Oat Stout All Grain Recipe Instructions\n  Oat of Luck All Grain Recipe Instructions\n  Oatmeal Pale Ale All Grain Recipe Instructions\n\n\n\n\nP\n\n  Pacific Coast Juicy IPA All Grain Recipe Instructions\n  Plodding Bear Porter All Grain Recipe Instructions\n  Pool Floatie Amber Ale All Grain Recipe Instructions\n\n\n\n\nR\n\n  Rooftop Sunbathing NEIPA All Grain Recipe Instructions\n\n\n\n\nS\n\n  Sabro Pale Ale All Grain Recipe Instructions\n  SandyPupJuicyIPA_AllGrain\n  Seaside Ride All Grain Recipe Instructions\n  SoCo 120 Shilling All Grain Recipe Instructions\n  SoCo 60 Shilling All Grain Recipe Instructions\n  SoCo 70 Shilling All Grain Recipe Instructions\n  SoCo 80 Shilling All Grain Recipe Instructions\n  SoCo 90 Shilling All Grain Recipe Instructions\n  SoCo Ahoy Wheaty Wheat Ale All Grain Recipe Instructions\n  SoCo Amarillo Armadillo All Grain Recipe Instructions\n  SoCo Amarillo IPA All Grain Recipe Instructions\n  SoCo Amber Hue All Grain Recipe Instructions\n  SoCo Amberserk Amber Ale All Grain Recipe Instructions\n  SoCo American Amber Ale All Grain Recipe Instructions\n  SoCo American Barleywine All Grain Recipe Instructions\n  SoCo American Brown All Grain Recipe Instructions\n  SoCo American Hefeweizen All Grain Recipe Instructions\n  SoCo American Red Ale All Grain Recipe Instructions\n  SoCo American Rye Ale All Grain Recipe Instructions\n  SoCo American Strong Ale All Grain Recipe Instructions\n  SoCo American Wheat All Grain Recipe Instructions\n  SoCo Anniversary IPA All Grain Recipe Instructions\n  SoCo Apricot Saison All Grain Recipe Instructions\n  SoCo Apricot Wheat Ale All Grain Recipe Instructions\n  SoCo Australian Sparkling Ale All Grain Recipe Instructions\n  SoCo Bat Bridge Black IPA All Grain Recipe Instructions\n  SoCo Bavarian Hefeweizen All Grain Recipe Instructions\n  SoCo Beach Lounger Amber All Grain Recipe Instructions\n  SoCo Belgian Dark Strong All Grain Recipe Instructions\n  SoCo Belgian Dubbel All Grain Recipe Instructions\n  SoCo Belgian IPA All Grain Recipe Instructions\n  SoCo Belgian Pale Ale All Grain Recipe Instructions\n  SoCo Belgian Saison All Grain Recipe Instructions\n  SoCo Belgian Stout All Grain Recipe Instructions\n  SoCo Belgian Tripel All Grain Recipe Instructions\n  SoCo Berliner Weisse Advanced All Grain Recipe Sheet\n  SoCo Berliner Weisse Easy All Grain Brewing Instructions\n  SoCo Best Bitter All Grain Recipe Instructions\n  SoCo Black IPA All Grain Recipe Instructions\n  SoCo Black Licorice Porter All Grain Recipe Instructions\n  SoCo Blackberry Blonde Ale All Grain Recipe Instructions\n  SoCo Blackberry Wheat Ale All Grain Recipe Instructions\n  SoCo Blonde All Grain Recipe Instructions\n  SoCo Blueberry Blonde Ale All Grain Recipe Instructions\n  SoCo Blueberry Wheat Ale All Grain Recipe Instructions\n  SoCo Breezy Nights Black Ale All Grain Recipe Instructions\n  SoCo British Golden Ale All Grain Recipe Instructions\n  SoCo British Strong Ale All Grain Recipe Instructions\n  SoCo Brown IPA All Grain Recipe Instructions\n  SoCo Brown Porter All Grain Recipe Instructions\n  SoCo California Common All Grain Recipe Instructions\n  SoCo Cascadian Dark Ale All Grain Recipe Instructions\n  SoCo Centennial IPA All Grain Recipe Instructions\n  SoCo Chocolate Milk Stout All Grain Recipe Instructions\n  SoCo Chocolate Porter All Grain Recipe Instructions\n  SoCo Chocolate Stout All Grain Recipe Instructions\n  SoCo Christmas IPA All Grain Recipe Instructions\n  SoCo Citra Amarillo NEIPA All Grain Recipe Instructions\n  SoCo Citra Blonde Ale All Grain Recipe Instructions\n  SoCo Citra IPA All Grain Recipe Instructions\n  SoCo Citra Juicy NEIPA All Grain Recipe Instructions\n  SoCo Citra Pale Ale All Grain Recipe Instructions\n  SoCo Citra SMaSH IPA All Grain Recipe Instructions\n  SoCo CitSim All Grain Recipe Instructions\n  SoCo Coconut Porter All Grain Recipe Instructions\n  SoCo Coconut Wheat Ale All Grain Recipe Instructions\n  SoCo Columbus IPA All Grain Recipe Instructions\n  SoCo Dark Mild All Grain Recipe Instructions\n  SoCo Dark Wheat All Grain Recipe Instructions\n  SoCo Doppelbock All Grain Recipe Instructions\n  SoCo Double Brown Ale All Grain Recipe Instructions\n  SoCo Double Chocolate Stout All Grain Recipe Instructions\n  SoCo Double Wit All Grain Recipe Instructions\n  SoCo Dunkelweizen All Grain Recipe Instructions\n  SoCo Eclipse Black Blonde Ale All Grain Recipe Instructions\n  SoCo Eclipse Black IPA All Grain Recipe Instructions\n  SoCo English Barleywine All Grain Recipe Instructions\n  SoCo English Brown All Grain Recipe Instructions\n  SoCo English IPA All Grain Recipe Instructions\n  SoCo English Porter All Grain Recipe Instructions\n  SoCo ESB All Grain Recipe Instructions\n  SoCo Falconers Flight Pale Ale All Grain Recipe Instructions\n  SoCo Faux Coffee Stout All Grain Recipe Instructions\n  SoCo Flying Kiwi All Grain Recipe Instructions\n  SoCo Gose All Grain Recipe Instructions\n  SoCo Gose Kettle Sour All Grain Recipe Sheet\n  SoCo Goud Belgian Pale Ale All Grain Recipe Instructions\n  SoCo Grapefruit IPA All Grain Recipe Instructions\n  SoCo Grodziskie All Grain Recipe Instructions\n  SoCo Hefeweizen All Grain Recipe Instructions\n  SoCo Holiday Stout All Grain Recipe Instructions\n  SoCo Honey Badger Brown All Grain Recipe Instructions\n  SoCo Honey Wheat All Grain Recipe Instructions\n  SoCo Hoppy Wheat All Grain Recipe Instructions\n  SoCo Imperial Blonde Ale All Grain Recipe Instructions\n  SoCo Imperial Irish Red Ale All Grain Recipe Instructions\n  SoCo Imperial Nut Brown Ale All Grain Recipe Instructions\n  SoCo IPA IPA Double IPA All Grain Recipe Sheet\n  SoCo Irish Extra Stout All Grain Recipe Instructions\n  SoCo Irish Red All Grain Recipe Instructions\n  SoCo Irish Stout All Grain Recipe Instructions\n  SoCo Island Chicken Pale Ale All Grain Recipe Instructions\n  SoCo Leaky Tent Stout All Grain Recipe Instructions\n  SoCo Light Blonde Ale All Grain Recipe Instructions\n  SoCo London Brown All Grain Recipe Instructions\n  SoCo Maddies English Porter All Grain Recipe Instructions\n  SoCo McKinney Falls All Grain Recipe Instructions\n  SoCo Menchaca Hefeweizen All Grain Recipe Instructions\n  SoCo Milk Stout All Grain Recipe Instructions\n  SoCo Milkshake IPA All Grain Recipe Instructions (1)\n  SoCo Moontower White All Grain Recipe Instructions\n  SoCo Mosaic SMaSH IPA All Grain Recipe Instructions\n  SoCo Mugwort Lemon Gruit All Grain Recipe Instructions\n  SoCo Mugwort Red Ale All Grain Recipe Instructions\n  SoCo Nut Brown All Grain Recipe Instructions\n  SoCo Oat Stout All Grain Recipe Instructions\n  SoCo Oatmeal Brown Ale All Grain Recipe Instructions\n  SoCo Oktoberfest All Grain Recipe Instructions\n  SoCo Old Ale All Grain Recipe Instructions\n  SoCo Ordinary Bitter All Grain Recipe Instructions\n  SoCo Passion Fruit Saison All Grain Recipe Instructions\n  SoCo Patersbier All Grain Recipe Instructions\n  SoCo Pecan Brown Ale All Grain Recipe Instructions\n  SoCo Pecan Porter All Grain Recipe Instructions\n  SoCo Pennybacker Double IPA All Grain Recipe Instructions\n  SoCo Peppermint Chocolate Milk Stout All Grain Recipe Instructions\n  SoCo Pink Boots Society Red Ale All Grain Recipe Instructions\n  SoCo Porter All Grain Recipe Instructions\n  SoCo Raspberry Blonde All Grain Recipe Instructions\n  SoCo Raspberry Wheat Ale All Grain Recipe Instructions\n  SoCo Red APA All Grain Recipe Instructions\n  SoCo Red Hot Red Ale All Grain Recipe Instructions\n  SoCo Red IPA All Grain Recipe Instructions\n  SoCo Red Ryerson Roggenbier All Grain Recipe Instructions\n  SoCo Robust Porter All Grain Recipe Instructions\n  SoCo Russian Imperial Stout All Grain Recipe Instructions\n  SoCo Rye IPA All Grain Recipe Instructions\n  SoCo Rye Lager All Grain Recipe Instructions\n  SoCo Rye Pale All Grain Recipe Instructions\n  SoCo Rye Stout All Grain Recipe Instructions\n  SoCo Sabro IPA All Grain Recipe Sheet\n  SoCo Sasquatch Street Brown Ale All Grain Recipe Instructions\n  SoCo Schwarzbier All Grain Recipe Instructions\n  SoCo Scottish Export All Grain Recipe Instructions\n  SoCo Scottish Heavy All Grain Recipe Instructions\n  SoCo Scottish Light All Grain Recipe Instructions\n  SoCo Serendipitous Citrus All Grain Recipe Instructions\n  SoCo SimCitIPA All Grain Recipe Instructions\n  SoCo Simcoe IPA All Grain Recipe Instructions\n  SoCo Simcoe Pale Ale All Grain Recipe Instructions\n  SoCo Simcoe SMaSH IPA All Grain Recipe Instructions\n  SoCo Smoky Brown Ale All Grain Recipe Instructions\n  SoCo Smoky Porter All Grain Recipe Instructions\n  SoCo South Lamar IPA All Grain Recipe Instructions\n  SoCo Spiced IPA All Grain Recipe Instructions\n  SoCo Spiced Porter All Grain Recipe Instructions\n  SoCo Spiced Stout All Grain Recipe Instructions\n  SoCo Strata Pale Ale All Grain Recipe Instructions\n  SoCo Strawberry Blonde Ale All Grain Recipe Instructions\n  SoCo Strawberry Wheat All Grain Recipe Instructions\n  SoCo Strong Amber Ale All Grain Recipe Instructions\n  SoCo Strong American Porter All Grain Recipe Instructions\n  SoCo Strong Scotch Ale All Grain Recipe Instructions\n  SoCo Strong Winter Ale All Grain Recipe Instructions\n  SoCo Summer Wheat All Grain Recipe Instructions\n  SoCo Texas Amber Ale All Grain Recipe Instructions\n  SoCo Texas Blonde Ale All Grain Recipe Instructions\n  SoCo Texas Brown Ale All Grain Recipe Instructions\n  SoCo Texas Citra IPA All Grain Recipe Instructions\n  SoCo Texas Golden Ale All Grain Recipe Instructions\n  SoCo Texas Hefeweizen All Grain Recipe Instructions\n  SoCo Texas IPA All Grain Recipe Instructions\n  SoCo Texas Juicy IPA All Grain Recipe Sheet\n  SoCo Texas Kolsch All Grain Recipe Instructions\n  SoCo Texas Mosaic IPA All Grain Recipe Instructions\n  SoCo Texas Pale Ale All Grain Recipe Instructions\n  SoCo Texas Porter All Grain Recipe Instructions\n  SoCo Texas Red Ale All Grain Recipe Instructions\n  SoCo Texas Stout All Grain Recipe Instructions\n  SoCo Texas Strong Ale All Grain Recipe Instructions\n  SoCo The Hard Way All Grain Recipe Instructions\n  SoCo Town Lake IPA All Grain Recipe Instructions\n  SoCo Tropical Stout All Grain Recipe Instructions\n  SoCo Vanilla Cream Porter All Grain Recipe Instructions\n  SoCo Vic Secret Pale Ale All Grain Recipe Instructions\n  SoCo Vienna Lager All Grain Recipe Instructions\n  SoCo Vista IPA All Grain Recipe Instructions\n  SoCo Wandering Egret Amber Ale All Grain Recipe Instructions\n  SoCo Warm Winter All Grain Recipe Instructions\n  SoCo Watermelon Blonde All Grain Recipe Instructions\n  SoCo West Coast IPA All Grain Recipe Instructions\n  SoCo West Coast Pale All Grain Recipe Instructions\n  SoCo Wheatwine All Grain Recipe Instructions\n  SoCo Whiskey Barrel Stout All Grain Recipe Instructions\n  SoCo White Chocolate Blonde Ale All Grain Recipe Instructions\n  SoCo White Stout All Grain Recipe Instructions\n  SoCo Whole Lotta Citrus NEIPA All Grain Recipe Instructions\n  SoCo Witbier All Grain Recipe Instructions\n  SoCo Yellow Bells Juicy NEIPA All Grain Recipe Instructions\n  SoCo Yodeling Coyote Oktoberfest All Grain Recipe Instructions\n  SoCo Zilker Park Pale All Grain Recipe Instructions\n  SoCo-Fastest-IPA-in-the-Galaxy-All-Grain-Recipe\n  South Austins Best Bitter All Grain Recipe Instructions\n  Squawking Parrot IPA All Grain Recipe Instructions\n  Stalwart Bulldog ESB All Grain Recipe Instructions\n  Stein Half Full Oktoberfest All Grain Recipe V2\n  Strawberry Milk Stout All Grain Recipe Instructions\n  Summer Waves All Grain Recipe Instructions\n  Superdelic Pale Ale All Grain Recipe Instructions\n\n\n\n\nT\n\n  Talus Pale Ale All Grain Recipe Instructions\n  Texas Best Bitter All Grain Recipe Instructions\n  Texas Christmas Red Ale All Grain Recipe Instructions\n  Texas Dunkelweizen All Grain Recipe Instructions\n  Texas Milk Stout All Grain Recipe Instructions\n  Texas Oat Stout All Grain Recipe Instructions\n  Texas Pilsner All Grain Recipe Instructions\n  Texas Style Irish Stout All Grain Recipe Instructions\n  TexasBigtooth Amber Ale All Grain Recipe Instructions\n  Tops For The Win Pale Ale All Grain Recipe Instructions\n  Tree Bench Brown Ale All Grain Recipe Instructions\n  Tropical Heavens IPA All Grain Recipe Instructions\n  Turtle Pile Golden Ale All Grain Recipe Instructions\n  Two Z's IPA All Grain Recipe Instructions\n\n\n\n\nV\n\n  Vienna Amber All Grain Recipe Instructions\n\n\n\n\nW\n\n  Wauterss Belgian Dubbel All Grain Recipe Instructions\n  West Coast Blonde Ale All Grain Recipe Instructions\n  West Coast Lager All Grain Recipe Instructions\n  Wheatys Comet All Grain Recipe Instructions\n  Winter Red Ale All Grain Recipe Instructions\n\n\n\n\nY\n\n  You Had Me At Amber Ale All Grain Recipe Instructions\n\n\n\n\nZ\n\n  Zappa IPA All Grain Recipe Instructions\n\n\n\nNo recipes match your search.",
+    "objectID": "index.html#future-work",
+    "href": "index.html#future-work",
+    "title": "All Grain Beer Recipes",
+    "section": "Future work?",
+    "text": "Future work?\n\nI’d like the scrape the main information from the pdfs and create a simple Quarto page for each recipe.\nAnd/or make a database.",
     "crumbs": [
-      "Recipe Index 2"
+      "Home"
     ]
   },
   {
-    "objectID": "02-recipe-list.html",
-    "href": "02-recipe-list.html",
-    "title": "Recipe Index 1",
-    "section": "",
-    "text": "22nd State Amber Ale All Grain Recipe Instructions\nA to CTZ IPA All Grain Recipe Instructions\nAmarillo Pale Ale All Grain Recipe Instructions - SHS\nAmberlievable Amber Ale All Grain Recipe Instructions\nApollo Single Hop Pale Ale All Grain Recipe Instructions\nAppalled Apollo IPA All Grain Recipe Instructions\nAzacca Pale Ale All Grain Recipe Instructions\nBeans The Elf Christmas Ale All Grain Recipe Instructions\nBiscuits and Jam ESB All Grain Recipe Instructions\nBitter Butler All Grain Recipe Instructions\nBitter Texan IPA All Grain Recipe Instructions\nBlackberry Witbier All Grain Recipe Instructions\nBourbon Barrel Porter All Grain Recipe Instructions\nBritish Sunset Golden Ale All Grain Recipe Instructions\nButlers Irish Red Ale All Grain Recipe Instructions\nCashmere Blonde Ale All Grain Recipe Instructions\nChinook IPA All Grain Recipe Instructions\nChristmas Porter All Grain Recipe Instructions\nCluster SMaSH Pale Ale All Grain Recipe Instructions\nCoconut Hefeweizen All Grain Recipe Instructions\nCruisin Canoe IPA All Grain Recipe Instructions\nDark Chocolate Strawberry Stout All Grain Recipe Instructions\nDillo Trolley Pale Ale All Grain Recipe Instructions\nDry Hop Blonde Ale All Grain Recipe Instructions\nDunkles Bock All Grain Recipe Instructions\nElani Pale Ale All Grain Recipe Instructions\nEnglish Pale Ale All Grain Recipe Instructions\nFrayed Aglet IPA All Grain Recipe Instructions\nFruity McCutie Juicy IPA All Grain Recipe Sheet\nGlaring Grackle Imperial Stout All Grain Recipe Instructions\nGranite Dome Oat Stout All Grain Recipe Instructions\nHaze Austin Juicy NEIPA All Grain Recipe Sheet\nImperial Bourbon Barrel Chocolate Stout All Grain Recipe Instructions\nJanets Brown Ale All Grain Recipe Instructions\nJollyville Red Ale All Grain Recipe Instructions\nLake Buchana IPA All Grain Recipe Sheet\nLake Travis IPA All Grain Recipe Instructions\nLemondrop Blonde Ale All Grain Recipe Instructions\nLofty Loblolly IPA All Grain Recipe Instructions\nLonely Pier Wheat Ale All Grain Recipe Instructions\nMad Jacks Hoppy Amber Ale All Grain Recipe Instructions\nMars the Duck Oat Pale Ale All Grain Recipe Instructions\nMosaic & Citra Pale Ale All Grain Recipe Instructions\nNearly Nirvana All Grain Recipe Instructions\nNectaron & Elani IPA All Grain Recipe Instructions\nNectaron IPA All Grain Recipe Instructions\nNectaron Pale Ale All Grain Recipe Instructions\nNew House English Brown Ale All Grain Recipe Instructions\nNew Zealand Blonde Ale All Grain Recipe Instructions\nNew Zealand IPA All Grain Recipe Instructions\nOat Dear I Created A Maltster Oat Stout All Grain Recipe Instructions\nOat of Luck All Grain Recipe Instructions\nOatmeal Pale Ale All Grain Recipe Instructions\nPacific Coast Juicy IPA All Grain Recipe Instructions\nPlodding Bear Porter All Grain Recipe Instructions\nPool Floatie Amber Ale All Grain Recipe Instructions\nRooftop Sunbathing NEIPA All Grain Recipe Instructions\nSabro Pale Ale All Grain Recipe Instructions\nSandyPupJuicyIPA_AllGrain\nSeaside Ride All Grain Recipe Instructions\nSoCo 120 Shilling All Grain Recipe Instructions\nSoCo 60 Shilling All Grain Recipe Instructions\nSoCo 70 Shilling All Grain Recipe Instructions\nSoCo 80 Shilling All Grain Recipe Instructions\nSoCo 90 Shilling All Grain Recipe Instructions\nSoCo Ahoy Wheaty Wheat Ale All Grain Recipe Instructions\nSoCo Amarillo Armadillo All Grain Recipe Instructions\nSoCo Amarillo IPA All Grain Recipe Instructions\nSoCo Amber Hue All Grain Recipe Instructions\nSoCo Amberserk Amber Ale All Grain Recipe Instructions\nSoCo American Amber Ale All Grain Recipe Instructions\nSoCo American Barleywine All Grain Recipe Instructions\nSoCo American Brown All Grain Recipe Instructions\nSoCo American Hefeweizen All Grain Recipe Instructions\nSoCo American Red Ale All Grain Recipe Instructions\nSoCo American Rye Ale All Grain Recipe Instructions\nSoCo American Strong Ale All Grain Recipe Instructions\nSoCo American Wheat All Grain Recipe Instructions\nSoCo Anniversary IPA All Grain Recipe Instructions\nSoCo Apricot Saison All Grain Recipe Instructions\nSoCo Apricot Wheat Ale All Grain Recipe Instructions\nSoCo Australian Sparkling Ale All Grain Recipe Instructions\nSoCo Bat Bridge Black IPA All Grain Recipe Instructions\nSoCo Bavarian Hefeweizen All Grain Recipe Instructions\nSoCo Beach Lounger Amber All Grain Recipe Instructions\nSoCo Belgian Dark Strong All Grain Recipe Instructions\nSoCo Belgian Dubbel All Grain Recipe Instructions\nSoCo Belgian IPA All Grain Recipe Instructions\nSoCo Belgian Pale Ale All Grain Recipe Instructions\nSoCo Belgian Saison All Grain Recipe Instructions\nSoCo Belgian Stout All Grain Recipe Instructions\nSoCo Belgian Tripel All Grain Recipe Instructions\nSoCo Berliner Weisse Advanced All Grain Recipe Sheet\nSoCo Berliner Weisse Easy All Grain Brewing Instructions\nSoCo Best Bitter All Grain Recipe Instructions\nSoCo Black IPA All Grain Recipe Instructions\nSoCo Black Licorice Porter All Grain Recipe Instructions\nSoCo Blackberry Blonde Ale All Grain Recipe Instructions\nSoCo Blackberry Wheat Ale All Grain Recipe Instructions\nSoCo Blonde All Grain Recipe Instructions\nSoCo Blueberry Blonde Ale All Grain Recipe Instructions\nSoCo Blueberry Wheat Ale All Grain Recipe Instructions\nSoCo Breezy Nights Black Ale All Grain Recipe Instructions\nSoCo British Golden Ale All Grain Recipe Instructions\nSoCo British Strong Ale All Grain Recipe Instructions\nSoCo Brown IPA All Grain Recipe Instructions\nSoCo Brown Porter All Grain Recipe Instructions\nSoCo California Common All Grain Recipe Instructions\nSoCo Cascadian Dark Ale All Grain Recipe Instructions\nSoCo Centennial IPA All Grain Recipe Instructions\nSoCo Chocolate Milk Stout All Grain Recipe Instructions\nSoCo Chocolate Porter All Grain Recipe Instructions\nSoCo Chocolate Stout All Grain Recipe Instructions\nSoCo Christmas IPA All Grain Recipe Instructions\nSoCo Citra Amarillo NEIPA All Grain Recipe Instructions\nSoCo Citra Blonde Ale All Grain Recipe Instructions\nSoCo Citra IPA All Grain Recipe Instructions\nSoCo Citra Juicy NEIPA All Grain Recipe Instructions\nSoCo Citra Pale Ale All Grain Recipe Instructions\nSoCo Citra SMaSH IPA All Grain Recipe Instructions\nSoCo CitSim All Grain Recipe Instructions\nSoCo Coconut Porter All Grain Recipe Instructions\nSoCo Coconut Wheat Ale All Grain Recipe Instructions\nSoCo Columbus IPA All Grain Recipe Instructions\nSoCo Dark Mild All Grain Recipe Instructions\nSoCo Dark Wheat All Grain Recipe Instructions\nSoCo Doppelbock All Grain Recipe Instructions\nSoCo Double Brown Ale All Grain Recipe Instructions\nSoCo Double Chocolate Stout All Grain Recipe Instructions\nSoCo Double Wit All Grain Recipe Instructions\nSoCo Dunkelweizen All Grain Recipe Instructions\nSoCo Eclipse Black Blonde Ale All Grain Recipe Instructions\nSoCo Eclipse Black IPA All Grain Recipe Instructions\nSoCo English Barleywine All Grain Recipe Instructions\nSoCo English Brown All Grain Recipe Instructions\nSoCo English IPA All Grain Recipe Instructions\nSoCo English Porter All Grain Recipe Instructions\nSoCo ESB All Grain Recipe Instructions\nSoCo Falconers Flight Pale Ale All Grain Recipe Instructions\nSoCo Faux Coffee Stout All Grain Recipe Instructions\nSoCo Flying Kiwi All Grain Recipe Instructions\nSoCo Gose All Grain Recipe Instructions\nSoCo Gose Kettle Sour All Grain Recipe Sheet\nSoCo Goud Belgian Pale Ale All Grain Recipe Instructions\nSoCo Grapefruit IPA All Grain Recipe Instructions\nSoCo Grodziskie All Grain Recipe Instructions\nSoCo Hefeweizen All Grain Recipe Instructions\nSoCo Holiday Stout All Grain Recipe Instructions\nSoCo Honey Badger Brown All Grain Recipe Instructions\nSoCo Honey Wheat All Grain Recipe Instructions\nSoCo Hoppy Wheat All Grain Recipe Instructions\nSoCo Imperial Blonde Ale All Grain Recipe Instructions\nSoCo Imperial Irish Red Ale All Grain Recipe Instructions\nSoCo Imperial Nut Brown Ale All Grain Recipe Instructions\nSoCo IPA IPA Double IPA All Grain Recipe Sheet\nSoCo Irish Extra Stout All Grain Recipe Instructions\nSoCo Irish Red All Grain Recipe Instructions\nSoCo Irish Stout All Grain Recipe Instructions\nSoCo Island Chicken Pale Ale All Grain Recipe Instructions\nSoCo Leaky Tent Stout All Grain Recipe Instructions\nSoCo Light Blonde Ale All Grain Recipe Instructions\nSoCo London Brown All Grain Recipe Instructions\nSoCo Maddies English Porter All Grain Recipe Instructions\nSoCo McKinney Falls All Grain Recipe Instructions\nSoCo Menchaca Hefeweizen All Grain Recipe Instructions\nSoCo Milk Stout All Grain Recipe Instructions\nSoCo Milkshake IPA All Grain Recipe Instructions (1)\nSoCo Moontower White All Grain Recipe Instructions\nSoCo Mosaic SMaSH IPA All Grain Recipe Instructions\nSoCo Mugwort Lemon Gruit All Grain Recipe Instructions\nSoCo Mugwort Red Ale All Grain Recipe Instructions\nSoCo Nut Brown All Grain Recipe Instructions\nSoCo Oat Stout All Grain Recipe Instructions\nSoCo Oatmeal Brown Ale All Grain Recipe Instructions\nSoCo Oktoberfest All Grain Recipe Instructions\nSoCo Old Ale All Grain Recipe Instructions\nSoCo Ordinary Bitter All Grain Recipe Instructions\nSoCo Passion Fruit Saison All Grain Recipe Instructions\nSoCo Patersbier All Grain Recipe Instructions\nSoCo Pecan Brown Ale All Grain Recipe Instructions\nSoCo Pecan Porter All Grain Recipe Instructions\nSoCo Pennybacker Double IPA All Grain Recipe Instructions\nSoCo Peppermint Chocolate Milk Stout All Grain Recipe Instructions\nSoCo Pink Boots Society Red Ale All Grain Recipe Instructions\nSoCo Porter All Grain Recipe Instructions\nSoCo Raspberry Blonde All Grain Recipe Instructions\nSoCo Raspberry Wheat Ale All Grain Recipe Instructions\nSoCo Red APA All Grain Recipe Instructions\nSoCo Red Hot Red Ale All Grain Recipe Instructions\nSoCo Red IPA All Grain Recipe Instructions\nSoCo Red Ryerson Roggenbier All Grain Recipe Instructions\nSoCo Robust Porter All Grain Recipe Instructions\nSoCo Russian Imperial Stout All Grain Recipe Instructions\nSoCo Rye IPA All Grain Recipe Instructions\nSoCo Rye Lager All Grain Recipe Instructions\nSoCo Rye Pale All Grain Recipe Instructions\nSoCo Rye Stout All Grain Recipe Instructions\nSoCo Sabro IPA All Grain Recipe Sheet\nSoCo Sasquatch Street Brown Ale All Grain Recipe Instructions\nSoCo Schwarzbier All Grain Recipe Instructions\nSoCo Scottish Export All Grain Recipe Instructions\nSoCo Scottish Heavy All Grain Recipe Instructions\nSoCo Scottish Light All Grain Recipe Instructions\nSoCo Serendipitous Citrus All Grain Recipe Instructions\nSoCo SimCitIPA All Grain Recipe Instructions\nSoCo Simcoe IPA All Grain Recipe Instructions\nSoCo Simcoe Pale Ale All Grain Recipe Instructions\nSoCo Simcoe SMaSH IPA All Grain Recipe Instructions\nSoCo Smoky Brown Ale All Grain Recipe Instructions\nSoCo Smoky Porter All Grain Recipe Instructions\nSoCo South Lamar IPA All Grain Recipe Instructions\nSoCo Spiced IPA All Grain Recipe Instructions\nSoCo Spiced Porter All Grain Recipe Instructions\nSoCo Spiced Stout All Grain Recipe Instructions\nSoCo Strata Pale Ale All Grain Recipe Instructions\nSoCo Strawberry Blonde Ale All Grain Recipe Instructions\nSoCo Strawberry Wheat All Grain Recipe Instructions\nSoCo Strong Amber Ale All Grain Recipe Instructions\nSoCo Strong American Porter All Grain Recipe Instructions\nSoCo Strong Scotch Ale All Grain Recipe Instructions\nSoCo Strong Winter Ale All Grain Recipe Instructions\nSoCo Summer Wheat All Grain Recipe Instructions\nSoCo Texas Amber Ale All Grain Recipe Instructions\nSoCo Texas Blonde Ale All Grain Recipe Instructions\nSoCo Texas Brown Ale All Grain Recipe Instructions\nSoCo Texas Citra IPA All Grain Recipe Instructions\nSoCo Texas Golden Ale All Grain Recipe Instructions\nSoCo Texas Hefeweizen All Grain Recipe Instructions\nSoCo Texas IPA All Grain Recipe Instructions\nSoCo Texas Juicy IPA All Grain Recipe Sheet\nSoCo Texas Kolsch All Grain Recipe Instructions\nSoCo Texas Mosaic IPA All Grain Recipe Instructions\nSoCo Texas Pale Ale All Grain Recipe Instructions\nSoCo Texas Porter All Grain Recipe Instructions\nSoCo Texas Red Ale All Grain Recipe Instructions\nSoCo Texas Stout All Grain Recipe Instructions\nSoCo Texas Strong Ale All Grain Recipe Instructions\nSoCo The Hard Way All Grain Recipe Instructions\nSoCo Town Lake IPA All Grain Recipe Instructions\nSoCo Tropical Stout All Grain Recipe Instructions\nSoCo Vanilla Cream Porter All Grain Recipe Instructions\nSoCo Vic Secret Pale Ale All Grain Recipe Instructions\nSoCo Vienna Lager All Grain Recipe Instructions\nSoCo Vista IPA All Grain Recipe Instructions\nSoCo Wandering Egret Amber Ale All Grain Recipe Instructions\nSoCo Warm Winter All Grain Recipe Instructions\nSoCo Watermelon Blonde All Grain Recipe Instructions\nSoCo West Coast IPA All Grain Recipe Instructions\nSoCo West Coast Pale All Grain Recipe Instructions\nSoCo Wheatwine All Grain Recipe Instructions\nSoCo Whiskey Barrel Stout All Grain Recipe Instructions\nSoCo White Chocolate Blonde Ale All Grain Recipe Instructions\nSoCo White Stout All Grain Recipe Instructions\nSoCo Whole Lotta Citrus NEIPA All Grain Recipe Instructions\nSoCo Witbier All Grain Recipe Instructions\nSoCo Yellow Bells Juicy NEIPA All Grain Recipe Instructions\nSoCo Yodeling Coyote Oktoberfest All Grain Recipe Instructions\nSoCo Zilker Park Pale All Grain Recipe Instructions\nSoCo-Fastest-IPA-in-the-Galaxy-All-Grain-Recipe\nSouth Austins Best Bitter All Grain Recipe Instructions\nSquawking Parrot IPA All Grain Recipe Instructions\nStalwart Bulldog ESB All Grain Recipe Instructions\nStein Half Full Oktoberfest All Grain Recipe V2\nStrawberry Milk Stout All Grain Recipe Instructions\nSummer Waves All Grain Recipe Instructions\nSuperdelic Pale Ale All Grain Recipe Instructions\nTalus Pale Ale All Grain Recipe Instructions\nTexas Best Bitter All Grain Recipe Instructions\nTexas Christmas Red Ale All Grain Recipe Instructions\nTexas Dunkelweizen All Grain Recipe Instructions\nTexas Milk Stout All Grain Recipe Instructions\nTexas Oat Stout All Grain Recipe Instructions\nTexas Pilsner All Grain Recipe Instructions\nTexas Style Irish Stout All Grain Recipe Instructions\nTexasBigtooth Amber Ale All Grain Recipe Instructions\nTops For The Win Pale Ale All Grain Recipe Instructions\nTree Bench Brown Ale All Grain Recipe Instructions\nTropical Heavens IPA All Grain Recipe Instructions\nTurtle Pile Golden Ale All Grain Recipe Instructions\nTwo Z’s IPA All Grain Recipe Instructions\nVienna Amber All Grain Recipe Instructions\nWauterss Belgian Dubbel All Grain Recipe Instructions\nWest Coast Blonde Ale All Grain Recipe Instructions\nWest Coast Lager All Grain Recipe Instructions\nWheatys Comet All Grain Recipe Instructions\nWinter Red Ale All Grain Recipe Instructions\nYou Had Me At Amber Ale All Grain Recipe Instructions\nZappa IPA All Grain Recipe Instructions",
+    "objectID": "index.html#how-this-was-done",
+    "href": "index.html#how-this-was-done",
+    "title": "All Grain Beer Recipes",
+    "section": "How this was done",
+    "text": "How this was done\nI used Posit Assistant (AI) to build the scraper and make most of the indexes.",
     "crumbs": [
-      "Recipe Index 1"
+      "Home"
+    ]
+  },
+  {
+    "objectID": "04-recipes-by-style.html",
+    "href": "04-recipes-by-style.html",
+    "title": "Recipes (Style)",
+    "section": "",
+    "text": "A to CTZ IPA All Grain Recipe Instructions\nAppalled Apollo IPA All Grain Recipe Instructions\nBitter Texan IPA All Grain Recipe Instructions\nChinook IPA All Grain Recipe Instructions\nCruisin Canoe IPA All Grain Recipe Instructions\nFrayed Aglet IPA All Grain Recipe Instructions\nFruity McCutie Juicy IPA All Grain Recipe Sheet\nHaze Austin Juicy NEIPA All Grain Recipe Sheet\nLake Buchana IPA All Grain Recipe Sheet\nLake Travis IPA All Grain Recipe Instructions\nLofty Loblolly IPA All Grain Recipe Instructions\nNectaron & Elani IPA All Grain Recipe Instructions\nNectaron IPA All Grain Recipe Instructions\nNew Zealand IPA All Grain Recipe Instructions\nPacific Coast Juicy IPA All Grain Recipe Instructions\nRooftop Sunbathing NEIPA All Grain Recipe Instructions\nSandyPupJuicyIPA_AllGrain\nSoCo Amarillo IPA All Grain Recipe Instructions\nSoCo Anniversary IPA All Grain Recipe Instructions\nSoCo Bat Bridge Black IPA All Grain Recipe Instructions\nSoCo Belgian IPA All Grain Recipe Instructions\nSoCo Black IPA All Grain Recipe Instructions\nSoCo Brown IPA All Grain Recipe Instructions\nSoCo Cascadian Dark Ale All Grain Recipe Instructions\nSoCo Centennial IPA All Grain Recipe Instructions\nSoCo Christmas IPA All Grain Recipe Instructions\nSoCo Citra Amarillo NEIPA All Grain Recipe Instructions\nSoCo Citra IPA All Grain Recipe Instructions\nSoCo Citra Juicy NEIPA All Grain Recipe Instructions\nSoCo Citra SMaSH IPA All Grain Recipe Instructions\nSoCo CitSim All Grain Recipe Instructions\nSoCo Columbus IPA All Grain Recipe Instructions\nSoCo Eclipse Black IPA All Grain Recipe Instructions\nSoCo English IPA All Grain Recipe Instructions\nSoCo Grapefruit IPA All Grain Recipe Instructions\nSoCo IPA IPA Double IPA All Grain Recipe Sheet\nSoCo Milkshake IPA All Grain Recipe Instructions (1)\nSoCo Mosaic SMaSH IPA All Grain Recipe Instructions\nSoCo Pennybacker Double IPA All Grain Recipe Instructions\nSoCo Red IPA All Grain Recipe Instructions\nSoCo Rye IPA All Grain Recipe Instructions\nSoCo Sabro IPA All Grain Recipe Sheet\nSoCo SimCitIPA All Grain Recipe Instructions\nSoCo Simcoe IPA All Grain Recipe Instructions\nSoCo Simcoe SMaSH IPA All Grain Recipe Instructions\nSoCo South Lamar IPA All Grain Recipe Instructions\nSoCo Spiced IPA All Grain Recipe Instructions\nSoCo Texas Citra IPA All Grain Recipe Instructions\nSoCo Texas IPA All Grain Recipe Instructions\nSoCo Texas Juicy IPA All Grain Recipe Sheet\nSoCo Texas Mosaic IPA All Grain Recipe Instructions\nSoCo Town Lake IPA All Grain Recipe Instructions\nSoCo Vista IPA All Grain Recipe Instructions\nSoCo West Coast IPA All Grain Recipe Instructions\nSoCo Whole Lotta Citrus NEIPA All Grain Recipe Instructions\nSoCo Yellow Bells Juicy NEIPA All Grain Recipe Instructions\nSoCo-Fastest-IPA-in-the-Galaxy-All-Grain-Recipe\nSquawking Parrot IPA All Grain Recipe Instructions\nTropical Heavens IPA All Grain Recipe Instructions\nTwo Z’s IPA All Grain Recipe Instructions\nZappa IPA All Grain Recipe Instructions",
+    "crumbs": [
+      "Recipes (Style)"
+    ]
+  },
+  {
+    "objectID": "04-recipes-by-style.html#ipas",
+    "href": "04-recipes-by-style.html#ipas",
+    "title": "Recipes (Style)",
+    "section": "",
+    "text": "A to CTZ IPA All Grain Recipe Instructions\nAppalled Apollo IPA All Grain Recipe Instructions\nBitter Texan IPA All Grain Recipe Instructions\nChinook IPA All Grain Recipe Instructions\nCruisin Canoe IPA All Grain Recipe Instructions\nFrayed Aglet IPA All Grain Recipe Instructions\nFruity McCutie Juicy IPA All Grain Recipe Sheet\nHaze Austin Juicy NEIPA All Grain Recipe Sheet\nLake Buchana IPA All Grain Recipe Sheet\nLake Travis IPA All Grain Recipe Instructions\nLofty Loblolly IPA All Grain Recipe Instructions\nNectaron & Elani IPA All Grain Recipe Instructions\nNectaron IPA All Grain Recipe Instructions\nNew Zealand IPA All Grain Recipe Instructions\nPacific Coast Juicy IPA All Grain Recipe Instructions\nRooftop Sunbathing NEIPA All Grain Recipe Instructions\nSandyPupJuicyIPA_AllGrain\nSoCo Amarillo IPA All Grain Recipe Instructions\nSoCo Anniversary IPA All Grain Recipe Instructions\nSoCo Bat Bridge Black IPA All Grain Recipe Instructions\nSoCo Belgian IPA All Grain Recipe Instructions\nSoCo Black IPA All Grain Recipe Instructions\nSoCo Brown IPA All Grain Recipe Instructions\nSoCo Cascadian Dark Ale All Grain Recipe Instructions\nSoCo Centennial IPA All Grain Recipe Instructions\nSoCo Christmas IPA All Grain Recipe Instructions\nSoCo Citra Amarillo NEIPA All Grain Recipe Instructions\nSoCo Citra IPA All Grain Recipe Instructions\nSoCo Citra Juicy NEIPA All Grain Recipe Instructions\nSoCo Citra SMaSH IPA All Grain Recipe Instructions\nSoCo CitSim All Grain Recipe Instructions\nSoCo Columbus IPA All Grain Recipe Instructions\nSoCo Eclipse Black IPA All Grain Recipe Instructions\nSoCo English IPA All Grain Recipe Instructions\nSoCo Grapefruit IPA All Grain Recipe Instructions\nSoCo IPA IPA Double IPA All Grain Recipe Sheet\nSoCo Milkshake IPA All Grain Recipe Instructions (1)\nSoCo Mosaic SMaSH IPA All Grain Recipe Instructions\nSoCo Pennybacker Double IPA All Grain Recipe Instructions\nSoCo Red IPA All Grain Recipe Instructions\nSoCo Rye IPA All Grain Recipe Instructions\nSoCo Sabro IPA All Grain Recipe Sheet\nSoCo SimCitIPA All Grain Recipe Instructions\nSoCo Simcoe IPA All Grain Recipe Instructions\nSoCo Simcoe SMaSH IPA All Grain Recipe Instructions\nSoCo South Lamar IPA All Grain Recipe Instructions\nSoCo Spiced IPA All Grain Recipe Instructions\nSoCo Texas Citra IPA All Grain Recipe Instructions\nSoCo Texas IPA All Grain Recipe Instructions\nSoCo Texas Juicy IPA All Grain Recipe Sheet\nSoCo Texas Mosaic IPA All Grain Recipe Instructions\nSoCo Town Lake IPA All Grain Recipe Instructions\nSoCo Vista IPA All Grain Recipe Instructions\nSoCo West Coast IPA All Grain Recipe Instructions\nSoCo Whole Lotta Citrus NEIPA All Grain Recipe Instructions\nSoCo Yellow Bells Juicy NEIPA All Grain Recipe Instructions\nSoCo-Fastest-IPA-in-the-Galaxy-All-Grain-Recipe\nSquawking Parrot IPA All Grain Recipe Instructions\nTropical Heavens IPA All Grain Recipe Instructions\nTwo Z’s IPA All Grain Recipe Instructions\nZappa IPA All Grain Recipe Instructions",
+    "crumbs": [
+      "Recipes (Style)"
+    ]
+  },
+  {
+    "objectID": "04-recipes-by-style.html#pale-ales",
+    "href": "04-recipes-by-style.html#pale-ales",
+    "title": "Recipes (Style)",
+    "section": "Pale Ales",
+    "text": "Pale Ales\n\nAmarillo Pale Ale All Grain Recipe Instructions - SHS\nApollo Single Hop Pale Ale All Grain Recipe Instructions\nAzacca Pale Ale All Grain Recipe Instructions\nCluster SMaSH Pale Ale All Grain Recipe Instructions\nDillo Trolley Pale Ale All Grain Recipe Instructions\nElani Pale Ale All Grain Recipe Instructions\nEnglish Pale Ale All Grain Recipe Instructions\nMars the Duck Oat Pale Ale All Grain Recipe Instructions\nMosaic & Citra Pale Ale All Grain Recipe Instructions\nNectaron Pale Ale All Grain Recipe Instructions\nOatmeal Pale Ale All Grain Recipe Instructions\nSabro Pale Ale All Grain Recipe Instructions\nSoCo Citra Pale Ale All Grain Recipe Instructions\nSoCo Falconers Flight Pale Ale All Grain Recipe Instructions\nSoCo Island Chicken Pale Ale All Grain Recipe Instructions\nSoCo Red APA All Grain Recipe Instructions\nSoCo Rye Pale All Grain Recipe Instructions\nSoCo Simcoe Pale Ale All Grain Recipe Instructions\nSoCo Strata Pale Ale All Grain Recipe Instructions\nSoCo Texas Pale Ale All Grain Recipe Instructions\nSoCo Vic Secret Pale Ale All Grain Recipe Instructions\nSoCo West Coast Pale All Grain Recipe Instructions\nSoCo Zilker Park Pale All Grain Recipe Instructions\nSuperdelic Pale Ale All Grain Recipe Instructions\nTalus Pale Ale All Grain Recipe Instructions\nTops For The Win Pale Ale All Grain Recipe Instructions",
+    "crumbs": [
+      "Recipes (Style)"
+    ]
+  },
+  {
+    "objectID": "04-recipes-by-style.html#amber-red-ales",
+    "href": "04-recipes-by-style.html#amber-red-ales",
+    "title": "Recipes (Style)",
+    "section": "Amber & Red Ales",
+    "text": "Amber & Red Ales\n\n22nd State Amber Ale All Grain Recipe Instructions\nAmberlievable Amber Ale All Grain Recipe Instructions\nButlers Irish Red Ale All Grain Recipe Instructions\nJollyville Red Ale All Grain Recipe Instructions\nMad Jacks Hoppy Amber Ale All Grain Recipe Instructions\nPool Floatie Amber Ale All Grain Recipe Instructions\nSoCo Amber Hue All Grain Recipe Instructions\nSoCo Amberserk Amber Ale All Grain Recipe Instructions\nSoCo American Amber Ale All Grain Recipe Instructions\nSoCo American Red Ale All Grain Recipe Instructions\nSoCo Beach Lounger Amber All Grain Recipe Instructions\nSoCo Imperial Irish Red Ale All Grain Recipe Instructions\nSoCo Irish Red All Grain Recipe Instructions\nSoCo Pink Boots Society Red Ale All Grain Recipe Instructions\nSoCo Red Hot Red Ale All Grain Recipe Instructions\nSoCo Strong Amber Ale All Grain Recipe Instructions\nSoCo Texas Amber Ale All Grain Recipe Instructions\nSoCo Texas Red Ale All Grain Recipe Instructions\nSoCo Wandering Egret Amber Ale All Grain Recipe Instructions\nTexasBigtooth Amber Ale All Grain Recipe Instructions\nVienna Amber All Grain Recipe Instructions\nYou Had Me At Amber Ale All Grain Recipe Instructions",
+    "crumbs": [
+      "Recipes (Style)"
+    ]
+  },
+  {
+    "objectID": "04-recipes-by-style.html#blonde-golden-ales",
+    "href": "04-recipes-by-style.html#blonde-golden-ales",
+    "title": "Recipes (Style)",
+    "section": "Blonde & Golden Ales",
+    "text": "Blonde & Golden Ales\n\nBritish Sunset Golden Ale All Grain Recipe Instructions\nCashmere Blonde Ale All Grain Recipe Instructions\nDry Hop Blonde Ale All Grain Recipe Instructions\nLemondrop Blonde Ale All Grain Recipe Instructions\nNew Zealand Blonde Ale All Grain Recipe Instructions\nSoCo Blackberry Blonde Ale All Grain Recipe Instructions\nSoCo Blonde All Grain Recipe Instructions\nSoCo Blueberry Blonde Ale All Grain Recipe Instructions\nSoCo British Golden Ale All Grain Recipe Instructions\nSoCo Citra Blonde Ale All Grain Recipe Instructions\nSoCo Eclipse Black Blonde Ale All Grain Recipe Instructions\nSoCo Imperial Blonde Ale All Grain Recipe Instructions\nSoCo Light Blonde Ale All Grain Recipe Instructions\nSoCo Raspberry Blonde All Grain Recipe Instructions\nSoCo Strawberry Blonde Ale All Grain Recipe Instructions\nSoCo Texas Blonde Ale All Grain Recipe Instructions\nSoCo Texas Golden Ale All Grain Recipe Instructions\nSoCo Watermelon Blonde All Grain Recipe Instructions\nSoCo White Chocolate Blonde Ale All Grain Recipe Instructions\nTurtle Pile Golden Ale All Grain Recipe Instructions\nWest Coast Blonde Ale All Grain Recipe Instructions",
+    "crumbs": [
+      "Recipes (Style)"
+    ]
+  },
+  {
+    "objectID": "04-recipes-by-style.html#brown-ales",
+    "href": "04-recipes-by-style.html#brown-ales",
+    "title": "Recipes (Style)",
+    "section": "Brown Ales",
+    "text": "Brown Ales\n\nJanets Brown Ale All Grain Recipe Instructions\nNew House English Brown Ale All Grain Recipe Instructions\nSoCo American Brown All Grain Recipe Instructions\nSoCo Dark Mild All Grain Recipe Instructions\nSoCo Double Brown Ale All Grain Recipe Instructions\nSoCo English Brown All Grain Recipe Instructions\nSoCo Honey Badger Brown All Grain Recipe Instructions\nSoCo Imperial Nut Brown Ale All Grain Recipe Instructions\nSoCo London Brown All Grain Recipe Instructions\nSoCo Nut Brown All Grain Recipe Instructions\nSoCo Oatmeal Brown Ale All Grain Recipe Instructions\nSoCo Pecan Brown Ale All Grain Recipe Instructions\nSoCo Sasquatch Street Brown Ale All Grain Recipe Instructions\nSoCo Smoky Brown Ale All Grain Recipe Instructions\nSoCo Texas Brown Ale All Grain Recipe Instructions\nTree Bench Brown Ale All Grain Recipe Instructions",
+    "crumbs": [
+      "Recipes (Style)"
+    ]
+  },
+  {
+    "objectID": "04-recipes-by-style.html#stouts",
+    "href": "04-recipes-by-style.html#stouts",
+    "title": "Recipes (Style)",
+    "section": "Stouts",
+    "text": "Stouts\n\nDark Chocolate Strawberry Stout All Grain Recipe Instructions\nGlaring Grackle Imperial Stout All Grain Recipe Instructions\nGranite Dome Oat Stout All Grain Recipe Instructions\nImperial Bourbon Barrel Chocolate Stout All Grain Recipe Instructions\nOat Dear I Created A Maltster Oat Stout All Grain Recipe Instructions\nSoCo Belgian Stout All Grain Recipe Instructions\nSoCo Chocolate Milk Stout All Grain Recipe Instructions\nSoCo Chocolate Stout All Grain Recipe Instructions\nSoCo Double Chocolate Stout All Grain Recipe Instructions\nSoCo Faux Coffee Stout All Grain Recipe Instructions\nSoCo Holiday Stout All Grain Recipe Instructions\nSoCo Irish Extra Stout All Grain Recipe Instructions\nSoCo Irish Stout All Grain Recipe Instructions\nSoCo Leaky Tent Stout All Grain Recipe Instructions\nSoCo Milk Stout All Grain Recipe Instructions\nSoCo Oat Stout All Grain Recipe Instructions\nSoCo Peppermint Chocolate Milk Stout All Grain Recipe Instructions\nSoCo Russian Imperial Stout All Grain Recipe Instructions\nSoCo Rye Stout All Grain Recipe Instructions\nSoCo Spiced Stout All Grain Recipe Instructions\nSoCo Texas Stout All Grain Recipe Instructions\nSoCo Tropical Stout All Grain Recipe Instructions\nSoCo Whiskey Barrel Stout All Grain Recipe Instructions\nSoCo White Stout All Grain Recipe Instructions\nStrawberry Milk Stout All Grain Recipe Instructions\nTexas Milk Stout All Grain Recipe Instructions\nTexas Oat Stout All Grain Recipe Instructions\nTexas Style Irish Stout All Grain Recipe Instructions",
+    "crumbs": [
+      "Recipes (Style)"
+    ]
+  },
+  {
+    "objectID": "04-recipes-by-style.html#porters",
+    "href": "04-recipes-by-style.html#porters",
+    "title": "Recipes (Style)",
+    "section": "Porters",
+    "text": "Porters\n\nBourbon Barrel Porter All Grain Recipe Instructions\nChristmas Porter All Grain Recipe Instructions\nPlodding Bear Porter All Grain Recipe Instructions\nSoCo Black Licorice Porter All Grain Recipe Instructions\nSoCo Brown Porter All Grain Recipe Instructions\nSoCo Chocolate Porter All Grain Recipe Instructions\nSoCo Coconut Porter All Grain Recipe Instructions\nSoCo English Porter All Grain Recipe Instructions\nSoCo Maddies English Porter All Grain Recipe Instructions\nSoCo Pecan Porter All Grain Recipe Instructions\nSoCo Porter All Grain Recipe Instructions\nSoCo Robust Porter All Grain Recipe Instructions\nSoCo Smoky Porter All Grain Recipe Instructions\nSoCo Spiced Porter All Grain Recipe Instructions\nSoCo Strong American Porter All Grain Recipe Instructions\nSoCo Texas Porter All Grain Recipe Instructions\nSoCo Vanilla Cream Porter All Grain Recipe Instructions",
+    "crumbs": [
+      "Recipes (Style)"
+    ]
+  },
+  {
+    "objectID": "04-recipes-by-style.html#wheat-beers-hefeweizens",
+    "href": "04-recipes-by-style.html#wheat-beers-hefeweizens",
+    "title": "Recipes (Style)",
+    "section": "Wheat Beers & Hefeweizens",
+    "text": "Wheat Beers & Hefeweizens\n\nBlackberry Witbier All Grain Recipe Instructions\nCoconut Hefeweizen All Grain Recipe Instructions\nLonely Pier Wheat Ale All Grain Recipe Instructions\nSoCo Ahoy Wheaty Wheat Ale All Grain Recipe Instructions\nSoCo American Hefeweizen All Grain Recipe Instructions\nSoCo American Wheat All Grain Recipe Instructions\nSoCo Apricot Wheat Ale All Grain Recipe Instructions\nSoCo Bavarian Hefeweizen All Grain Recipe Instructions\nSoCo Blackberry Wheat Ale All Grain Recipe Instructions\nSoCo Blueberry Wheat Ale All Grain Recipe Instructions\nSoCo Coconut Wheat Ale All Grain Recipe Instructions\nSoCo Dark Wheat All Grain Recipe Instructions\nSoCo Double Wit All Grain Recipe Instructions\nSoCo Dunkelweizen All Grain Recipe Instructions\nSoCo Hefeweizen All Grain Recipe Instructions\nSoCo Honey Wheat All Grain Recipe Instructions\nSoCo Hoppy Wheat All Grain Recipe Instructions\nSoCo Menchaca Hefeweizen All Grain Recipe Instructions\nSoCo Raspberry Wheat Ale All Grain Recipe Instructions\nSoCo Red Ryerson Roggenbier All Grain Recipe Instructions\nSoCo Strawberry Wheat All Grain Recipe Instructions\nSoCo Summer Wheat All Grain Recipe Instructions\nSoCo Texas Hefeweizen All Grain Recipe Instructions\nSoCo Witbier All Grain Recipe Instructions\nTexas Dunkelweizen All Grain Recipe Instructions\nWheatys Comet All Grain Recipe Instructions",
+    "crumbs": [
+      "Recipes (Style)"
+    ]
+  },
+  {
+    "objectID": "04-recipes-by-style.html#belgian-styles",
+    "href": "04-recipes-by-style.html#belgian-styles",
+    "title": "Recipes (Style)",
+    "section": "Belgian Styles",
+    "text": "Belgian Styles\n\nSoCo Apricot Saison All Grain Recipe Instructions\nSoCo Belgian Dark Strong All Grain Recipe Instructions\nSoCo Belgian Dubbel All Grain Recipe Instructions\nSoCo Belgian Pale Ale All Grain Recipe Instructions\nSoCo Belgian Saison All Grain Recipe Instructions\nSoCo Belgian Tripel All Grain Recipe Instructions\nSoCo Goud Belgian Pale Ale All Grain Recipe Instructions\nSoCo Passion Fruit Saison All Grain Recipe Instructions\nSoCo Patersbier All Grain Recipe Instructions\nWauterss Belgian Dubbel All Grain Recipe Instructions",
+    "crumbs": [
+      "Recipes (Style)"
+    ]
+  },
+  {
+    "objectID": "04-recipes-by-style.html#bitters-esbs",
+    "href": "04-recipes-by-style.html#bitters-esbs",
+    "title": "Recipes (Style)",
+    "section": "Bitters & ESBs",
+    "text": "Bitters & ESBs\n\nBiscuits and Jam ESB All Grain Recipe Instructions\nBitter Butler All Grain Recipe Instructions\nSoCo Best Bitter All Grain Recipe Instructions\nSoCo ESB All Grain Recipe Instructions\nSoCo Ordinary Bitter All Grain Recipe Instructions\nSouth Austins Best Bitter All Grain Recipe Instructions\nStalwart Bulldog ESB All Grain Recipe Instructions\nTexas Best Bitter All Grain Recipe Instructions",
+    "crumbs": [
+      "Recipes (Style)"
+    ]
+  },
+  {
+    "objectID": "04-recipes-by-style.html#scottish-ales",
+    "href": "04-recipes-by-style.html#scottish-ales",
+    "title": "Recipes (Style)",
+    "section": "Scottish Ales",
+    "text": "Scottish Ales\n\nSoCo 120 Shilling All Grain Recipe Instructions\nSoCo 60 Shilling All Grain Recipe Instructions\nSoCo 70 Shilling All Grain Recipe Instructions\nSoCo 80 Shilling All Grain Recipe Instructions\nSoCo 90 Shilling All Grain Recipe Instructions\nSoCo Scottish Export All Grain Recipe Instructions\nSoCo Scottish Heavy All Grain Recipe Instructions\nSoCo Scottish Light All Grain Recipe Instructions\nSoCo Strong Scotch Ale All Grain Recipe Instructions",
+    "crumbs": [
+      "Recipes (Style)"
+    ]
+  },
+  {
+    "objectID": "04-recipes-by-style.html#lagers-pilsners-bocks",
+    "href": "04-recipes-by-style.html#lagers-pilsners-bocks",
+    "title": "Recipes (Style)",
+    "section": "Lagers, Pilsners & Bocks",
+    "text": "Lagers, Pilsners & Bocks\n\nDunkles Bock All Grain Recipe Instructions\nSoCo California Common All Grain Recipe Instructions\nSoCo Doppelbock All Grain Recipe Instructions\nSoCo Oktoberfest All Grain Recipe Instructions\nSoCo Rye Lager All Grain Recipe Instructions\nSoCo Schwarzbier All Grain Recipe Instructions\nSoCo Texas Kolsch All Grain Recipe Instructions\nSoCo Vienna Lager All Grain Recipe Instructions\nSoCo Yodeling Coyote Oktoberfest All Grain Recipe Instructions\nStein Half Full Oktoberfest All Grain Recipe V2\nTexas Pilsner All Grain Recipe Instructions\nWest Coast Lager All Grain Recipe Instructions",
+    "crumbs": [
+      "Recipes (Style)"
+    ]
+  },
+  {
+    "objectID": "04-recipes-by-style.html#strong-ales-barleywines",
+    "href": "04-recipes-by-style.html#strong-ales-barleywines",
+    "title": "Recipes (Style)",
+    "section": "Strong Ales & Barleywines",
+    "text": "Strong Ales & Barleywines\n\nSoCo American Barleywine All Grain Recipe Instructions\nSoCo American Strong Ale All Grain Recipe Instructions\nSoCo British Strong Ale All Grain Recipe Instructions\nSoCo English Barleywine All Grain Recipe Instructions\nSoCo Old Ale All Grain Recipe Instructions\nSoCo Texas Strong Ale All Grain Recipe Instructions\nSoCo Wheatwine All Grain Recipe Instructions",
+    "crumbs": [
+      "Recipes (Style)"
+    ]
+  },
+  {
+    "objectID": "04-recipes-by-style.html#sours",
+    "href": "04-recipes-by-style.html#sours",
+    "title": "Recipes (Style)",
+    "section": "Sours",
+    "text": "Sours\n\nSoCo Berliner Weisse Advanced All Grain Recipe Sheet\nSoCo Berliner Weisse Easy All Grain Brewing Instructions\nSoCo Gose All Grain Recipe Instructions\nSoCo Gose Kettle Sour All Grain Recipe Sheet",
+    "crumbs": [
+      "Recipes (Style)"
+    ]
+  },
+  {
+    "objectID": "04-recipes-by-style.html#specialty-seasonal",
+    "href": "04-recipes-by-style.html#specialty-seasonal",
+    "title": "Recipes (Style)",
+    "section": "Specialty & Seasonal",
+    "text": "Specialty & Seasonal\n\nBeans The Elf Christmas Ale All Grain Recipe Instructions\nSoCo Australian Sparkling Ale All Grain Recipe Instructions\nSoCo Grodziskie All Grain Recipe Instructions\nSoCo Mugwort Lemon Gruit All Grain Recipe Instructions\nSoCo Mugwort Red Ale All Grain Recipe Instructions\nSoCo Strong Winter Ale All Grain Recipe Instructions\nSoCo Warm Winter All Grain Recipe Instructions\nTexas Christmas Red Ale All Grain Recipe Instructions\nWinter Red Ale All Grain Recipe Instructions",
+    "crumbs": [
+      "Recipes (Style)"
+    ]
+  },
+  {
+    "objectID": "04-recipes-by-style.html#other",
+    "href": "04-recipes-by-style.html#other",
+    "title": "Recipes (Style)",
+    "section": "Other",
+    "text": "Other\n\nNearly Nirvana All Grain Recipe Instructions\nOat of Luck All Grain Recipe Instructions\nSeaside Ride All Grain Recipe Instructions\nSoCo Amarillo Armadillo All Grain Recipe Instructions\nSoCo American Rye Ale All Grain Recipe Instructions\nSoCo Breezy Nights Black Ale All Grain Recipe Instructions\nSoCo Flying Kiwi All Grain Recipe Instructions\nSoCo McKinney Falls All Grain Recipe Instructions\nSoCo Moontower White All Grain Recipe Instructions\nSoCo Serendipitous Citrus All Grain Recipe Instructions\nSoCo The Hard Way All Grain Recipe Instructions\nSummer Waves All Grain Recipe Instructions",
+    "crumbs": [
+      "Recipes (Style)"
+    ]
+  },
+  {
+    "objectID": "02-recipes-nosoco.html",
+    "href": "02-recipes-nosoco.html",
+    "title": "Recipes (No SoCo)",
+    "section": "",
+    "text": "22nd State Amber Ale All Grain Recipe Instructions\n60 Shilling All Grain Recipe Instructions\n70 Shilling All Grain Recipe Instructions\n80 Shilling All Grain Recipe Instructions\n90 Shilling All Grain Recipe Instructions\n120 Shilling All Grain Recipe Instructions",
+    "crumbs": [
+      "Recipes (No SoCo)"
+    ]
+  },
+  {
+    "objectID": "02-recipes-nosoco.html#numbers",
+    "href": "02-recipes-nosoco.html#numbers",
+    "title": "Recipes (No SoCo)",
+    "section": "",
+    "text": "22nd State Amber Ale All Grain Recipe Instructions\n60 Shilling All Grain Recipe Instructions\n70 Shilling All Grain Recipe Instructions\n80 Shilling All Grain Recipe Instructions\n90 Shilling All Grain Recipe Instructions\n120 Shilling All Grain Recipe Instructions",
+    "crumbs": [
+      "Recipes (No SoCo)"
+    ]
+  },
+  {
+    "objectID": "02-recipes-nosoco.html#a",
+    "href": "02-recipes-nosoco.html#a",
+    "title": "Recipes (No SoCo)",
+    "section": "A",
+    "text": "A\n\nA to CTZ IPA All Grain Recipe Instructions\nAhoy Wheaty Wheat Ale All Grain Recipe Instructions\nAmarillo Armadillo All Grain Recipe Instructions\nAmarillo IPA All Grain Recipe Instructions\nAmarillo Pale Ale All Grain Recipe Instructions - SHS\nAmber Hue All Grain Recipe Instructions\nAmberlievable Amber Ale All Grain Recipe Instructions\nAmberserk Amber Ale All Grain Recipe Instructions\nAmerican Amber Ale All Grain Recipe Instructions\nAmerican Barleywine All Grain Recipe Instructions\nAmerican Brown All Grain Recipe Instructions\nAmerican Hefeweizen All Grain Recipe Instructions\nAmerican Red Ale All Grain Recipe Instructions\nAmerican Rye Ale All Grain Recipe Instructions\nAmerican Strong Ale All Grain Recipe Instructions\nAmerican Wheat All Grain Recipe Instructions\nAnniversary IPA All Grain Recipe Instructions\nApollo Single Hop Pale Ale All Grain Recipe Instructions\nAppalled Apollo IPA All Grain Recipe Instructions\nApricot Saison All Grain Recipe Instructions\nApricot Wheat Ale All Grain Recipe Instructions\nAustralian Sparkling Ale All Grain Recipe Instructions\nAzacca Pale Ale All Grain Recipe Instructions",
+    "crumbs": [
+      "Recipes (No SoCo)"
+    ]
+  },
+  {
+    "objectID": "02-recipes-nosoco.html#b",
+    "href": "02-recipes-nosoco.html#b",
+    "title": "Recipes (No SoCo)",
+    "section": "B",
+    "text": "B\n\nBat Bridge Black IPA All Grain Recipe Instructions\nBavarian Hefeweizen All Grain Recipe Instructions\nBeach Lounger Amber All Grain Recipe Instructions\nBeans The Elf Christmas Ale All Grain Recipe Instructions\nBelgian Dark Strong All Grain Recipe Instructions\nBelgian Dubbel All Grain Recipe Instructions\nBelgian IPA All Grain Recipe Instructions\nBelgian Pale Ale All Grain Recipe Instructions\nBelgian Saison All Grain Recipe Instructions\nBelgian Stout All Grain Recipe Instructions\nBelgian Tripel All Grain Recipe Instructions\nBerliner Weisse Advanced All Grain Recipe Sheet\nBerliner Weisse Easy All Grain Brewing Instructions\nBest Bitter All Grain Recipe Instructions\nBiscuits and Jam ESB All Grain Recipe Instructions\nBitter Butler All Grain Recipe Instructions\nBitter Texan IPA All Grain Recipe Instructions\nBlack IPA All Grain Recipe Instructions\nBlack Licorice Porter All Grain Recipe Instructions\nBlackberry Blonde Ale All Grain Recipe Instructions\nBlackberry Wheat Ale All Grain Recipe Instructions\nBlackberry Witbier All Grain Recipe Instructions\nBlonde All Grain Recipe Instructions\nBlueberry Blonde Ale All Grain Recipe Instructions\nBlueberry Wheat Ale All Grain Recipe Instructions\nBourbon Barrel Porter All Grain Recipe Instructions\nBreezy Nights Black Ale All Grain Recipe Instructions\nBritish Golden Ale All Grain Recipe Instructions\nBritish Strong Ale All Grain Recipe Instructions\nBritish Sunset Golden Ale All Grain Recipe Instructions\nBrown IPA All Grain Recipe Instructions\nBrown Porter All Grain Recipe Instructions\nButlers Irish Red Ale All Grain Recipe Instructions",
+    "crumbs": [
+      "Recipes (No SoCo)"
+    ]
+  },
+  {
+    "objectID": "02-recipes-nosoco.html#c",
+    "href": "02-recipes-nosoco.html#c",
+    "title": "Recipes (No SoCo)",
+    "section": "C",
+    "text": "C\n\nCalifornia Common All Grain Recipe Instructions\nCascadian Dark Ale All Grain Recipe Instructions\nCashmere Blonde Ale All Grain Recipe Instructions\nCentennial IPA All Grain Recipe Instructions\nChinook IPA All Grain Recipe Instructions\nChocolate Milk Stout All Grain Recipe Instructions\nChocolate Porter All Grain Recipe Instructions\nChocolate Stout All Grain Recipe Instructions\nChristmas IPA All Grain Recipe Instructions\nChristmas Porter All Grain Recipe Instructions\nCitra Amarillo NEIPA All Grain Recipe Instructions\nCitra Blonde Ale All Grain Recipe Instructions\nCitra IPA All Grain Recipe Instructions\nCitra Juicy NEIPA All Grain Recipe Instructions\nCitra Pale Ale All Grain Recipe Instructions\nCitra SMaSH IPA All Grain Recipe Instructions\nCitSim All Grain Recipe Instructions\nCluster SMaSH Pale Ale All Grain Recipe Instructions\nCoconut Hefeweizen All Grain Recipe Instructions\nCoconut Porter All Grain Recipe Instructions\nCoconut Wheat Ale All Grain Recipe Instructions\nColumbus IPA All Grain Recipe Instructions\nCruisin Canoe IPA All Grain Recipe Instructions",
+    "crumbs": [
+      "Recipes (No SoCo)"
+    ]
+  },
+  {
+    "objectID": "02-recipes-nosoco.html#d",
+    "href": "02-recipes-nosoco.html#d",
+    "title": "Recipes (No SoCo)",
+    "section": "D",
+    "text": "D\n\nDark Chocolate Strawberry Stout All Grain Recipe Instructions\nDark Mild All Grain Recipe Instructions\nDark Wheat All Grain Recipe Instructions\nDillo Trolley Pale Ale All Grain Recipe Instructions\nDoppelbock All Grain Recipe Instructions\nDouble Brown Ale All Grain Recipe Instructions\nDouble Chocolate Stout All Grain Recipe Instructions\nDouble Wit All Grain Recipe Instructions\nDry Hop Blonde Ale All Grain Recipe Instructions\nDunkelweizen All Grain Recipe Instructions\nDunkles Bock All Grain Recipe Instructions",
+    "crumbs": [
+      "Recipes (No SoCo)"
+    ]
+  },
+  {
+    "objectID": "02-recipes-nosoco.html#e",
+    "href": "02-recipes-nosoco.html#e",
+    "title": "Recipes (No SoCo)",
+    "section": "E",
+    "text": "E\n\nEclipse Black Blonde Ale All Grain Recipe Instructions\nEclipse Black IPA All Grain Recipe Instructions\nElani Pale Ale All Grain Recipe Instructions\nEnglish Barleywine All Grain Recipe Instructions\nEnglish Brown All Grain Recipe Instructions\nEnglish IPA All Grain Recipe Instructions\nEnglish Pale Ale All Grain Recipe Instructions\nEnglish Porter All Grain Recipe Instructions\nESB All Grain Recipe Instructions",
+    "crumbs": [
+      "Recipes (No SoCo)"
+    ]
+  },
+  {
+    "objectID": "02-recipes-nosoco.html#f",
+    "href": "02-recipes-nosoco.html#f",
+    "title": "Recipes (No SoCo)",
+    "section": "F",
+    "text": "F\n\nFalconers Flight Pale Ale All Grain Recipe Instructions\nFaux Coffee Stout All Grain Recipe Instructions\nFlying Kiwi All Grain Recipe Instructions\nFrayed Aglet IPA All Grain Recipe Instructions\nFruity McCutie Juicy IPA All Grain Recipe Sheet",
+    "crumbs": [
+      "Recipes (No SoCo)"
+    ]
+  },
+  {
+    "objectID": "02-recipes-nosoco.html#g",
+    "href": "02-recipes-nosoco.html#g",
+    "title": "Recipes (No SoCo)",
+    "section": "G",
+    "text": "G\n\nGlaring Grackle Imperial Stout All Grain Recipe Instructions\nGose All Grain Recipe Instructions\nGose Kettle Sour All Grain Recipe Sheet\nGoud Belgian Pale Ale All Grain Recipe Instructions\nGranite Dome Oat Stout All Grain Recipe Instructions\nGrapefruit IPA All Grain Recipe Instructions\nGrodziskie All Grain Recipe Instructions",
+    "crumbs": [
+      "Recipes (No SoCo)"
+    ]
+  },
+  {
+    "objectID": "02-recipes-nosoco.html#h",
+    "href": "02-recipes-nosoco.html#h",
+    "title": "Recipes (No SoCo)",
+    "section": "H",
+    "text": "H\n\nHaze Austin Juicy NEIPA All Grain Recipe Sheet\nHefeweizen All Grain Recipe Instructions\nHoliday Stout All Grain Recipe Instructions\nHoney Badger Brown All Grain Recipe Instructions\nHoney Wheat All Grain Recipe Instructions\nHoppy Wheat All Grain Recipe Instructions",
+    "crumbs": [
+      "Recipes (No SoCo)"
+    ]
+  },
+  {
+    "objectID": "02-recipes-nosoco.html#i",
+    "href": "02-recipes-nosoco.html#i",
+    "title": "Recipes (No SoCo)",
+    "section": "I",
+    "text": "I\n\nImperial Blonde Ale All Grain Recipe Instructions\nImperial Bourbon Barrel Chocolate Stout All Grain Recipe Instructions\nImperial Irish Red Ale All Grain Recipe Instructions\nImperial Nut Brown Ale All Grain Recipe Instructions\nIPA IPA Double IPA All Grain Recipe Sheet\nIrish Extra Stout All Grain Recipe Instructions\nIrish Red All Grain Recipe Instructions\nIrish Stout All Grain Recipe Instructions\nIsland Chicken Pale Ale All Grain Recipe Instructions",
+    "crumbs": [
+      "Recipes (No SoCo)"
+    ]
+  },
+  {
+    "objectID": "02-recipes-nosoco.html#j",
+    "href": "02-recipes-nosoco.html#j",
+    "title": "Recipes (No SoCo)",
+    "section": "J",
+    "text": "J\n\nJanets Brown Ale All Grain Recipe Instructions\nJollyville Red Ale All Grain Recipe Instructions",
+    "crumbs": [
+      "Recipes (No SoCo)"
+    ]
+  },
+  {
+    "objectID": "02-recipes-nosoco.html#l",
+    "href": "02-recipes-nosoco.html#l",
+    "title": "Recipes (No SoCo)",
+    "section": "L",
+    "text": "L\n\nLake Buchana IPA All Grain Recipe Sheet\nLake Travis IPA All Grain Recipe Instructions\nLeaky Tent Stout All Grain Recipe Instructions\nLemondrop Blonde Ale All Grain Recipe Instructions\nLight Blonde Ale All Grain Recipe Instructions\nLofty Loblolly IPA All Grain Recipe Instructions\nLondon Brown All Grain Recipe Instructions\nLonely Pier Wheat Ale All Grain Recipe Instructions",
+    "crumbs": [
+      "Recipes (No SoCo)"
+    ]
+  },
+  {
+    "objectID": "02-recipes-nosoco.html#m",
+    "href": "02-recipes-nosoco.html#m",
+    "title": "Recipes (No SoCo)",
+    "section": "M",
+    "text": "M\n\nMad Jacks Hoppy Amber Ale All Grain Recipe Instructions\nMaddies English Porter All Grain Recipe Instructions\nMars the Duck Oat Pale Ale All Grain Recipe Instructions\nMcKinney Falls All Grain Recipe Instructions\nMenchaca Hefeweizen All Grain Recipe Instructions\nMilk Stout All Grain Recipe Instructions\nMilkshake IPA All Grain Recipe Instructions (1)\nMoontower White All Grain Recipe Instructions\nMosaic & Citra Pale Ale All Grain Recipe Instructions\nMosaic SMaSH IPA All Grain Recipe Instructions\nMugwort Lemon Gruit All Grain Recipe Instructions\nMugwort Red Ale All Grain Recipe Instructions",
+    "crumbs": [
+      "Recipes (No SoCo)"
+    ]
+  },
+  {
+    "objectID": "02-recipes-nosoco.html#n",
+    "href": "02-recipes-nosoco.html#n",
+    "title": "Recipes (No SoCo)",
+    "section": "N",
+    "text": "N\n\nNearly Nirvana All Grain Recipe Instructions\nNectaron & Elani IPA All Grain Recipe Instructions\nNectaron IPA All Grain Recipe Instructions\nNectaron Pale Ale All Grain Recipe Instructions\nNew House English Brown Ale All Grain Recipe Instructions\nNew Zealand Blonde Ale All Grain Recipe Instructions\nNew Zealand IPA All Grain Recipe Instructions\nNut Brown All Grain Recipe Instructions",
+    "crumbs": [
+      "Recipes (No SoCo)"
+    ]
+  },
+  {
+    "objectID": "02-recipes-nosoco.html#o",
+    "href": "02-recipes-nosoco.html#o",
+    "title": "Recipes (No SoCo)",
+    "section": "O",
+    "text": "O\n\nOat Dear I Created A Maltster Oat Stout All Grain Recipe Instructions\nOat of Luck All Grain Recipe Instructions\nOat Stout All Grain Recipe Instructions\nOatmeal Brown Ale All Grain Recipe Instructions\nOatmeal Pale Ale All Grain Recipe Instructions\nOktoberfest All Grain Recipe Instructions\nOld Ale All Grain Recipe Instructions\nOrdinary Bitter All Grain Recipe Instructions",
+    "crumbs": [
+      "Recipes (No SoCo)"
+    ]
+  },
+  {
+    "objectID": "02-recipes-nosoco.html#p",
+    "href": "02-recipes-nosoco.html#p",
+    "title": "Recipes (No SoCo)",
+    "section": "P",
+    "text": "P\n\nPacific Coast Juicy IPA All Grain Recipe Instructions\nPassion Fruit Saison All Grain Recipe Instructions\nPatersbier All Grain Recipe Instructions\nPecan Brown Ale All Grain Recipe Instructions\nPecan Porter All Grain Recipe Instructions\nPennybacker Double IPA All Grain Recipe Instructions\nPeppermint Chocolate Milk Stout All Grain Recipe Instructions\nPink Boots Society Red Ale All Grain Recipe Instructions\nPlodding Bear Porter All Grain Recipe Instructions\nPool Floatie Amber Ale All Grain Recipe Instructions\nPorter All Grain Recipe Instructions",
+    "crumbs": [
+      "Recipes (No SoCo)"
+    ]
+  },
+  {
+    "objectID": "02-recipes-nosoco.html#r",
+    "href": "02-recipes-nosoco.html#r",
+    "title": "Recipes (No SoCo)",
+    "section": "R",
+    "text": "R\n\nRaspberry Blonde All Grain Recipe Instructions\nRaspberry Wheat Ale All Grain Recipe Instructions\nRed APA All Grain Recipe Instructions\nRed Hot Red Ale All Grain Recipe Instructions\nRed IPA All Grain Recipe Instructions\nRed Ryerson Roggenbier All Grain Recipe Instructions\nRobust Porter All Grain Recipe Instructions\nRooftop Sunbathing NEIPA All Grain Recipe Instructions\nRussian Imperial Stout All Grain Recipe Instructions\nRye IPA All Grain Recipe Instructions\nRye Lager All Grain Recipe Instructions\nRye Pale All Grain Recipe Instructions\nRye Stout All Grain Recipe Instructions",
+    "crumbs": [
+      "Recipes (No SoCo)"
+    ]
+  },
+  {
+    "objectID": "02-recipes-nosoco.html#s",
+    "href": "02-recipes-nosoco.html#s",
+    "title": "Recipes (No SoCo)",
+    "section": "S",
+    "text": "S\n\nSabro IPA All Grain Recipe Sheet\nSabro Pale Ale All Grain Recipe Instructions\nSandyPupJuicyIPA_AllGrain\nSasquatch Street Brown Ale All Grain Recipe Instructions\nSchwarzbier All Grain Recipe Instructions\nScottish Export All Grain Recipe Instructions\nScottish Heavy All Grain Recipe Instructions\nScottish Light All Grain Recipe Instructions\nSeaside Ride All Grain Recipe Instructions\nSerendipitous Citrus All Grain Recipe Instructions\nSimCitIPA All Grain Recipe Instructions\nSimcoe IPA All Grain Recipe Instructions\nSimcoe Pale Ale All Grain Recipe Instructions\nSimcoe SMaSH IPA All Grain Recipe Instructions\nSmoky Brown Ale All Grain Recipe Instructions\nSmoky Porter All Grain Recipe Instructions\nSoCo-Fastest-IPA-in-the-Galaxy-All-Grain-Recipe\nSouth Austins Best Bitter All Grain Recipe Instructions\nSouth Lamar IPA All Grain Recipe Instructions\nSpiced IPA All Grain Recipe Instructions\nSpiced Porter All Grain Recipe Instructions\nSpiced Stout All Grain Recipe Instructions\nSquawking Parrot IPA All Grain Recipe Instructions\nStalwart Bulldog ESB All Grain Recipe Instructions\nStein Half Full Oktoberfest All Grain Recipe V2\nStrata Pale Ale All Grain Recipe Instructions\nStrawberry Blonde Ale All Grain Recipe Instructions\nStrawberry Milk Stout All Grain Recipe Instructions\nStrawberry Wheat All Grain Recipe Instructions\nStrong Amber Ale All Grain Recipe Instructions\nStrong American Porter All Grain Recipe Instructions\nStrong Scotch Ale All Grain Recipe Instructions\nStrong Winter Ale All Grain Recipe Instructions\nSummer Waves All Grain Recipe Instructions\nSummer Wheat All Grain Recipe Instructions\nSuperdelic Pale Ale All Grain Recipe Instructions",
+    "crumbs": [
+      "Recipes (No SoCo)"
+    ]
+  },
+  {
+    "objectID": "02-recipes-nosoco.html#t",
+    "href": "02-recipes-nosoco.html#t",
+    "title": "Recipes (No SoCo)",
+    "section": "T",
+    "text": "T\n\nTalus Pale Ale All Grain Recipe Instructions\nTexas Amber Ale All Grain Recipe Instructions\nTexas Best Bitter All Grain Recipe Instructions\nTexas Blonde Ale All Grain Recipe Instructions\nTexas Brown Ale All Grain Recipe Instructions\nTexas Christmas Red Ale All Grain Recipe Instructions\nTexas Citra IPA All Grain Recipe Instructions\nTexas Dunkelweizen All Grain Recipe Instructions\nTexas Golden Ale All Grain Recipe Instructions\nTexas Hefeweizen All Grain Recipe Instructions\nTexas IPA All Grain Recipe Instructions\nTexas Juicy IPA All Grain Recipe Sheet\nTexas Kolsch All Grain Recipe Instructions\nTexas Milk Stout All Grain Recipe Instructions\nTexas Mosaic IPA All Grain Recipe Instructions\nTexas Oat Stout All Grain Recipe Instructions\nTexas Pale Ale All Grain Recipe Instructions\nTexas Pilsner All Grain Recipe Instructions\nTexas Porter All Grain Recipe Instructions\nTexas Red Ale All Grain Recipe Instructions\nTexas Stout All Grain Recipe Instructions\nTexas Strong Ale All Grain Recipe Instructions\nTexas Style Irish Stout All Grain Recipe Instructions\nTexasBigtooth Amber Ale All Grain Recipe Instructions\nThe Hard Way All Grain Recipe Instructions\nTops For The Win Pale Ale All Grain Recipe Instructions\nTown Lake IPA All Grain Recipe Instructions\nTree Bench Brown Ale All Grain Recipe Instructions\nTropical Heavens IPA All Grain Recipe Instructions\nTropical Stout All Grain Recipe Instructions\nTurtle Pile Golden Ale All Grain Recipe Instructions\nTwo Z’s IPA All Grain Recipe Instructions",
+    "crumbs": [
+      "Recipes (No SoCo)"
+    ]
+  },
+  {
+    "objectID": "02-recipes-nosoco.html#v",
+    "href": "02-recipes-nosoco.html#v",
+    "title": "Recipes (No SoCo)",
+    "section": "V",
+    "text": "V\n\nVanilla Cream Porter All Grain Recipe Instructions\nVic Secret Pale Ale All Grain Recipe Instructions\nVienna Amber All Grain Recipe Instructions\nVienna Lager All Grain Recipe Instructions\nVista IPA All Grain Recipe Instructions",
+    "crumbs": [
+      "Recipes (No SoCo)"
+    ]
+  },
+  {
+    "objectID": "02-recipes-nosoco.html#w",
+    "href": "02-recipes-nosoco.html#w",
+    "title": "Recipes (No SoCo)",
+    "section": "W",
+    "text": "W\n\nWandering Egret Amber Ale All Grain Recipe Instructions\nWarm Winter All Grain Recipe Instructions\nWatermelon Blonde All Grain Recipe Instructions\nWauterss Belgian Dubbel All Grain Recipe Instructions\nWest Coast Blonde Ale All Grain Recipe Instructions\nWest Coast IPA All Grain Recipe Instructions\nWest Coast Lager All Grain Recipe Instructions\nWest Coast Pale All Grain Recipe Instructions\nWheatwine All Grain Recipe Instructions\nWheatys Comet All Grain Recipe Instructions\nWhiskey Barrel Stout All Grain Recipe Instructions\nWhite Chocolate Blonde Ale All Grain Recipe Instructions\nWhite Stout All Grain Recipe Instructions\nWhole Lotta Citrus NEIPA All Grain Recipe Instructions\nWinter Red Ale All Grain Recipe Instructions\nWitbier All Grain Recipe Instructions",
+    "crumbs": [
+      "Recipes (No SoCo)"
+    ]
+  },
+  {
+    "objectID": "02-recipes-nosoco.html#y",
+    "href": "02-recipes-nosoco.html#y",
+    "title": "Recipes (No SoCo)",
+    "section": "Y",
+    "text": "Y\n\nYellow Bells Juicy NEIPA All Grain Recipe Instructions\nYodeling Coyote Oktoberfest All Grain Recipe Instructions\nYou Had Me At Amber Ale All Grain Recipe Instructions",
+    "crumbs": [
+      "Recipes (No SoCo)"
+    ]
+  },
+  {
+    "objectID": "02-recipes-nosoco.html#z",
+    "href": "02-recipes-nosoco.html#z",
+    "title": "Recipes (No SoCo)",
+    "section": "Z",
+    "text": "Z\n\nZappa IPA All Grain Recipe Instructions\nZilker Park Pale All Grain Recipe Instructions",
+    "crumbs": [
+      "Recipes (No SoCo)"
+    ]
+  },
+  {
+    "objectID": "01-recipes-alpha.html",
+    "href": "01-recipes-alpha.html",
+    "title": "Recipes (Alpha)",
+    "section": "",
+    "text": "22nd State Amber Ale All Grain Recipe Instructions",
+    "crumbs": [
+      "Recipes (Alpha)"
+    ]
+  },
+  {
+    "objectID": "01-recipes-alpha.html#section",
+    "href": "01-recipes-alpha.html#section",
+    "title": "Recipes (Alpha)",
+    "section": "",
+    "text": "22nd State Amber Ale All Grain Recipe Instructions",
+    "crumbs": [
+      "Recipes (Alpha)"
+    ]
+  },
+  {
+    "objectID": "01-recipes-alpha.html#a",
+    "href": "01-recipes-alpha.html#a",
+    "title": "Recipes (Alpha)",
+    "section": "A",
+    "text": "A\n\nA to CTZ IPA All Grain Recipe Instructions\nAmarillo Pale Ale All Grain Recipe Instructions - SHS\nAmberlievable Amber Ale All Grain Recipe Instructions\nApollo Single Hop Pale Ale All Grain Recipe Instructions\nAppalled Apollo IPA All Grain Recipe Instructions\nAzacca Pale Ale All Grain Recipe Instructions",
+    "crumbs": [
+      "Recipes (Alpha)"
+    ]
+  },
+  {
+    "objectID": "01-recipes-alpha.html#b",
+    "href": "01-recipes-alpha.html#b",
+    "title": "Recipes (Alpha)",
+    "section": "B",
+    "text": "B\n\nBeans The Elf Christmas Ale All Grain Recipe Instructions\nBiscuits and Jam ESB All Grain Recipe Instructions\nBitter Butler All Grain Recipe Instructions\nBitter Texan IPA All Grain Recipe Instructions\nBlackberry Witbier All Grain Recipe Instructions\nBourbon Barrel Porter All Grain Recipe Instructions\nBritish Sunset Golden Ale All Grain Recipe Instructions\nButlers Irish Red Ale All Grain Recipe Instructions",
+    "crumbs": [
+      "Recipes (Alpha)"
+    ]
+  },
+  {
+    "objectID": "01-recipes-alpha.html#c",
+    "href": "01-recipes-alpha.html#c",
+    "title": "Recipes (Alpha)",
+    "section": "C",
+    "text": "C\n\nCashmere Blonde Ale All Grain Recipe Instructions\nChinook IPA All Grain Recipe Instructions\nChristmas Porter All Grain Recipe Instructions\nCluster SMaSH Pale Ale All Grain Recipe Instructions\nCoconut Hefeweizen All Grain Recipe Instructions\nCruisin Canoe IPA All Grain Recipe Instructions",
+    "crumbs": [
+      "Recipes (Alpha)"
+    ]
+  },
+  {
+    "objectID": "01-recipes-alpha.html#d",
+    "href": "01-recipes-alpha.html#d",
+    "title": "Recipes (Alpha)",
+    "section": "D",
+    "text": "D\n\nDark Chocolate Strawberry Stout All Grain Recipe Instructions\nDillo Trolley Pale Ale All Grain Recipe Instructions\nDry Hop Blonde Ale All Grain Recipe Instructions\nDunkles Bock All Grain Recipe Instructions",
+    "crumbs": [
+      "Recipes (Alpha)"
+    ]
+  },
+  {
+    "objectID": "01-recipes-alpha.html#e",
+    "href": "01-recipes-alpha.html#e",
+    "title": "Recipes (Alpha)",
+    "section": "E",
+    "text": "E\n\nElani Pale Ale All Grain Recipe Instructions\nEnglish Pale Ale All Grain Recipe Instructions",
+    "crumbs": [
+      "Recipes (Alpha)"
+    ]
+  },
+  {
+    "objectID": "01-recipes-alpha.html#f",
+    "href": "01-recipes-alpha.html#f",
+    "title": "Recipes (Alpha)",
+    "section": "F",
+    "text": "F\n\nFrayed Aglet IPA All Grain Recipe Instructions\nFruity McCutie Juicy IPA All Grain Recipe Sheet",
+    "crumbs": [
+      "Recipes (Alpha)"
+    ]
+  },
+  {
+    "objectID": "01-recipes-alpha.html#g",
+    "href": "01-recipes-alpha.html#g",
+    "title": "Recipes (Alpha)",
+    "section": "G",
+    "text": "G\n\nGlaring Grackle Imperial Stout All Grain Recipe Instructions\nGranite Dome Oat Stout All Grain Recipe Instructions",
+    "crumbs": [
+      "Recipes (Alpha)"
+    ]
+  },
+  {
+    "objectID": "01-recipes-alpha.html#h",
+    "href": "01-recipes-alpha.html#h",
+    "title": "Recipes (Alpha)",
+    "section": "H",
+    "text": "H\n\nHaze Austin Juicy NEIPA All Grain Recipe Sheet",
+    "crumbs": [
+      "Recipes (Alpha)"
+    ]
+  },
+  {
+    "objectID": "01-recipes-alpha.html#i",
+    "href": "01-recipes-alpha.html#i",
+    "title": "Recipes (Alpha)",
+    "section": "I",
+    "text": "I\n\nImperial Bourbon Barrel Chocolate Stout All Grain Recipe Instructions",
+    "crumbs": [
+      "Recipes (Alpha)"
+    ]
+  },
+  {
+    "objectID": "01-recipes-alpha.html#j",
+    "href": "01-recipes-alpha.html#j",
+    "title": "Recipes (Alpha)",
+    "section": "J",
+    "text": "J\n\nJanets Brown Ale All Grain Recipe Instructions\nJollyville Red Ale All Grain Recipe Instructions",
+    "crumbs": [
+      "Recipes (Alpha)"
+    ]
+  },
+  {
+    "objectID": "01-recipes-alpha.html#l",
+    "href": "01-recipes-alpha.html#l",
+    "title": "Recipes (Alpha)",
+    "section": "L",
+    "text": "L\n\nLake Buchana IPA All Grain Recipe Sheet\nLake Travis IPA All Grain Recipe Instructions\nLemondrop Blonde Ale All Grain Recipe Instructions\nLofty Loblolly IPA All Grain Recipe Instructions\nLonely Pier Wheat Ale All Grain Recipe Instructions",
+    "crumbs": [
+      "Recipes (Alpha)"
+    ]
+  },
+  {
+    "objectID": "01-recipes-alpha.html#m",
+    "href": "01-recipes-alpha.html#m",
+    "title": "Recipes (Alpha)",
+    "section": "M",
+    "text": "M\n\nMad Jacks Hoppy Amber Ale All Grain Recipe Instructions\nMars the Duck Oat Pale Ale All Grain Recipe Instructions\nMosaic & Citra Pale Ale All Grain Recipe Instructions",
+    "crumbs": [
+      "Recipes (Alpha)"
+    ]
+  },
+  {
+    "objectID": "01-recipes-alpha.html#n",
+    "href": "01-recipes-alpha.html#n",
+    "title": "Recipes (Alpha)",
+    "section": "N",
+    "text": "N\n\nNearly Nirvana All Grain Recipe Instructions\nNectaron & Elani IPA All Grain Recipe Instructions\nNectaron IPA All Grain Recipe Instructions\nNectaron Pale Ale All Grain Recipe Instructions\nNew House English Brown Ale All Grain Recipe Instructions\nNew Zealand Blonde Ale All Grain Recipe Instructions\nNew Zealand IPA All Grain Recipe Instructions",
+    "crumbs": [
+      "Recipes (Alpha)"
+    ]
+  },
+  {
+    "objectID": "01-recipes-alpha.html#o",
+    "href": "01-recipes-alpha.html#o",
+    "title": "Recipes (Alpha)",
+    "section": "O",
+    "text": "O\n\nOat Dear I Created A Maltster Oat Stout All Grain Recipe Instructions\nOat of Luck All Grain Recipe Instructions\nOatmeal Pale Ale All Grain Recipe Instructions",
+    "crumbs": [
+      "Recipes (Alpha)"
+    ]
+  },
+  {
+    "objectID": "01-recipes-alpha.html#p",
+    "href": "01-recipes-alpha.html#p",
+    "title": "Recipes (Alpha)",
+    "section": "P",
+    "text": "P\n\nPacific Coast Juicy IPA All Grain Recipe Instructions\nPlodding Bear Porter All Grain Recipe Instructions\nPool Floatie Amber Ale All Grain Recipe Instructions",
+    "crumbs": [
+      "Recipes (Alpha)"
+    ]
+  },
+  {
+    "objectID": "01-recipes-alpha.html#r",
+    "href": "01-recipes-alpha.html#r",
+    "title": "Recipes (Alpha)",
+    "section": "R",
+    "text": "R\n\nRooftop Sunbathing NEIPA All Grain Recipe Instructions",
+    "crumbs": [
+      "Recipes (Alpha)"
+    ]
+  },
+  {
+    "objectID": "01-recipes-alpha.html#s",
+    "href": "01-recipes-alpha.html#s",
+    "title": "Recipes (Alpha)",
+    "section": "S",
+    "text": "S\n\nSabro Pale Ale All Grain Recipe Instructions\nSandyPupJuicyIPA_AllGrain\nSeaside Ride All Grain Recipe Instructions\nSoCo 120 Shilling All Grain Recipe Instructions\nSoCo 60 Shilling All Grain Recipe Instructions\nSoCo 70 Shilling All Grain Recipe Instructions\nSoCo 80 Shilling All Grain Recipe Instructions\nSoCo 90 Shilling All Grain Recipe Instructions\nSoCo Ahoy Wheaty Wheat Ale All Grain Recipe Instructions\nSoCo Amarillo Armadillo All Grain Recipe Instructions\nSoCo Amarillo IPA All Grain Recipe Instructions\nSoCo Amber Hue All Grain Recipe Instructions\nSoCo Amberserk Amber Ale All Grain Recipe Instructions\nSoCo American Amber Ale All Grain Recipe Instructions\nSoCo American Barleywine All Grain Recipe Instructions\nSoCo American Brown All Grain Recipe Instructions\nSoCo American Hefeweizen All Grain Recipe Instructions\nSoCo American Red Ale All Grain Recipe Instructions\nSoCo American Rye Ale All Grain Recipe Instructions\nSoCo American Strong Ale All Grain Recipe Instructions\nSoCo American Wheat All Grain Recipe Instructions\nSoCo Anniversary IPA All Grain Recipe Instructions\nSoCo Apricot Saison All Grain Recipe Instructions\nSoCo Apricot Wheat Ale All Grain Recipe Instructions\nSoCo Australian Sparkling Ale All Grain Recipe Instructions\nSoCo Bat Bridge Black IPA All Grain Recipe Instructions\nSoCo Bavarian Hefeweizen All Grain Recipe Instructions\nSoCo Beach Lounger Amber All Grain Recipe Instructions\nSoCo Belgian Dark Strong All Grain Recipe Instructions\nSoCo Belgian Dubbel All Grain Recipe Instructions\nSoCo Belgian IPA All Grain Recipe Instructions\nSoCo Belgian Pale Ale All Grain Recipe Instructions\nSoCo Belgian Saison All Grain Recipe Instructions\nSoCo Belgian Stout All Grain Recipe Instructions\nSoCo Belgian Tripel All Grain Recipe Instructions\nSoCo Berliner Weisse Advanced All Grain Recipe Sheet\nSoCo Berliner Weisse Easy All Grain Brewing Instructions\nSoCo Best Bitter All Grain Recipe Instructions\nSoCo Black IPA All Grain Recipe Instructions\nSoCo Black Licorice Porter All Grain Recipe Instructions\nSoCo Blackberry Blonde Ale All Grain Recipe Instructions\nSoCo Blackberry Wheat Ale All Grain Recipe Instructions\nSoCo Blonde All Grain Recipe Instructions\nSoCo Blueberry Blonde Ale All Grain Recipe Instructions\nSoCo Blueberry Wheat Ale All Grain Recipe Instructions\nSoCo Breezy Nights Black Ale All Grain Recipe Instructions\nSoCo British Golden Ale All Grain Recipe Instructions\nSoCo British Strong Ale All Grain Recipe Instructions\nSoCo Brown IPA All Grain Recipe Instructions\nSoCo Brown Porter All Grain Recipe Instructions\nSoCo California Common All Grain Recipe Instructions\nSoCo Cascadian Dark Ale All Grain Recipe Instructions\nSoCo Centennial IPA All Grain Recipe Instructions\nSoCo Chocolate Milk Stout All Grain Recipe Instructions\nSoCo Chocolate Porter All Grain Recipe Instructions\nSoCo Chocolate Stout All Grain Recipe Instructions\nSoCo Christmas IPA All Grain Recipe Instructions\nSoCo Citra Amarillo NEIPA All Grain Recipe Instructions\nSoCo Citra Blonde Ale All Grain Recipe Instructions\nSoCo Citra IPA All Grain Recipe Instructions\nSoCo Citra Juicy NEIPA All Grain Recipe Instructions\nSoCo Citra Pale Ale All Grain Recipe Instructions\nSoCo Citra SMaSH IPA All Grain Recipe Instructions\nSoCo CitSim All Grain Recipe Instructions\nSoCo Coconut Porter All Grain Recipe Instructions\nSoCo Coconut Wheat Ale All Grain Recipe Instructions\nSoCo Columbus IPA All Grain Recipe Instructions\nSoCo Dark Mild All Grain Recipe Instructions\nSoCo Dark Wheat All Grain Recipe Instructions\nSoCo Doppelbock All Grain Recipe Instructions\nSoCo Double Brown Ale All Grain Recipe Instructions\nSoCo Double Chocolate Stout All Grain Recipe Instructions\nSoCo Double Wit All Grain Recipe Instructions\nSoCo Dunkelweizen All Grain Recipe Instructions\nSoCo Eclipse Black Blonde Ale All Grain Recipe Instructions\nSoCo Eclipse Black IPA All Grain Recipe Instructions\nSoCo English Barleywine All Grain Recipe Instructions\nSoCo English Brown All Grain Recipe Instructions\nSoCo English IPA All Grain Recipe Instructions\nSoCo English Porter All Grain Recipe Instructions\nSoCo ESB All Grain Recipe Instructions\nSoCo Falconers Flight Pale Ale All Grain Recipe Instructions\nSoCo Faux Coffee Stout All Grain Recipe Instructions\nSoCo Flying Kiwi All Grain Recipe Instructions\nSoCo Gose All Grain Recipe Instructions\nSoCo Gose Kettle Sour All Grain Recipe Sheet\nSoCo Goud Belgian Pale Ale All Grain Recipe Instructions\nSoCo Grapefruit IPA All Grain Recipe Instructions\nSoCo Grodziskie All Grain Recipe Instructions\nSoCo Hefeweizen All Grain Recipe Instructions\nSoCo Holiday Stout All Grain Recipe Instructions\nSoCo Honey Badger Brown All Grain Recipe Instructions\nSoCo Honey Wheat All Grain Recipe Instructions\nSoCo Hoppy Wheat All Grain Recipe Instructions\nSoCo Imperial Blonde Ale All Grain Recipe Instructions\nSoCo Imperial Irish Red Ale All Grain Recipe Instructions\nSoCo Imperial Nut Brown Ale All Grain Recipe Instructions\nSoCo IPA IPA Double IPA All Grain Recipe Sheet\nSoCo Irish Extra Stout All Grain Recipe Instructions\nSoCo Irish Red All Grain Recipe Instructions\nSoCo Irish Stout All Grain Recipe Instructions\nSoCo Island Chicken Pale Ale All Grain Recipe Instructions\nSoCo Leaky Tent Stout All Grain Recipe Instructions\nSoCo Light Blonde Ale All Grain Recipe Instructions\nSoCo London Brown All Grain Recipe Instructions\nSoCo Maddies English Porter All Grain Recipe Instructions\nSoCo McKinney Falls All Grain Recipe Instructions\nSoCo Menchaca Hefeweizen All Grain Recipe Instructions\nSoCo Milk Stout All Grain Recipe Instructions\nSoCo Milkshake IPA All Grain Recipe Instructions (1)\nSoCo Moontower White All Grain Recipe Instructions\nSoCo Mosaic SMaSH IPA All Grain Recipe Instructions\nSoCo Mugwort Lemon Gruit All Grain Recipe Instructions\nSoCo Mugwort Red Ale All Grain Recipe Instructions\nSoCo Nut Brown All Grain Recipe Instructions\nSoCo Oat Stout All Grain Recipe Instructions\nSoCo Oatmeal Brown Ale All Grain Recipe Instructions\nSoCo Oktoberfest All Grain Recipe Instructions\nSoCo Old Ale All Grain Recipe Instructions\nSoCo Ordinary Bitter All Grain Recipe Instructions\nSoCo Passion Fruit Saison All Grain Recipe Instructions\nSoCo Patersbier All Grain Recipe Instructions\nSoCo Pecan Brown Ale All Grain Recipe Instructions\nSoCo Pecan Porter All Grain Recipe Instructions\nSoCo Pennybacker Double IPA All Grain Recipe Instructions\nSoCo Peppermint Chocolate Milk Stout All Grain Recipe Instructions\nSoCo Pink Boots Society Red Ale All Grain Recipe Instructions\nSoCo Porter All Grain Recipe Instructions\nSoCo Raspberry Blonde All Grain Recipe Instructions\nSoCo Raspberry Wheat Ale All Grain Recipe Instructions\nSoCo Red APA All Grain Recipe Instructions\nSoCo Red Hot Red Ale All Grain Recipe Instructions\nSoCo Red IPA All Grain Recipe Instructions\nSoCo Red Ryerson Roggenbier All Grain Recipe Instructions\nSoCo Robust Porter All Grain Recipe Instructions\nSoCo Russian Imperial Stout All Grain Recipe Instructions\nSoCo Rye IPA All Grain Recipe Instructions\nSoCo Rye Lager All Grain Recipe Instructions\nSoCo Rye Pale All Grain Recipe Instructions\nSoCo Rye Stout All Grain Recipe Instructions\nSoCo Sabro IPA All Grain Recipe Sheet\nSoCo Sasquatch Street Brown Ale All Grain Recipe Instructions\nSoCo Schwarzbier All Grain Recipe Instructions\nSoCo Scottish Export All Grain Recipe Instructions\nSoCo Scottish Heavy All Grain Recipe Instructions\nSoCo Scottish Light All Grain Recipe Instructions\nSoCo Serendipitous Citrus All Grain Recipe Instructions\nSoCo SimCitIPA All Grain Recipe Instructions\nSoCo Simcoe IPA All Grain Recipe Instructions\nSoCo Simcoe Pale Ale All Grain Recipe Instructions\nSoCo Simcoe SMaSH IPA All Grain Recipe Instructions\nSoCo Smoky Brown Ale All Grain Recipe Instructions\nSoCo Smoky Porter All Grain Recipe Instructions\nSoCo South Lamar IPA All Grain Recipe Instructions\nSoCo Spiced IPA All Grain Recipe Instructions\nSoCo Spiced Porter All Grain Recipe Instructions\nSoCo Spiced Stout All Grain Recipe Instructions\nSoCo Strata Pale Ale All Grain Recipe Instructions\nSoCo Strawberry Blonde Ale All Grain Recipe Instructions\nSoCo Strawberry Wheat All Grain Recipe Instructions\nSoCo Strong Amber Ale All Grain Recipe Instructions\nSoCo Strong American Porter All Grain Recipe Instructions\nSoCo Strong Scotch Ale All Grain Recipe Instructions\nSoCo Strong Winter Ale All Grain Recipe Instructions\nSoCo Summer Wheat All Grain Recipe Instructions\nSoCo Texas Amber Ale All Grain Recipe Instructions\nSoCo Texas Blonde Ale All Grain Recipe Instructions\nSoCo Texas Brown Ale All Grain Recipe Instructions\nSoCo Texas Citra IPA All Grain Recipe Instructions\nSoCo Texas Golden Ale All Grain Recipe Instructions\nSoCo Texas Hefeweizen All Grain Recipe Instructions\nSoCo Texas IPA All Grain Recipe Instructions\nSoCo Texas Juicy IPA All Grain Recipe Sheet\nSoCo Texas Kolsch All Grain Recipe Instructions\nSoCo Texas Mosaic IPA All Grain Recipe Instructions\nSoCo Texas Pale Ale All Grain Recipe Instructions\nSoCo Texas Porter All Grain Recipe Instructions\nSoCo Texas Red Ale All Grain Recipe Instructions\nSoCo Texas Stout All Grain Recipe Instructions\nSoCo Texas Strong Ale All Grain Recipe Instructions\nSoCo The Hard Way All Grain Recipe Instructions\nSoCo Town Lake IPA All Grain Recipe Instructions\nSoCo Tropical Stout All Grain Recipe Instructions\nSoCo Vanilla Cream Porter All Grain Recipe Instructions\nSoCo Vic Secret Pale Ale All Grain Recipe Instructions\nSoCo Vienna Lager All Grain Recipe Instructions\nSoCo Vista IPA All Grain Recipe Instructions\nSoCo Wandering Egret Amber Ale All Grain Recipe Instructions\nSoCo Warm Winter All Grain Recipe Instructions\nSoCo Watermelon Blonde All Grain Recipe Instructions\nSoCo West Coast IPA All Grain Recipe Instructions\nSoCo West Coast Pale All Grain Recipe Instructions\nSoCo Wheatwine All Grain Recipe Instructions\nSoCo Whiskey Barrel Stout All Grain Recipe Instructions\nSoCo White Chocolate Blonde Ale All Grain Recipe Instructions\nSoCo White Stout All Grain Recipe Instructions\nSoCo Whole Lotta Citrus NEIPA All Grain Recipe Instructions\nSoCo Witbier All Grain Recipe Instructions\nSoCo Yellow Bells Juicy NEIPA All Grain Recipe Instructions\nSoCo Yodeling Coyote Oktoberfest All Grain Recipe Instructions\nSoCo Zilker Park Pale All Grain Recipe Instructions\nSoCo-Fastest-IPA-in-the-Galaxy-All-Grain-Recipe\nSouth Austins Best Bitter All Grain Recipe Instructions\nSquawking Parrot IPA All Grain Recipe Instructions\nStalwart Bulldog ESB All Grain Recipe Instructions\nStein Half Full Oktoberfest All Grain Recipe V2\nStrawberry Milk Stout All Grain Recipe Instructions\nSummer Waves All Grain Recipe Instructions\nSuperdelic Pale Ale All Grain Recipe Instructions",
+    "crumbs": [
+      "Recipes (Alpha)"
+    ]
+  },
+  {
+    "objectID": "01-recipes-alpha.html#t",
+    "href": "01-recipes-alpha.html#t",
+    "title": "Recipes (Alpha)",
+    "section": "T",
+    "text": "T\n\nTalus Pale Ale All Grain Recipe Instructions\nTexas Best Bitter All Grain Recipe Instructions\nTexas Christmas Red Ale All Grain Recipe Instructions\nTexas Dunkelweizen All Grain Recipe Instructions\nTexas Milk Stout All Grain Recipe Instructions\nTexas Oat Stout All Grain Recipe Instructions\nTexas Pilsner All Grain Recipe Instructions\nTexas Style Irish Stout All Grain Recipe Instructions\nTexasBigtooth Amber Ale All Grain Recipe Instructions\nTops For The Win Pale Ale All Grain Recipe Instructions\nTree Bench Brown Ale All Grain Recipe Instructions\nTropical Heavens IPA All Grain Recipe Instructions\nTurtle Pile Golden Ale All Grain Recipe Instructions\nTwo Z’s IPA All Grain Recipe Instructions",
+    "crumbs": [
+      "Recipes (Alpha)"
+    ]
+  },
+  {
+    "objectID": "01-recipes-alpha.html#v",
+    "href": "01-recipes-alpha.html#v",
+    "title": "Recipes (Alpha)",
+    "section": "V",
+    "text": "V\n\nVienna Amber All Grain Recipe Instructions",
+    "crumbs": [
+      "Recipes (Alpha)"
+    ]
+  },
+  {
+    "objectID": "01-recipes-alpha.html#w",
+    "href": "01-recipes-alpha.html#w",
+    "title": "Recipes (Alpha)",
+    "section": "W",
+    "text": "W\n\nWauterss Belgian Dubbel All Grain Recipe Instructions\nWest Coast Blonde Ale All Grain Recipe Instructions\nWest Coast Lager All Grain Recipe Instructions\nWheatys Comet All Grain Recipe Instructions\nWinter Red Ale All Grain Recipe Instructions",
+    "crumbs": [
+      "Recipes (Alpha)"
+    ]
+  },
+  {
+    "objectID": "01-recipes-alpha.html#y",
+    "href": "01-recipes-alpha.html#y",
+    "title": "Recipes (Alpha)",
+    "section": "Y",
+    "text": "Y\n\nYou Had Me At Amber Ale All Grain Recipe Instructions",
+    "crumbs": [
+      "Recipes (Alpha)"
+    ]
+  },
+  {
+    "objectID": "01-recipes-alpha.html#z",
+    "href": "01-recipes-alpha.html#z",
+    "title": "Recipes (Alpha)",
+    "section": "Z",
+    "text": "Z\n\nZappa IPA All Grain Recipe Instructions",
+    "crumbs": [
+      "Recipes (Alpha)"
+    ]
+  },
+  {
+    "objectID": "03-recipes-filter.html",
+    "href": "03-recipes-filter.html",
+    "title": "Recipe (Filter)",
+    "section": "",
+    "text": "2 · A · B · C · D · E · F · G · H · I · J · L · M · N · O · P · R · S · T · V · W · Y · Z\n\n\n\n2\n\n  22nd State Amber Ale All Grain Recipe Instructions\n\n\n\n\nA\n\n  A to CTZ IPA All Grain Recipe Instructions\n  Amarillo Pale Ale All Grain Recipe Instructions - SHS\n  Amberlievable Amber Ale All Grain Recipe Instructions\n  Apollo Single Hop Pale Ale All Grain Recipe Instructions\n  Appalled Apollo IPA All Grain Recipe Instructions\n  Azacca Pale Ale All Grain Recipe Instructions\n\n\n\n\nB\n\n  Beans The Elf Christmas Ale All Grain Recipe Instructions\n  Biscuits and Jam ESB All Grain Recipe Instructions\n  Bitter Butler All Grain Recipe Instructions\n  Bitter Texan IPA All Grain Recipe Instructions\n  Blackberry Witbier All Grain Recipe Instructions\n  Bourbon Barrel Porter All Grain Recipe Instructions\n  British Sunset Golden Ale All Grain Recipe Instructions\n  Butlers Irish Red Ale All Grain Recipe Instructions\n\n\n\n\nC\n\n  Cashmere Blonde Ale All Grain Recipe Instructions\n  Chinook IPA All Grain Recipe Instructions\n  Christmas Porter All Grain Recipe Instructions\n  Cluster SMaSH Pale Ale All Grain Recipe Instructions\n  Coconut Hefeweizen All Grain Recipe Instructions\n  Cruisin Canoe IPA All Grain Recipe Instructions\n\n\n\n\nD\n\n  Dark Chocolate Strawberry Stout All Grain Recipe Instructions\n  Dillo Trolley Pale Ale All Grain Recipe Instructions\n  Dry Hop Blonde Ale All Grain Recipe Instructions\n  Dunkles Bock All Grain Recipe Instructions\n\n\n\n\nE\n\n  Elani Pale Ale All Grain Recipe Instructions\n  English Pale Ale All Grain Recipe Instructions\n\n\n\n\nF\n\n  Frayed Aglet IPA All Grain Recipe Instructions\n  Fruity McCutie Juicy IPA All Grain Recipe Sheet\n\n\n\n\nG\n\n  Glaring Grackle Imperial Stout All Grain Recipe Instructions\n  Granite Dome Oat Stout All Grain Recipe Instructions\n\n\n\n\nH\n\n  Haze Austin Juicy NEIPA All Grain Recipe Sheet\n\n\n\n\nI\n\n  Imperial Bourbon Barrel Chocolate Stout All Grain Recipe Instructions\n\n\n\n\nJ\n\n  Janets Brown Ale All Grain Recipe Instructions\n  Jollyville Red Ale All Grain Recipe Instructions\n\n\n\n\nL\n\n  Lake Buchana IPA All Grain Recipe Sheet\n  Lake Travis IPA All Grain Recipe Instructions\n  Lemondrop Blonde Ale All Grain Recipe Instructions\n  Lofty Loblolly IPA All Grain Recipe Instructions\n  Lonely Pier Wheat Ale All Grain Recipe Instructions\n\n\n\n\nM\n\n  Mad Jacks Hoppy Amber Ale All Grain Recipe Instructions\n  Mars the Duck Oat Pale Ale All Grain Recipe Instructions\n  Mosaic & Citra Pale Ale All Grain Recipe Instructions\n\n\n\n\nN\n\n  Nearly Nirvana All Grain Recipe Instructions\n  Nectaron & Elani IPA All Grain Recipe Instructions\n  Nectaron IPA All Grain Recipe Instructions\n  Nectaron Pale Ale All Grain Recipe Instructions\n  New House English Brown Ale All Grain Recipe Instructions\n  New Zealand Blonde Ale All Grain Recipe Instructions\n  New Zealand IPA All Grain Recipe Instructions\n\n\n\n\nO\n\n  Oat Dear I Created A Maltster Oat Stout All Grain Recipe Instructions\n  Oat of Luck All Grain Recipe Instructions\n  Oatmeal Pale Ale All Grain Recipe Instructions\n\n\n\n\nP\n\n  Pacific Coast Juicy IPA All Grain Recipe Instructions\n  Plodding Bear Porter All Grain Recipe Instructions\n  Pool Floatie Amber Ale All Grain Recipe Instructions\n\n\n\n\nR\n\n  Rooftop Sunbathing NEIPA All Grain Recipe Instructions\n\n\n\n\nS\n\n  Sabro Pale Ale All Grain Recipe Instructions\n  SandyPupJuicyIPA_AllGrain\n  Seaside Ride All Grain Recipe Instructions\n  SoCo 120 Shilling All Grain Recipe Instructions\n  SoCo 60 Shilling All Grain Recipe Instructions\n  SoCo 70 Shilling All Grain Recipe Instructions\n  SoCo 80 Shilling All Grain Recipe Instructions\n  SoCo 90 Shilling All Grain Recipe Instructions\n  SoCo Ahoy Wheaty Wheat Ale All Grain Recipe Instructions\n  SoCo Amarillo Armadillo All Grain Recipe Instructions\n  SoCo Amarillo IPA All Grain Recipe Instructions\n  SoCo Amber Hue All Grain Recipe Instructions\n  SoCo Amberserk Amber Ale All Grain Recipe Instructions\n  SoCo American Amber Ale All Grain Recipe Instructions\n  SoCo American Barleywine All Grain Recipe Instructions\n  SoCo American Brown All Grain Recipe Instructions\n  SoCo American Hefeweizen All Grain Recipe Instructions\n  SoCo American Red Ale All Grain Recipe Instructions\n  SoCo American Rye Ale All Grain Recipe Instructions\n  SoCo American Strong Ale All Grain Recipe Instructions\n  SoCo American Wheat All Grain Recipe Instructions\n  SoCo Anniversary IPA All Grain Recipe Instructions\n  SoCo Apricot Saison All Grain Recipe Instructions\n  SoCo Apricot Wheat Ale All Grain Recipe Instructions\n  SoCo Australian Sparkling Ale All Grain Recipe Instructions\n  SoCo Bat Bridge Black IPA All Grain Recipe Instructions\n  SoCo Bavarian Hefeweizen All Grain Recipe Instructions\n  SoCo Beach Lounger Amber All Grain Recipe Instructions\n  SoCo Belgian Dark Strong All Grain Recipe Instructions\n  SoCo Belgian Dubbel All Grain Recipe Instructions\n  SoCo Belgian IPA All Grain Recipe Instructions\n  SoCo Belgian Pale Ale All Grain Recipe Instructions\n  SoCo Belgian Saison All Grain Recipe Instructions\n  SoCo Belgian Stout All Grain Recipe Instructions\n  SoCo Belgian Tripel All Grain Recipe Instructions\n  SoCo Berliner Weisse Advanced All Grain Recipe Sheet\n  SoCo Berliner Weisse Easy All Grain Brewing Instructions\n  SoCo Best Bitter All Grain Recipe Instructions\n  SoCo Black IPA All Grain Recipe Instructions\n  SoCo Black Licorice Porter All Grain Recipe Instructions\n  SoCo Blackberry Blonde Ale All Grain Recipe Instructions\n  SoCo Blackberry Wheat Ale All Grain Recipe Instructions\n  SoCo Blonde All Grain Recipe Instructions\n  SoCo Blueberry Blonde Ale All Grain Recipe Instructions\n  SoCo Blueberry Wheat Ale All Grain Recipe Instructions\n  SoCo Breezy Nights Black Ale All Grain Recipe Instructions\n  SoCo British Golden Ale All Grain Recipe Instructions\n  SoCo British Strong Ale All Grain Recipe Instructions\n  SoCo Brown IPA All Grain Recipe Instructions\n  SoCo Brown Porter All Grain Recipe Instructions\n  SoCo California Common All Grain Recipe Instructions\n  SoCo Cascadian Dark Ale All Grain Recipe Instructions\n  SoCo Centennial IPA All Grain Recipe Instructions\n  SoCo Chocolate Milk Stout All Grain Recipe Instructions\n  SoCo Chocolate Porter All Grain Recipe Instructions\n  SoCo Chocolate Stout All Grain Recipe Instructions\n  SoCo Christmas IPA All Grain Recipe Instructions\n  SoCo Citra Amarillo NEIPA All Grain Recipe Instructions\n  SoCo Citra Blonde Ale All Grain Recipe Instructions\n  SoCo Citra IPA All Grain Recipe Instructions\n  SoCo Citra Juicy NEIPA All Grain Recipe Instructions\n  SoCo Citra Pale Ale All Grain Recipe Instructions\n  SoCo Citra SMaSH IPA All Grain Recipe Instructions\n  SoCo CitSim All Grain Recipe Instructions\n  SoCo Coconut Porter All Grain Recipe Instructions\n  SoCo Coconut Wheat Ale All Grain Recipe Instructions\n  SoCo Columbus IPA All Grain Recipe Instructions\n  SoCo Dark Mild All Grain Recipe Instructions\n  SoCo Dark Wheat All Grain Recipe Instructions\n  SoCo Doppelbock All Grain Recipe Instructions\n  SoCo Double Brown Ale All Grain Recipe Instructions\n  SoCo Double Chocolate Stout All Grain Recipe Instructions\n  SoCo Double Wit All Grain Recipe Instructions\n  SoCo Dunkelweizen All Grain Recipe Instructions\n  SoCo Eclipse Black Blonde Ale All Grain Recipe Instructions\n  SoCo Eclipse Black IPA All Grain Recipe Instructions\n  SoCo English Barleywine All Grain Recipe Instructions\n  SoCo English Brown All Grain Recipe Instructions\n  SoCo English IPA All Grain Recipe Instructions\n  SoCo English Porter All Grain Recipe Instructions\n  SoCo ESB All Grain Recipe Instructions\n  SoCo Falconers Flight Pale Ale All Grain Recipe Instructions\n  SoCo Faux Coffee Stout All Grain Recipe Instructions\n  SoCo Flying Kiwi All Grain Recipe Instructions\n  SoCo Gose All Grain Recipe Instructions\n  SoCo Gose Kettle Sour All Grain Recipe Sheet\n  SoCo Goud Belgian Pale Ale All Grain Recipe Instructions\n  SoCo Grapefruit IPA All Grain Recipe Instructions\n  SoCo Grodziskie All Grain Recipe Instructions\n  SoCo Hefeweizen All Grain Recipe Instructions\n  SoCo Holiday Stout All Grain Recipe Instructions\n  SoCo Honey Badger Brown All Grain Recipe Instructions\n  SoCo Honey Wheat All Grain Recipe Instructions\n  SoCo Hoppy Wheat All Grain Recipe Instructions\n  SoCo Imperial Blonde Ale All Grain Recipe Instructions\n  SoCo Imperial Irish Red Ale All Grain Recipe Instructions\n  SoCo Imperial Nut Brown Ale All Grain Recipe Instructions\n  SoCo IPA IPA Double IPA All Grain Recipe Sheet\n  SoCo Irish Extra Stout All Grain Recipe Instructions\n  SoCo Irish Red All Grain Recipe Instructions\n  SoCo Irish Stout All Grain Recipe Instructions\n  SoCo Island Chicken Pale Ale All Grain Recipe Instructions\n  SoCo Leaky Tent Stout All Grain Recipe Instructions\n  SoCo Light Blonde Ale All Grain Recipe Instructions\n  SoCo London Brown All Grain Recipe Instructions\n  SoCo Maddies English Porter All Grain Recipe Instructions\n  SoCo McKinney Falls All Grain Recipe Instructions\n  SoCo Menchaca Hefeweizen All Grain Recipe Instructions\n  SoCo Milk Stout All Grain Recipe Instructions\n  SoCo Milkshake IPA All Grain Recipe Instructions (1)\n  SoCo Moontower White All Grain Recipe Instructions\n  SoCo Mosaic SMaSH IPA All Grain Recipe Instructions\n  SoCo Mugwort Lemon Gruit All Grain Recipe Instructions\n  SoCo Mugwort Red Ale All Grain Recipe Instructions\n  SoCo Nut Brown All Grain Recipe Instructions\n  SoCo Oat Stout All Grain Recipe Instructions\n  SoCo Oatmeal Brown Ale All Grain Recipe Instructions\n  SoCo Oktoberfest All Grain Recipe Instructions\n  SoCo Old Ale All Grain Recipe Instructions\n  SoCo Ordinary Bitter All Grain Recipe Instructions\n  SoCo Passion Fruit Saison All Grain Recipe Instructions\n  SoCo Patersbier All Grain Recipe Instructions\n  SoCo Pecan Brown Ale All Grain Recipe Instructions\n  SoCo Pecan Porter All Grain Recipe Instructions\n  SoCo Pennybacker Double IPA All Grain Recipe Instructions\n  SoCo Peppermint Chocolate Milk Stout All Grain Recipe Instructions\n  SoCo Pink Boots Society Red Ale All Grain Recipe Instructions\n  SoCo Porter All Grain Recipe Instructions\n  SoCo Raspberry Blonde All Grain Recipe Instructions\n  SoCo Raspberry Wheat Ale All Grain Recipe Instructions\n  SoCo Red APA All Grain Recipe Instructions\n  SoCo Red Hot Red Ale All Grain Recipe Instructions\n  SoCo Red IPA All Grain Recipe Instructions\n  SoCo Red Ryerson Roggenbier All Grain Recipe Instructions\n  SoCo Robust Porter All Grain Recipe Instructions\n  SoCo Russian Imperial Stout All Grain Recipe Instructions\n  SoCo Rye IPA All Grain Recipe Instructions\n  SoCo Rye Lager All Grain Recipe Instructions\n  SoCo Rye Pale All Grain Recipe Instructions\n  SoCo Rye Stout All Grain Recipe Instructions\n  SoCo Sabro IPA All Grain Recipe Sheet\n  SoCo Sasquatch Street Brown Ale All Grain Recipe Instructions\n  SoCo Schwarzbier All Grain Recipe Instructions\n  SoCo Scottish Export All Grain Recipe Instructions\n  SoCo Scottish Heavy All Grain Recipe Instructions\n  SoCo Scottish Light All Grain Recipe Instructions\n  SoCo Serendipitous Citrus All Grain Recipe Instructions\n  SoCo SimCitIPA All Grain Recipe Instructions\n  SoCo Simcoe IPA All Grain Recipe Instructions\n  SoCo Simcoe Pale Ale All Grain Recipe Instructions\n  SoCo Simcoe SMaSH IPA All Grain Recipe Instructions\n  SoCo Smoky Brown Ale All Grain Recipe Instructions\n  SoCo Smoky Porter All Grain Recipe Instructions\n  SoCo South Lamar IPA All Grain Recipe Instructions\n  SoCo Spiced IPA All Grain Recipe Instructions\n  SoCo Spiced Porter All Grain Recipe Instructions\n  SoCo Spiced Stout All Grain Recipe Instructions\n  SoCo Strata Pale Ale All Grain Recipe Instructions\n  SoCo Strawberry Blonde Ale All Grain Recipe Instructions\n  SoCo Strawberry Wheat All Grain Recipe Instructions\n  SoCo Strong Amber Ale All Grain Recipe Instructions\n  SoCo Strong American Porter All Grain Recipe Instructions\n  SoCo Strong Scotch Ale All Grain Recipe Instructions\n  SoCo Strong Winter Ale All Grain Recipe Instructions\n  SoCo Summer Wheat All Grain Recipe Instructions\n  SoCo Texas Amber Ale All Grain Recipe Instructions\n  SoCo Texas Blonde Ale All Grain Recipe Instructions\n  SoCo Texas Brown Ale All Grain Recipe Instructions\n  SoCo Texas Citra IPA All Grain Recipe Instructions\n  SoCo Texas Golden Ale All Grain Recipe Instructions\n  SoCo Texas Hefeweizen All Grain Recipe Instructions\n  SoCo Texas IPA All Grain Recipe Instructions\n  SoCo Texas Juicy IPA All Grain Recipe Sheet\n  SoCo Texas Kolsch All Grain Recipe Instructions\n  SoCo Texas Mosaic IPA All Grain Recipe Instructions\n  SoCo Texas Pale Ale All Grain Recipe Instructions\n  SoCo Texas Porter All Grain Recipe Instructions\n  SoCo Texas Red Ale All Grain Recipe Instructions\n  SoCo Texas Stout All Grain Recipe Instructions\n  SoCo Texas Strong Ale All Grain Recipe Instructions\n  SoCo The Hard Way All Grain Recipe Instructions\n  SoCo Town Lake IPA All Grain Recipe Instructions\n  SoCo Tropical Stout All Grain Recipe Instructions\n  SoCo Vanilla Cream Porter All Grain Recipe Instructions\n  SoCo Vic Secret Pale Ale All Grain Recipe Instructions\n  SoCo Vienna Lager All Grain Recipe Instructions\n  SoCo Vista IPA All Grain Recipe Instructions\n  SoCo Wandering Egret Amber Ale All Grain Recipe Instructions\n  SoCo Warm Winter All Grain Recipe Instructions\n  SoCo Watermelon Blonde All Grain Recipe Instructions\n  SoCo West Coast IPA All Grain Recipe Instructions\n  SoCo West Coast Pale All Grain Recipe Instructions\n  SoCo Wheatwine All Grain Recipe Instructions\n  SoCo Whiskey Barrel Stout All Grain Recipe Instructions\n  SoCo White Chocolate Blonde Ale All Grain Recipe Instructions\n  SoCo White Stout All Grain Recipe Instructions\n  SoCo Whole Lotta Citrus NEIPA All Grain Recipe Instructions\n  SoCo Witbier All Grain Recipe Instructions\n  SoCo Yellow Bells Juicy NEIPA All Grain Recipe Instructions\n  SoCo Yodeling Coyote Oktoberfest All Grain Recipe Instructions\n  SoCo Zilker Park Pale All Grain Recipe Instructions\n  SoCo-Fastest-IPA-in-the-Galaxy-All-Grain-Recipe\n  South Austins Best Bitter All Grain Recipe Instructions\n  Squawking Parrot IPA All Grain Recipe Instructions\n  Stalwart Bulldog ESB All Grain Recipe Instructions\n  Stein Half Full Oktoberfest All Grain Recipe V2\n  Strawberry Milk Stout All Grain Recipe Instructions\n  Summer Waves All Grain Recipe Instructions\n  Superdelic Pale Ale All Grain Recipe Instructions\n\n\n\n\nT\n\n  Talus Pale Ale All Grain Recipe Instructions\n  Texas Best Bitter All Grain Recipe Instructions\n  Texas Christmas Red Ale All Grain Recipe Instructions\n  Texas Dunkelweizen All Grain Recipe Instructions\n  Texas Milk Stout All Grain Recipe Instructions\n  Texas Oat Stout All Grain Recipe Instructions\n  Texas Pilsner All Grain Recipe Instructions\n  Texas Style Irish Stout All Grain Recipe Instructions\n  TexasBigtooth Amber Ale All Grain Recipe Instructions\n  Tops For The Win Pale Ale All Grain Recipe Instructions\n  Tree Bench Brown Ale All Grain Recipe Instructions\n  Tropical Heavens IPA All Grain Recipe Instructions\n  Turtle Pile Golden Ale All Grain Recipe Instructions\n  Two Z's IPA All Grain Recipe Instructions\n\n\n\n\nV\n\n  Vienna Amber All Grain Recipe Instructions\n\n\n\n\nW\n\n  Wauterss Belgian Dubbel All Grain Recipe Instructions\n  West Coast Blonde Ale All Grain Recipe Instructions\n  West Coast Lager All Grain Recipe Instructions\n  Wheatys Comet All Grain Recipe Instructions\n  Winter Red Ale All Grain Recipe Instructions\n\n\n\n\nY\n\n  You Had Me At Amber Ale All Grain Recipe Instructions\n\n\n\n\nZ\n\n  Zappa IPA All Grain Recipe Instructions\n\n\n\nNo recipes match your search.",
+    "crumbs": [
+      "Recipe (Filter)"
     ]
   },
   {

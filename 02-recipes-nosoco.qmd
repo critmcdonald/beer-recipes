@@ -52,8 +52,8 @@ format: html
 - [Belgian Saison](recipe-pdfs/SoCo%20Belgian%20Saison%20All%20Grain%20Recipe%20Instructions.pdf)
 - [Belgian Stout](recipe-pdfs/SoCo%20Belgian%20Stout%20All%20Grain%20Recipe%20Instructions.pdf)
 - [Belgian Tripel](recipe-pdfs/SoCo%20Belgian%20Tripel%20All%20Grain%20Recipe%20Instructions.pdf)
-- [Berliner Weisse Advanced All Grain Recipe Sheet](recipe-pdfs/SoCo%20Berliner%20Weisse%20Advanced%20All%20Grain%20Recipe%20Sheet.pdf)
-- [Berliner Weisse Easy All Grain Brewing Instructions](recipe-pdfs/SoCo%20Berliner%20Weisse%20Easy%20All%20Grain%20Brewing%20Instructions.pdf)
+- [Berliner Weisse Advanced](recipe-pdfs/SoCo%20Berliner%20Weisse%20Advanced%20All%20Grain%20Recipe%20Sheet.pdf)
+- [Berliner Weisse Easy](recipe-pdfs/SoCo%20Berliner%20Weisse%20Easy%20All%20Grain%20Brewing%20Instructions.pdf)
 - [Best Bitter](recipe-pdfs/SoCo%20Best%20Bitter%20All%20Grain%20Recipe%20Instructions.pdf)
 - [Biscuits and Jam ESB](recipe-pdfs/Biscuits%20and%20Jam%20ESB%20All%20Grain%20Recipe%20Instructions.pdf)
 - [Bitter Butler](recipe-pdfs/Bitter%20Butler%20All%20Grain%20Recipe%20Instructions.pdf)
@@ -133,13 +133,13 @@ format: html
 - [Faux Coffee Stout](recipe-pdfs/SoCo%20Faux%20Coffee%20Stout%20All%20Grain%20Recipe%20Instructions.pdf)
 - [Flying Kiwi](recipe-pdfs/SoCo%20Flying%20Kiwi%20All%20Grain%20Recipe%20Instructions.pdf)
 - [Frayed Aglet IPA](recipe-pdfs/Frayed%20Aglet%20IPA%20All%20Grain%20Recipe%20Instructions.pdf)
-- [Fruity McCutie Juicy IPA All Grain Recipe Sheet](recipe-pdfs/Fruity%20McCutie%20Juicy%20IPA%20All%20Grain%20Recipe%20Sheet.pdf)
+- [Fruity McCutie Juicy IPA](recipe-pdfs/Fruity%20McCutie%20Juicy%20IPA%20All%20Grain%20Recipe%20Sheet.pdf)
 
 ## G
 
 - [Glaring Grackle Imperial Stout](recipe-pdfs/Glaring%20Grackle%20Imperial%20Stout%20All%20Grain%20Recipe%20Instructions.pdf)
 - [Gose](recipe-pdfs/SoCo%20Gose%20All%20Grain%20Recipe%20Instructions.pdf)
-- [Gose Kettle Sour All Grain Recipe Sheet](recipe-pdfs/SoCo%20Gose%20Kettle%20Sour%20All%20Grain%20Recipe%20Sheet.pdf)
+- [Gose Kettle Sour](recipe-pdfs/SoCo%20Gose%20Kettle%20Sour%20All%20Grain%20Recipe%20Sheet.pdf)
 - [Goud Belgian Pale Ale](recipe-pdfs/SoCo%20Goud%20Belgian%20Pale%20Ale%20All%20Grain%20Recipe%20Instructions.pdf)
 - [Granite Dome Oat Stout](recipe-pdfs/Granite%20Dome%20Oat%20Stout%20All%20Grain%20Recipe%20Instructions.pdf)
 - [Grapefruit IPA](recipe-pdfs/SoCo%20Grapefruit%20IPA%20All%20Grain%20Recipe%20Instructions.pdf)
@@ -147,7 +147,7 @@ format: html
 
 ## H
 
-- [Haze Austin Juicy NEIPA All Grain Recipe Sheet](recipe-pdfs/Haze%20Austin%20Juicy%20NEIPA%20All%20Grain%20Recipe%20Sheet.pdf)
+- [Haze Austin Juicy NEIPA](recipe-pdfs/Haze%20Austin%20Juicy%20NEIPA%20All%20Grain%20Recipe%20Sheet.pdf)
 - [Hefeweizen](recipe-pdfs/SoCo%20Hefeweizen%20All%20Grain%20Recipe%20Instructions.pdf)
 - [Holiday Stout](recipe-pdfs/SoCo%20Holiday%20Stout%20All%20Grain%20Recipe%20Instructions.pdf)
 - [Honey Badger Brown](recipe-pdfs/SoCo%20Honey%20Badger%20Brown%20All%20Grain%20Recipe%20Instructions.pdf)
@@ -160,7 +160,7 @@ format: html
 - [Imperial Bourbon Barrel Chocolate Stout](recipe-pdfs/Imperial%20Bourbon%20Barrel%20Chocolate%20Stout%20All%20Grain%20Recipe%20Instructions.pdf)
 - [Imperial Irish Red Ale](recipe-pdfs/SoCo%20Imperial%20Irish%20Red%20Ale%20All%20Grain%20Recipe%20Instructions.pdf)
 - [Imperial Nut Brown Ale](recipe-pdfs/SoCo%20Imperial%20Nut%20Brown%20Ale%20All%20Grain%20Recipe%20Instructions.pdf)
-- [IPA IPA Double IPA All Grain Recipe Sheet](recipe-pdfs/SoCo%20IPA%20IPA%20Double%20IPA%20All%20Grain%20Recipe%20Sheet.pdf)
+- [IPA IPA Double IPA](recipe-pdfs/SoCo%20IPA%20IPA%20Double%20IPA%20All%20Grain%20Recipe%20Sheet.pdf)
 - [Irish Extra Stout](recipe-pdfs/SoCo%20Irish%20Extra%20Stout%20All%20Grain%20Recipe%20Instructions.pdf)
 - [Irish Red](recipe-pdfs/SoCo%20Irish%20Red%20All%20Grain%20Recipe%20Instructions.pdf)
 - [Irish Stout](recipe-pdfs/SoCo%20Irish%20Stout%20All%20Grain%20Recipe%20Instructions.pdf)
@@ -173,7 +173,7 @@ format: html
 
 ## L
 
-- [Lake Buchana IPA All Grain Recipe Sheet](recipe-pdfs/Lake%20Buchana%20IPA%20All%20Grain%20Recipe%20Sheet.pdf)
+- [Lake Buchana IPA](recipe-pdfs/Lake%20Buchana%20IPA%20All%20Grain%20Recipe%20Sheet.pdf)
 - [Lake Travis IPA](recipe-pdfs/Lake%20Travis%20IPA%20All%20Grain%20Recipe%20Instructions.pdf)
 - [Leaky Tent Stout](recipe-pdfs/SoCo%20Leaky%20Tent%20Stout%20All%20Grain%20Recipe%20Instructions.pdf)
 - [Lemondrop Blonde Ale](recipe-pdfs/Lemondrop%20Blonde%20Ale%20All%20Grain%20Recipe%20Instructions.pdf)
@@ -251,7 +251,7 @@ format: html
 
 ## S
 
-- [Sabro IPA All Grain Recipe Sheet](recipe-pdfs/SoCo%20Sabro%20IPA%20All%20Grain%20Recipe%20Sheet.pdf)
+- [Sabro IPA](recipe-pdfs/SoCo%20Sabro%20IPA%20All%20Grain%20Recipe%20Sheet.pdf)
 - [Sabro Pale Ale](recipe-pdfs/Sabro%20Pale%20Ale%20All%20Grain%20Recipe%20Instructions.pdf)
 - [SandyPupJuicyIPA_AllGrain](recipe-pdfs/SandyPupJuicyIPA_AllGrain.pdf)
 - [Sasquatch Street Brown Ale](recipe-pdfs/SoCo%20Sasquatch%20Street%20Brown%20Ale%20All%20Grain%20Recipe%20Instructions.pdf)
@@ -267,7 +267,7 @@ format: html
 - [Simcoe SMaSH IPA](recipe-pdfs/SoCo%20Simcoe%20SMaSH%20IPA%20All%20Grain%20Recipe%20Instructions.pdf)
 - [Smoky Brown Ale](recipe-pdfs/SoCo%20Smoky%20Brown%20Ale%20All%20Grain%20Recipe%20Instructions.pdf)
 - [Smoky Porter](recipe-pdfs/SoCo%20Smoky%20Porter%20All%20Grain%20Recipe%20Instructions.pdf)
-- [SoCo-Fastest-IPA-in-the-Galaxy-All-Grain-Recipe](recipe-pdfs/SoCo-Fastest-IPA-in-the-Galaxy-All-Grain-Recipe.pdf)
+- [SoCo-Fastest-IPA-in-the-Galaxy](recipe-pdfs/SoCo-Fastest-IPA-in-the-Galaxy-All-Grain-Recipe.pdf)
 - [South Austins Best Bitter](recipe-pdfs/South%20Austins%20Best%20Bitter%20All%20Grain%20Recipe%20Instructions.pdf)
 - [South Lamar IPA](recipe-pdfs/SoCo%20South%20Lamar%20IPA%20All%20Grain%20Recipe%20Instructions.pdf)
 - [Spiced IPA](recipe-pdfs/SoCo%20Spiced%20IPA%20All%20Grain%20Recipe%20Instructions.pdf)
@@ -275,7 +275,7 @@ format: html
 - [Spiced Stout](recipe-pdfs/SoCo%20Spiced%20Stout%20All%20Grain%20Recipe%20Instructions.pdf)
 - [Squawking Parrot IPA](recipe-pdfs/Squawking%20Parrot%20IPA%20All%20Grain%20Recipe%20Instructions.pdf)
 - [Stalwart Bulldog ESB](recipe-pdfs/Stalwart%20Bulldog%20ESB%20All%20Grain%20Recipe%20Instructions.pdf)
-- [Stein Half Full Oktoberfest All Grain Recipe V2](recipe-pdfs/Stein%20Half%20Full%20Oktoberfest%20All%20Grain%20Recipe%20V2.pdf)
+- [Stein Half Full Oktoberfest](recipe-pdfs/Stein%20Half%20Full%20Oktoberfest%20All%20Grain%20Recipe%20V2.pdf)
 - [Strata Pale Ale](recipe-pdfs/SoCo%20Strata%20Pale%20Ale%20All%20Grain%20Recipe%20Instructions.pdf)
 - [Strawberry Blonde Ale](recipe-pdfs/SoCo%20Strawberry%20Blonde%20Ale%20All%20Grain%20Recipe%20Instructions.pdf)
 - [Strawberry Milk Stout](recipe-pdfs/Strawberry%20Milk%20Stout%20All%20Grain%20Recipe%20Instructions.pdf)
@@ -301,7 +301,7 @@ format: html
 - [Texas Golden Ale](recipe-pdfs/SoCo%20Texas%20Golden%20Ale%20All%20Grain%20Recipe%20Instructions.pdf)
 - [Texas Hefeweizen](recipe-pdfs/SoCo%20Texas%20Hefeweizen%20All%20Grain%20Recipe%20Instructions.pdf)
 - [Texas IPA](recipe-pdfs/SoCo%20Texas%20IPA%20All%20Grain%20Recipe%20Instructions.pdf)
-- [Texas Juicy IPA All Grain Recipe Sheet](recipe-pdfs/SoCo%20Texas%20Juicy%20IPA%20All%20Grain%20Recipe%20Sheet.pdf)
+- [Texas Juicy IPA](recipe-pdfs/SoCo%20Texas%20Juicy%20IPA%20All%20Grain%20Recipe%20Sheet.pdf)
 - [Texas Kolsch](recipe-pdfs/SoCo%20Texas%20Kolsch%20All%20Grain%20Recipe%20Instructions.pdf)
 - [Texas Milk Stout](recipe-pdfs/Texas%20Milk%20Stout%20All%20Grain%20Recipe%20Instructions.pdf)
 - [Texas Mosaic IPA](recipe-pdfs/SoCo%20Texas%20Mosaic%20IPA%20All%20Grain%20Recipe%20Instructions.pdf)

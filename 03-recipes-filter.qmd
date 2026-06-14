@@ -119,7 +119,7 @@ format: html
 <h2>F</h2>
 <ul class="recipe-list">
   <li class="recipe-item"><a href="recipe-pdfs/Frayed%20Aglet%20IPA%20All%20Grain%20Recipe%20Instructions.pdf">Frayed Aglet IPA</a></li>
-  <li class="recipe-item"><a href="recipe-pdfs/Fruity%20McCutie%20Juicy%20IPA%20All%20Grain%20Recipe%20Sheet.pdf">Fruity McCutie Juicy IPA All Grain Recipe Sheet</a></li>
+  <li class="recipe-item"><a href="recipe-pdfs/Fruity%20McCutie%20Juicy%20IPA%20All%20Grain%20Recipe%20Sheet.pdf">Fruity McCutie Juicy IPA</a></li>
 </ul>
 </div>
 
@@ -134,7 +134,7 @@ format: html
 <div class="letter-section" id="section-H">
 <h2>H</h2>
 <ul class="recipe-list">
-  <li class="recipe-item"><a href="recipe-pdfs/Haze%20Austin%20Juicy%20NEIPA%20All%20Grain%20Recipe%20Sheet.pdf">Haze Austin Juicy NEIPA All Grain Recipe Sheet</a></li>
+  <li class="recipe-item"><a href="recipe-pdfs/Haze%20Austin%20Juicy%20NEIPA%20All%20Grain%20Recipe%20Sheet.pdf">Haze Austin Juicy NEIPA</a></li>
 </ul>
 </div>
 
@@ -156,7 +156,7 @@ format: html
 <div class="letter-section" id="section-L">
 <h2>L</h2>
 <ul class="recipe-list">
-  <li class="recipe-item"><a href="recipe-pdfs/Lake%20Buchana%20IPA%20All%20Grain%20Recipe%20Sheet.pdf">Lake Buchana IPA All Grain Recipe Sheet</a></li>
+  <li class="recipe-item"><a href="recipe-pdfs/Lake%20Buchana%20IPA%20All%20Grain%20Recipe%20Sheet.pdf">Lake Buchana IPA</a></li>
   <li class="recipe-item"><a href="recipe-pdfs/Lake%20Travis%20IPA%20All%20Grain%20Recipe%20Instructions.pdf">Lake Travis IPA</a></li>
   <li class="recipe-item"><a href="recipe-pdfs/Lemondrop%20Blonde%20Ale%20All%20Grain%20Recipe%20Instructions.pdf">Lemondrop Blonde Ale</a></li>
   <li class="recipe-item"><a href="recipe-pdfs/Lofty%20Loblolly%20IPA%20All%20Grain%20Recipe%20Instructions.pdf">Lofty Loblolly IPA</a></li>
@@ -249,8 +249,8 @@ format: html
   <li class="recipe-item"><a href="recipe-pdfs/SoCo%20Belgian%20Saison%20All%20Grain%20Recipe%20Instructions.pdf">SoCo Belgian Saison</a></li>
   <li class="recipe-item"><a href="recipe-pdfs/SoCo%20Belgian%20Stout%20All%20Grain%20Recipe%20Instructions.pdf">SoCo Belgian Stout</a></li>
   <li class="recipe-item"><a href="recipe-pdfs/SoCo%20Belgian%20Tripel%20All%20Grain%20Recipe%20Instructions.pdf">SoCo Belgian Tripel</a></li>
-  <li class="recipe-item"><a href="recipe-pdfs/SoCo%20Berliner%20Weisse%20Advanced%20All%20Grain%20Recipe%20Sheet.pdf">SoCo Berliner Weisse Advanced All Grain Recipe Sheet</a></li>
-  <li class="recipe-item"><a href="recipe-pdfs/SoCo%20Berliner%20Weisse%20Easy%20All%20Grain%20Brewing%20Instructions.pdf">SoCo Berliner Weisse Easy All Grain Brewing Instructions</a></li>
+  <li class="recipe-item"><a href="recipe-pdfs/SoCo%20Berliner%20Weisse%20Advanced%20All%20Grain%20Recipe%20Sheet.pdf">SoCo Berliner Weisse Advanced</a></li>
+  <li class="recipe-item"><a href="recipe-pdfs/SoCo%20Berliner%20Weisse%20Easy%20All%20Grain%20Brewing%20Instructions.pdf">SoCo Berliner Weisse Easy</a></li>
   <li class="recipe-item"><a href="recipe-pdfs/SoCo%20Best%20Bitter%20All%20Grain%20Recipe%20Instructions.pdf">SoCo Best Bitter</a></li>
   <li class="recipe-item"><a href="recipe-pdfs/SoCo%20Black%20IPA%20All%20Grain%20Recipe%20Instructions.pdf">SoCo Black IPA</a></li>
   <li class="recipe-item"><a href="recipe-pdfs/SoCo%20Black%20Licorice%20Porter%20All%20Grain%20Recipe%20Instructions.pdf">SoCo Black Licorice Porter</a></li>
@@ -299,7 +299,7 @@ format: html
   <li class="recipe-item"><a href="recipe-pdfs/SoCo%20Faux%20Coffee%20Stout%20All%20Grain%20Recipe%20Instructions.pdf">SoCo Faux Coffee Stout</a></li>
   <li class="recipe-item"><a href="recipe-pdfs/SoCo%20Flying%20Kiwi%20All%20Grain%20Recipe%20Instructions.pdf">SoCo Flying Kiwi</a></li>
   <li class="recipe-item"><a href="recipe-pdfs/SoCo%20Gose%20All%20Grain%20Recipe%20Instructions.pdf">SoCo Gose</a></li>
-  <li class="recipe-item"><a href="recipe-pdfs/SoCo%20Gose%20Kettle%20Sour%20All%20Grain%20Recipe%20Sheet.pdf">SoCo Gose Kettle Sour All Grain Recipe Sheet</a></li>
+  <li class="recipe-item"><a href="recipe-pdfs/SoCo%20Gose%20Kettle%20Sour%20All%20Grain%20Recipe%20Sheet.pdf">SoCo Gose Kettle Sour</a></li>
   <li class="recipe-item"><a href="recipe-pdfs/SoCo%20Goud%20Belgian%20Pale%20Ale%20All%20Grain%20Recipe%20Instructions.pdf">SoCo Goud Belgian Pale Ale</a></li>
   <li class="recipe-item"><a href="recipe-pdfs/SoCo%20Grapefruit%20IPA%20All%20Grain%20Recipe%20Instructions.pdf">SoCo Grapefruit IPA</a></li>
   <li class="recipe-item"><a href="recipe-pdfs/SoCo%20Grodziskie%20All%20Grain%20Recipe%20Instructions.pdf">SoCo Grodziskie</a></li>
@@ -311,7 +311,7 @@ format: html
   <li class="recipe-item"><a href="recipe-pdfs/SoCo%20Imperial%20Blonde%20Ale%20All%20Grain%20Recipe%20Instructions.pdf">SoCo Imperial Blonde Ale</a></li>
   <li class="recipe-item"><a href="recipe-pdfs/SoCo%20Imperial%20Irish%20Red%20Ale%20All%20Grain%20Recipe%20Instructions.pdf">SoCo Imperial Irish Red Ale</a></li>
   <li class="recipe-item"><a href="recipe-pdfs/SoCo%20Imperial%20Nut%20Brown%20Ale%20All%20Grain%20Recipe%20Instructions.pdf">SoCo Imperial Nut Brown Ale</a></li>
-  <li class="recipe-item"><a href="recipe-pdfs/SoCo%20IPA%20IPA%20Double%20IPA%20All%20Grain%20Recipe%20Sheet.pdf">SoCo IPA IPA Double IPA All Grain Recipe Sheet</a></li>
+  <li class="recipe-item"><a href="recipe-pdfs/SoCo%20IPA%20IPA%20Double%20IPA%20All%20Grain%20Recipe%20Sheet.pdf">SoCo IPA IPA Double IPA</a></li>
   <li class="recipe-item"><a href="recipe-pdfs/SoCo%20Irish%20Extra%20Stout%20All%20Grain%20Recipe%20Instructions.pdf">SoCo Irish Extra Stout</a></li>
   <li class="recipe-item"><a href="recipe-pdfs/SoCo%20Irish%20Red%20All%20Grain%20Recipe%20Instructions.pdf">SoCo Irish Red</a></li>
   <li class="recipe-item"><a href="recipe-pdfs/SoCo%20Irish%20Stout%20All%20Grain%20Recipe%20Instructions.pdf">SoCo Irish Stout</a></li>
@@ -354,7 +354,7 @@ format: html
   <li class="recipe-item"><a href="recipe-pdfs/SoCo%20Rye%20Lager%20All%20Grain%20Recipe%20Instructions.pdf">SoCo Rye Lager</a></li>
   <li class="recipe-item"><a href="recipe-pdfs/SoCo%20Rye%20Pale%20All%20Grain%20Recipe%20Instructions.pdf">SoCo Rye Pale</a></li>
   <li class="recipe-item"><a href="recipe-pdfs/SoCo%20Rye%20Stout%20All%20Grain%20Recipe%20Instructions.pdf">SoCo Rye Stout</a></li>
-  <li class="recipe-item"><a href="recipe-pdfs/SoCo%20Sabro%20IPA%20All%20Grain%20Recipe%20Sheet.pdf">SoCo Sabro IPA All Grain Recipe Sheet</a></li>
+  <li class="recipe-item"><a href="recipe-pdfs/SoCo%20Sabro%20IPA%20All%20Grain%20Recipe%20Sheet.pdf">SoCo Sabro IPA</a></li>
   <li class="recipe-item"><a href="recipe-pdfs/SoCo%20Sasquatch%20Street%20Brown%20Ale%20All%20Grain%20Recipe%20Instructions.pdf">SoCo Sasquatch Street Brown Ale</a></li>
   <li class="recipe-item"><a href="recipe-pdfs/SoCo%20Schwarzbier%20All%20Grain%20Recipe%20Instructions.pdf">SoCo Schwarzbier</a></li>
   <li class="recipe-item"><a href="recipe-pdfs/SoCo%20Scottish%20Export%20All%20Grain%20Recipe%20Instructions.pdf">SoCo Scottish Export</a></li>
@@ -386,7 +386,7 @@ format: html
   <li class="recipe-item"><a href="recipe-pdfs/SoCo%20Texas%20Golden%20Ale%20All%20Grain%20Recipe%20Instructions.pdf">SoCo Texas Golden Ale</a></li>
   <li class="recipe-item"><a href="recipe-pdfs/SoCo%20Texas%20Hefeweizen%20All%20Grain%20Recipe%20Instructions.pdf">SoCo Texas Hefeweizen</a></li>
   <li class="recipe-item"><a href="recipe-pdfs/SoCo%20Texas%20IPA%20All%20Grain%20Recipe%20Instructions.pdf">SoCo Texas IPA</a></li>
-  <li class="recipe-item"><a href="recipe-pdfs/SoCo%20Texas%20Juicy%20IPA%20All%20Grain%20Recipe%20Sheet.pdf">SoCo Texas Juicy IPA All Grain Recipe Sheet</a></li>
+  <li class="recipe-item"><a href="recipe-pdfs/SoCo%20Texas%20Juicy%20IPA%20All%20Grain%20Recipe%20Sheet.pdf">SoCo Texas Juicy IPA</a></li>
   <li class="recipe-item"><a href="recipe-pdfs/SoCo%20Texas%20Kolsch%20All%20Grain%20Recipe%20Instructions.pdf">SoCo Texas Kolsch</a></li>
   <li class="recipe-item"><a href="recipe-pdfs/SoCo%20Texas%20Mosaic%20IPA%20All%20Grain%20Recipe%20Instructions.pdf">SoCo Texas Mosaic IPA</a></li>
   <li class="recipe-item"><a href="recipe-pdfs/SoCo%20Texas%20Pale%20Ale%20All%20Grain%20Recipe%20Instructions.pdf">SoCo Texas Pale Ale</a></li>
@@ -415,11 +415,11 @@ format: html
   <li class="recipe-item"><a href="recipe-pdfs/SoCo%20Yellow%20Bells%20Juicy%20NEIPA%20All%20Grain%20Recipe%20Instructions.pdf">SoCo Yellow Bells Juicy NEIPA</a></li>
   <li class="recipe-item"><a href="recipe-pdfs/SoCo%20Yodeling%20Coyote%20Oktoberfest%20All%20Grain%20Recipe%20Instructions.pdf">SoCo Yodeling Coyote Oktoberfest</a></li>
   <li class="recipe-item"><a href="recipe-pdfs/SoCo%20Zilker%20Park%20Pale%20All%20Grain%20Recipe%20Instructions.pdf">SoCo Zilker Park Pale</a></li>
-  <li class="recipe-item"><a href="recipe-pdfs/SoCo-Fastest-IPA-in-the-Galaxy-All-Grain-Recipe.pdf">SoCo-Fastest-IPA-in-the-Galaxy-All-Grain-Recipe</a></li>
+  <li class="recipe-item"><a href="recipe-pdfs/SoCo-Fastest-IPA-in-the-Galaxy-All-Grain-Recipe.pdf">SoCo-Fastest-IPA-in-the-Galaxy</a></li>
   <li class="recipe-item"><a href="recipe-pdfs/South%20Austins%20Best%20Bitter%20All%20Grain%20Recipe%20Instructions.pdf">South Austins Best Bitter</a></li>
   <li class="recipe-item"><a href="recipe-pdfs/Squawking%20Parrot%20IPA%20All%20Grain%20Recipe%20Instructions.pdf">Squawking Parrot IPA</a></li>
   <li class="recipe-item"><a href="recipe-pdfs/Stalwart%20Bulldog%20ESB%20All%20Grain%20Recipe%20Instructions.pdf">Stalwart Bulldog ESB</a></li>
-  <li class="recipe-item"><a href="recipe-pdfs/Stein%20Half%20Full%20Oktoberfest%20All%20Grain%20Recipe%20V2.pdf">Stein Half Full Oktoberfest All Grain Recipe V2</a></li>
+  <li class="recipe-item"><a href="recipe-pdfs/Stein%20Half%20Full%20Oktoberfest%20All%20Grain%20Recipe%20V2.pdf">Stein Half Full Oktoberfest</a></li>
   <li class="recipe-item"><a href="recipe-pdfs/Strawberry%20Milk%20Stout%20All%20Grain%20Recipe%20Instructions.pdf">Strawberry Milk Stout</a></li>
   <li class="recipe-item"><a href="recipe-pdfs/Summer%20Waves%20All%20Grain%20Recipe%20Instructions.pdf">Summer Waves</a></li>
   <li class="recipe-item"><a href="recipe-pdfs/Superdelic%20Pale%20Ale%20All%20Grain%20Recipe%20Instructions.pdf">Superdelic Pale Ale</a></li>

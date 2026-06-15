@@ -1,5 +1,5 @@
 ---
-title: "Prompt: extract"
+title: "Prompt: Extract PDFs"
 format: html
 ---
 

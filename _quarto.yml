@@ -3,6 +3,8 @@ project:
   render:
   - "!x-*.qmd"
   - "*.qmd"
+  post-render:
+    - R/copy-pa-conversations.R
 
 website:
   title: "Beer recipes"

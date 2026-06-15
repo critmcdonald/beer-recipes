@@ -1,282 +1,232 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "All Grain Beer Recipes",
+    "objectID": "pa-scrape.html",
+    "href": "pa-scrape.html",
+    "title": "Promt: Scrape",
     "section": "",
-    "text": "This is a work in progress to create a website to preserved SoCo Homebrew All Grain recipes before the store closes.\nThe recipes are saved as PDFs.\nThere are several organizations of the same recipes:",
+    "text": "I want to scrape all of the all grain recipes from SoCo Homebrew. I’ll walk you through how I want to approach this.",
     "crumbs": [
-      "Home"
+      "pa-scrape"
     ]
   },
   {
-    "objectID": "index.html#future-work",
-    "href": "index.html#future-work",
-    "title": "All Grain Beer Recipes",
-    "section": "Future work?",
-    "text": "Future work?\n\nI’d like the scrape the main information from the pdfs and create a simple Quarto page for each recipe.\nAnd/or make a database.",
+    "objectID": "pa-scrape.html#get-the-urls-for-individual-recipe-order-pages",
+    "href": "pa-scrape.html#get-the-urls-for-individual-recipe-order-pages",
+    "title": "Promt: Scrape",
+    "section": "Get the urls for individual recipe order pages",
+    "text": "Get the urls for individual recipe order pages\nThis is the URL that stats listing all the recipe pages:\nAll Grain Recipe Kits\nOn that page there are some images that link to groups of recipes. I don’t want those pages. But after the dropdown that says “Featured Items” there starts a list of each recipe’s order page. We’ll want to collect the URL for each of those pages.\nAt the bottom of the page is a link to advance to the next page, with a URL like this: Page 2. There are 15 such pages. We want the URLs for recipe listed on all 15 pages.",
     "crumbs": [
-      "Home"
+      "pa-scrape"
     ]
   },
   {
-    "objectID": "index.html#how-this-was-done",
-    "href": "index.html#how-this-was-done",
-    "title": "All Grain Beer Recipes",
-    "section": "How this was done",
-    "text": "How this was done\nI used Posit Assistant (AI) to build the scraper and make most of the indexes.",
+    "objectID": "pa-scrape.html#find-and-download-the-recipe-pdf",
+    "href": "pa-scrape.html#find-and-download-the-recipe-pdf",
+    "title": "Promt: Scrape",
+    "section": "Find and download the recipe PDF",
+    "text": "Find and download the recipe PDF\nHere is an example url for the recipe order page.\nOne that page is a text leadin “Recipe Sheet Download” with hyperlinked text right after it. That text changes for each recipe, but it links to the PDF for that individual recipe.\nFor each recipe order page, I want that PDF downloaded into a folder called recipe-pdfs.\nI want you to wait 2 seconds between each download.\nBuild the scraper using the rvest package in the page called 01-scrape.qmd",
     "crumbs": [
-      "Home"
+      "pa-scrape"
     ]
   },
   {
-    "objectID": "03-recipes-filter.html",
-    "href": "03-recipes-filter.html",
-    "title": "Recipe (Filter)",
+    "objectID": "pa-extract.html",
+    "href": "pa-extract.html",
+    "title": "Prompt: extract",
     "section": "",
-    "text": "2 · A · B · C · D · E · F · G · H · I · J · L · M · N · O · P · R · S · T · V · W · Y · Z\n\n\n\n2\n\n  22nd State Amber Ale\n\n\n\n\nA\n\n  A to CTZ IPA\n  Amarillo Pale Ale - SHS\n  Amberlievable Amber Ale\n  Apollo Single Hop Pale Ale\n  Appalled Apollo IPA\n  Azacca Pale Ale\n\n\n\n\nB\n\n  Beans The Elf Christmas Ale\n  Biscuits and Jam ESB\n  Bitter Butler\n  Bitter Texan IPA\n  Blackberry Witbier\n  Bourbon Barrel Porter\n  British Sunset Golden Ale\n  Butlers Irish Red Ale\n\n\n\n\nC\n\n  Cashmere Blonde Ale\n  Chinook IPA\n  Christmas Porter\n  Cluster SMaSH Pale Ale\n  Coconut Hefeweizen\n  Cruisin Canoe IPA\n\n\n\n\nD\n\n  Dark Chocolate Strawberry Stout\n  Dillo Trolley Pale Ale\n  Dry Hop Blonde Ale\n  Dunkles Bock\n\n\n\n\nE\n\n  Elani Pale Ale\n  English Pale Ale\n\n\n\n\nF\n\n  Frayed Aglet IPA\n  Fruity McCutie Juicy IPA\n\n\n\n\nG\n\n  Glaring Grackle Imperial Stout\n  Granite Dome Oat Stout\n\n\n\n\nH\n\n  Haze Austin Juicy NEIPA\n\n\n\n\nI\n\n  Imperial Bourbon Barrel Chocolate Stout\n\n\n\n\nJ\n\n  Janets Brown Ale\n  Jollyville Red Ale\n\n\n\n\nL\n\n  Lake Buchana IPA\n  Lake Travis IPA\n  Lemondrop Blonde Ale\n  Lofty Loblolly IPA\n  Lonely Pier Wheat Ale\n\n\n\n\nM\n\n  Mad Jacks Hoppy Amber Ale\n  Mars the Duck Oat Pale Ale\n  Mosaic & Citra Pale Ale\n\n\n\n\nN\n\n  Nearly Nirvana\n  Nectaron & Elani IPA\n  Nectaron IPA\n  Nectaron Pale Ale\n  New House English Brown Ale\n  New Zealand Blonde Ale\n  New Zealand IPA\n\n\n\n\nO\n\n  Oat Dear I Created A Maltster Oat Stout\n  Oat of Luck\n  Oatmeal Pale Ale\n\n\n\n\nP\n\n  Pacific Coast Juicy IPA\n  Plodding Bear Porter\n  Pool Floatie Amber Ale\n\n\n\n\nR\n\n  Rooftop Sunbathing NEIPA\n\n\n\n\nS\n\n  Sabro Pale Ale\n  SandyPupJuicyIPA_AllGrain\n  Seaside Ride\n  SoCo 120 Shilling\n  SoCo 60 Shilling\n  SoCo 70 Shilling\n  SoCo 80 Shilling\n  SoCo 90 Shilling\n  SoCo Ahoy Wheaty Wheat Ale\n  SoCo Amarillo Armadillo\n  SoCo Amarillo IPA\n  SoCo Amber Hue\n  SoCo Amberserk Amber Ale\n  SoCo American Amber Ale\n  SoCo American Barleywine\n  SoCo American Brown\n  SoCo American Hefeweizen\n  SoCo American Red Ale\n  SoCo American Rye Ale\n  SoCo American Strong Ale\n  SoCo American Wheat\n  SoCo Anniversary IPA\n  SoCo Apricot Saison\n  SoCo Apricot Wheat Ale\n  SoCo Australian Sparkling Ale\n  SoCo Bat Bridge Black IPA\n  SoCo Bavarian Hefeweizen\n  SoCo Beach Lounger Amber\n  SoCo Belgian Dark Strong\n  SoCo Belgian Dubbel\n  SoCo Belgian IPA\n  SoCo Belgian Pale Ale\n  SoCo Belgian Saison\n  SoCo Belgian Stout\n  SoCo Belgian Tripel\n  SoCo Berliner Weisse Advanced\n  SoCo Berliner Weisse Easy\n  SoCo Best Bitter\n  SoCo Black IPA\n  SoCo Black Licorice Porter\n  SoCo Blackberry Blonde Ale\n  SoCo Blackberry Wheat Ale\n  SoCo Blonde\n  SoCo Blueberry Blonde Ale\n  SoCo Blueberry Wheat Ale\n  SoCo Breezy Nights Black Ale\n  SoCo British Golden Ale\n  SoCo British Strong Ale\n  SoCo Brown IPA\n  SoCo Brown Porter\n  SoCo California Common\n  SoCo Cascadian Dark Ale\n  SoCo Centennial IPA\n  SoCo Chocolate Milk Stout\n  SoCo Chocolate Porter\n  SoCo Chocolate Stout\n  SoCo Christmas IPA\n  SoCo Citra Amarillo NEIPA\n  SoCo Citra Blonde Ale\n  SoCo Citra IPA\n  SoCo Citra Juicy NEIPA\n  SoCo Citra Pale Ale\n  SoCo Citra SMaSH IPA\n  SoCo CitSim\n  SoCo Coconut Porter\n  SoCo Coconut Wheat Ale\n  SoCo Columbus IPA\n  SoCo Dark Mild\n  SoCo Dark Wheat\n  SoCo Doppelbock\n  SoCo Double Brown Ale\n  SoCo Double Chocolate Stout\n  SoCo Double Wit\n  SoCo Dunkelweizen\n  SoCo Eclipse Black Blonde Ale\n  SoCo Eclipse Black IPA\n  SoCo English Barleywine\n  SoCo English Brown\n  SoCo English IPA\n  SoCo English Porter\n  SoCo ESB\n  SoCo Falconers Flight Pale Ale\n  SoCo Faux Coffee Stout\n  SoCo Flying Kiwi\n  SoCo Gose\n  SoCo Gose Kettle Sour\n  SoCo Goud Belgian Pale Ale\n  SoCo Grapefruit IPA\n  SoCo Grodziskie\n  SoCo Hefeweizen\n  SoCo Holiday Stout\n  SoCo Honey Badger Brown\n  SoCo Honey Wheat\n  SoCo Hoppy Wheat\n  SoCo Imperial Blonde Ale\n  SoCo Imperial Irish Red Ale\n  SoCo Imperial Nut Brown Ale\n  SoCo IPA IPA Double IPA\n  SoCo Irish Extra Stout\n  SoCo Irish Red\n  SoCo Irish Stout\n  SoCo Island Chicken Pale Ale\n  SoCo Leaky Tent Stout\n  SoCo Light Blonde Ale\n  SoCo London Brown\n  SoCo Maddies English Porter\n  SoCo McKinney Falls\n  SoCo Menchaca Hefeweizen\n  SoCo Milk Stout\n  SoCo Milkshake IPA (1)\n  SoCo Moontower White\n  SoCo Mosaic SMaSH IPA\n  SoCo Mugwort Lemon Gruit\n  SoCo Mugwort Red Ale\n  SoCo Nut Brown\n  SoCo Oat Stout\n  SoCo Oatmeal Brown Ale\n  SoCo Oktoberfest\n  SoCo Old Ale\n  SoCo Ordinary Bitter\n  SoCo Passion Fruit Saison\n  SoCo Patersbier\n  SoCo Pecan Brown Ale\n  SoCo Pecan Porter\n  SoCo Pennybacker Double IPA\n  SoCo Peppermint Chocolate Milk Stout\n  SoCo Pink Boots Society Red Ale\n  SoCo Porter\n  SoCo Raspberry Blonde\n  SoCo Raspberry Wheat Ale\n  SoCo Red APA\n  SoCo Red Hot Red Ale\n  SoCo Red IPA\n  SoCo Red Ryerson Roggenbier\n  SoCo Robust Porter\n  SoCo Russian Imperial Stout\n  SoCo Rye IPA\n  SoCo Rye Lager\n  SoCo Rye Pale\n  SoCo Rye Stout\n  SoCo Sabro IPA\n  SoCo Sasquatch Street Brown Ale\n  SoCo Schwarzbier\n  SoCo Scottish Export\n  SoCo Scottish Heavy\n  SoCo Scottish Light\n  SoCo Serendipitous Citrus\n  SoCo SimCitIPA\n  SoCo Simcoe IPA\n  SoCo Simcoe Pale Ale\n  SoCo Simcoe SMaSH IPA\n  SoCo Smoky Brown Ale\n  SoCo Smoky Porter\n  SoCo South Lamar IPA\n  SoCo Spiced IPA\n  SoCo Spiced Porter\n  SoCo Spiced Stout\n  SoCo Strata Pale Ale\n  SoCo Strawberry Blonde Ale\n  SoCo Strawberry Wheat\n  SoCo Strong Amber Ale\n  SoCo Strong American Porter\n  SoCo Strong Scotch Ale\n  SoCo Strong Winter Ale\n  SoCo Summer Wheat\n  SoCo Texas Amber Ale\n  SoCo Texas Blonde Ale\n  SoCo Texas Brown Ale\n  SoCo Texas Citra IPA\n  SoCo Texas Golden Ale\n  SoCo Texas Hefeweizen\n  SoCo Texas IPA\n  SoCo Texas Juicy IPA\n  SoCo Texas Kolsch\n  SoCo Texas Mosaic IPA\n  SoCo Texas Pale Ale\n  SoCo Texas Porter\n  SoCo Texas Red Ale\n  SoCo Texas Stout\n  SoCo Texas Strong Ale\n  SoCo The Hard Way\n  SoCo Town Lake IPA\n  SoCo Tropical Stout\n  SoCo Vanilla Cream Porter\n  SoCo Vic Secret Pale Ale\n  SoCo Vienna Lager\n  SoCo Vista IPA\n  SoCo Wandering Egret Amber Ale\n  SoCo Warm Winter\n  SoCo Watermelon Blonde\n  SoCo West Coast IPA\n  SoCo West Coast Pale\n  SoCo Wheatwine\n  SoCo Whiskey Barrel Stout\n  SoCo White Chocolate Blonde Ale\n  SoCo White Stout\n  SoCo Whole Lotta Citrus NEIPA\n  SoCo Witbier\n  SoCo Yellow Bells Juicy NEIPA\n  SoCo Yodeling Coyote Oktoberfest\n  SoCo Zilker Park Pale\n  SoCo-Fastest-IPA-in-the-Galaxy\n  South Austins Best Bitter\n  Squawking Parrot IPA\n  Stalwart Bulldog ESB\n  Stein Half Full Oktoberfest\n  Strawberry Milk Stout\n  Summer Waves\n  Superdelic Pale Ale\n\n\n\n\nT\n\n  Talus Pale Ale\n  Texas Best Bitter\n  Texas Christmas Red Ale\n  Texas Dunkelweizen\n  Texas Milk Stout\n  Texas Oat Stout\n  Texas Pilsner\n  Texas Style Irish Stout\n  TexasBigtooth Amber Ale\n  Tops For The Win Pale Ale\n  Tree Bench Brown Ale\n  Tropical Heavens IPA\n  Turtle Pile Golden Ale\n  Two Z's IPA\n\n\n\n\nV\n\n  Vienna Amber\n\n\n\n\nW\n\n  Wauterss Belgian Dubbel\n  West Coast Blonde Ale\n  West Coast Lager\n  Wheatys Comet\n  Winter Red Ale\n\n\n\n\nY\n\n  You Had Me At Amber Ale\n\n\n\n\nZ\n\n  Zappa IPA\n\n\n\nNo recipes match your search.",
+    "text": "I have a collection of beer recipes as PDFs. I want to extract some specific information from each PDF and save it in a csv file.\nMost of the PDFs are structured the same, but I know there are at least some that are different.\nHere is the information I want to save. I’m using the recipe “22nd State Amber Ale All Grain Recipe Instructions” as an example:\n\nThe recipe name. It’s in a box at the top of the page, under the SoCo Homebrew logo. Like “22nd State Amber Ale”\nAll the grains listed under “The Mash”. They are in a table after the text “Your kit will contain the following grain:”. You can put all the ingredients in the same field, separated by returns.\nIn the “Adding the Hops” portion, there are three tables to list hops: for bittering, flavor and aroma. I want those listed as three separate fields. If there is more than one item in one of these tables, keep them in the same field, separated by returns.\nI want to record the “original specific gravity”. It is usually a number, like “1.051”\nUnder pitching your yeast, there is a table that includes different yeasts. For each yeast there is usually a manufacturer like “White Labs” and then the style like “California Ale V 051”. You can put them together like this: “White Labs California Ale V 051”. Include all the yeast varieties in the same cell, separated by returns.\nUnder “Dry Hopping” I want all the hops listed here in the same cell, similar to others with more than one ingredient.\nI want to record the “final specific gravity”. It is usually a number, like “1.012”.\nThe last thing to record is “Flavoring to add before bottling”. If the table or box says only “No Flavoring”, then leave it blank. Otherwise list the ingredient with returns between multiple ingredients.\n\nLet’s do a single one and check it before doing the other 200+ PDFs.",
     "crumbs": [
-      "Recipe (Filter)"
+      "x-extract"
     ]
   },
   {
-    "objectID": "01-recipes-alpha.html",
-    "href": "01-recipes-alpha.html",
-    "title": "Recipes (Alpha)",
+    "objectID": "pa-extract.html#original-prompt",
+    "href": "pa-extract.html#original-prompt",
+    "title": "Prompt: extract",
     "section": "",
-    "text": "22nd State Amber Ale",
+    "text": "I have a collection of beer recipes as PDFs. I want to extract some specific information from each PDF and save it in a csv file.\nMost of the PDFs are structured the same, but I know there are at least some that are different.\nHere is the information I want to save. I’m using the recipe “22nd State Amber Ale All Grain Recipe Instructions” as an example:\n\nThe recipe name. It’s in a box at the top of the page, under the SoCo Homebrew logo. Like “22nd State Amber Ale”\nAll the grains listed under “The Mash”. They are in a table after the text “Your kit will contain the following grain:”. You can put all the ingredients in the same field, separated by returns.\nIn the “Adding the Hops” portion, there are three tables to list hops: for bittering, flavor and aroma. I want those listed as three separate fields. If there is more than one item in one of these tables, keep them in the same field, separated by returns.\nI want to record the “original specific gravity”. It is usually a number, like “1.051”\nUnder pitching your yeast, there is a table that includes different yeasts. For each yeast there is usually a manufacturer like “White Labs” and then the style like “California Ale V 051”. You can put them together like this: “White Labs California Ale V 051”. Include all the yeast varieties in the same cell, separated by returns.\nUnder “Dry Hopping” I want all the hops listed here in the same cell, similar to others with more than one ingredient.\nI want to record the “final specific gravity”. It is usually a number, like “1.012”.\nThe last thing to record is “Flavoring to add before bottling”. If the table or box says only “No Flavoring”, then leave it blank. Otherwise list the ingredient with returns between multiple ingredients.\n\nLet’s do a single one and check it before doing the other 200+ PDFs.",
     "crumbs": [
-      "Recipes (Alpha)"
+      "x-extract"
     ]
   },
   {
-    "objectID": "01-recipes-alpha.html#section",
-    "href": "01-recipes-alpha.html#section",
-    "title": "Recipes (Alpha)",
+    "objectID": "pa-extract.html#followup-prompts",
+    "href": "pa-extract.html#followup-prompts",
+    "title": "Prompt: extract",
+    "section": "Followup prompts",
+    "text": "Followup prompts\nWhen it finished, it suggested some tests, or to run and look for NAs, or to just go for it. I said: “Test on a few more PDFs — especially ones that look different — before committing to the full batch.”\nAt this point I was about out of my free credits, so I just wanted a good place to stop so I could do some manual work: “You found there were two different layouts for the PDFs and did a fairly good job of parsing both. The most common one is great, but I need to hand-check the alternative layout. Can you make me a list of the recipes that have the alternative layouts so I can check them?”\nIt found them and then saved as a csv so I could refer to it.",
+    "crumbs": [
+      "x-extract"
+    ]
+  },
+  {
+    "objectID": "04-recipes-by-style.html",
+    "href": "04-recipes-by-style.html",
+    "title": "Recipes (Style)",
     "section": "",
-    "text": "22nd State Amber Ale",
+    "text": "A to CTZ IPA\nAppalled Apollo IPA\nBitter Texan IPA\nChinook IPA\nCruisin Canoe IPA\nFrayed Aglet IPA\nFruity McCutie Juicy IPA\nHaze Austin Juicy NEIPA\nLake Buchana IPA\nLake Travis IPA\nLofty Loblolly IPA\nNectaron & Elani IPA\nNectaron IPA\nNew Zealand IPA\nPacific Coast Juicy IPA\nRooftop Sunbathing NEIPA\nSandyPupJuicyIPA_AllGrain\nSoCo Amarillo IPA\nSoCo Anniversary IPA\nSoCo Bat Bridge Black IPA\nSoCo Belgian IPA\nSoCo Black IPA\nSoCo Brown IPA\nSoCo Cascadian Dark Ale\nSoCo Centennial IPA\nSoCo Christmas IPA\nSoCo Citra Amarillo NEIPA\nSoCo Citra IPA\nSoCo Citra Juicy NEIPA\nSoCo Citra SMaSH IPA\nSoCo CitSim\nSoCo Columbus IPA\nSoCo Eclipse Black IPA\nSoCo English IPA\nSoCo Grapefruit IPA\nSoCo IPA IPA Double IPA\nSoCo Milkshake IPA (1)\nSoCo Mosaic SMaSH IPA\nSoCo Pennybacker Double IPA\nSoCo Red IPA\nSoCo Rye IPA\nSoCo Sabro IPA\nSoCo SimCitIPA\nSoCo Simcoe IPA\nSoCo Simcoe SMaSH IPA\nSoCo South Lamar IPA\nSoCo Spiced IPA\nSoCo Texas Citra IPA\nSoCo Texas IPA\nSoCo Texas Juicy IPA\nSoCo Texas Mosaic IPA\nSoCo Town Lake IPA\nSoCo Vista IPA\nSoCo West Coast IPA\nSoCo Whole Lotta Citrus NEIPA\nSoCo Yellow Bells Juicy NEIPA\nSoCo-Fastest-IPA-in-the-Galaxy\nSquawking Parrot IPA\nTropical Heavens IPA\nTwo Z’s IPA\nZappa IPA",
     "crumbs": [
-      "Recipes (Alpha)"
+      "Recipes (Style)"
     ]
   },
   {
-    "objectID": "01-recipes-alpha.html#a",
-    "href": "01-recipes-alpha.html#a",
-    "title": "Recipes (Alpha)",
-    "section": "A",
-    "text": "A\n\nA to CTZ IPA\nAmarillo Pale Ale - SHS\nAmberlievable Amber Ale\nApollo Single Hop Pale Ale\nAppalled Apollo IPA\nAzacca Pale Ale",
+    "objectID": "04-recipes-by-style.html#ipas",
+    "href": "04-recipes-by-style.html#ipas",
+    "title": "Recipes (Style)",
+    "section": "",
+    "text": "A to CTZ IPA\nAppalled Apollo IPA\nBitter Texan IPA\nChinook IPA\nCruisin Canoe IPA\nFrayed Aglet IPA\nFruity McCutie Juicy IPA\nHaze Austin Juicy NEIPA\nLake Buchana IPA\nLake Travis IPA\nLofty Loblolly IPA\nNectaron & Elani IPA\nNectaron IPA\nNew Zealand IPA\nPacific Coast Juicy IPA\nRooftop Sunbathing NEIPA\nSandyPupJuicyIPA_AllGrain\nSoCo Amarillo IPA\nSoCo Anniversary IPA\nSoCo Bat Bridge Black IPA\nSoCo Belgian IPA\nSoCo Black IPA\nSoCo Brown IPA\nSoCo Cascadian Dark Ale\nSoCo Centennial IPA\nSoCo Christmas IPA\nSoCo Citra Amarillo NEIPA\nSoCo Citra IPA\nSoCo Citra Juicy NEIPA\nSoCo Citra SMaSH IPA\nSoCo CitSim\nSoCo Columbus IPA\nSoCo Eclipse Black IPA\nSoCo English IPA\nSoCo Grapefruit IPA\nSoCo IPA IPA Double IPA\nSoCo Milkshake IPA (1)\nSoCo Mosaic SMaSH IPA\nSoCo Pennybacker Double IPA\nSoCo Red IPA\nSoCo Rye IPA\nSoCo Sabro IPA\nSoCo SimCitIPA\nSoCo Simcoe IPA\nSoCo Simcoe SMaSH IPA\nSoCo South Lamar IPA\nSoCo Spiced IPA\nSoCo Texas Citra IPA\nSoCo Texas IPA\nSoCo Texas Juicy IPA\nSoCo Texas Mosaic IPA\nSoCo Town Lake IPA\nSoCo Vista IPA\nSoCo West Coast IPA\nSoCo Whole Lotta Citrus NEIPA\nSoCo Yellow Bells Juicy NEIPA\nSoCo-Fastest-IPA-in-the-Galaxy\nSquawking Parrot IPA\nTropical Heavens IPA\nTwo Z’s IPA\nZappa IPA",
     "crumbs": [
-      "Recipes (Alpha)"
+      "Recipes (Style)"
     ]
   },
   {
-    "objectID": "01-recipes-alpha.html#b",
-    "href": "01-recipes-alpha.html#b",
-    "title": "Recipes (Alpha)",
-    "section": "B",
-    "text": "B\n\nBeans The Elf Christmas Ale\nBiscuits and Jam ESB\nBitter Butler\nBitter Texan IPA\nBlackberry Witbier\nBourbon Barrel Porter\nBritish Sunset Golden Ale\nButlers Irish Red Ale",
+    "objectID": "04-recipes-by-style.html#pale-ales",
+    "href": "04-recipes-by-style.html#pale-ales",
+    "title": "Recipes (Style)",
+    "section": "Pale Ales",
+    "text": "Pale Ales\n\nAmarillo Pale Ale - SHS\nApollo Single Hop Pale Ale\nAzacca Pale Ale\nCluster SMaSH Pale Ale\nDillo Trolley Pale Ale\nElani Pale Ale\nEnglish Pale Ale\nMars the Duck Oat Pale Ale\nMosaic & Citra Pale Ale\nNectaron Pale Ale\nOatmeal Pale Ale\nSabro Pale Ale\nSoCo Citra Pale Ale\nSoCo Falconers Flight Pale Ale\nSoCo Island Chicken Pale Ale\nSoCo Red APA\nSoCo Rye Pale\nSoCo Simcoe Pale Ale\nSoCo Strata Pale Ale\nSoCo Texas Pale Ale\nSoCo Vic Secret Pale Ale\nSoCo West Coast Pale\nSoCo Zilker Park Pale\nSuperdelic Pale Ale\nTalus Pale Ale\nTops For The Win Pale Ale",
     "crumbs": [
-      "Recipes (Alpha)"
+      "Recipes (Style)"
     ]
   },
   {
-    "objectID": "01-recipes-alpha.html#c",
-    "href": "01-recipes-alpha.html#c",
-    "title": "Recipes (Alpha)",
-    "section": "C",
-    "text": "C\n\nCashmere Blonde Ale\nChinook IPA\nChristmas Porter\nCluster SMaSH Pale Ale\nCoconut Hefeweizen\nCruisin Canoe IPA",
+    "objectID": "04-recipes-by-style.html#amber-red-ales",
+    "href": "04-recipes-by-style.html#amber-red-ales",
+    "title": "Recipes (Style)",
+    "section": "Amber & Red Ales",
+    "text": "Amber & Red Ales\n\n22nd State Amber Ale\nAmberlievable Amber Ale\nButlers Irish Red Ale\nJollyville Red Ale\nMad Jacks Hoppy Amber Ale\nPool Floatie Amber Ale\nSoCo Amber Hue\nSoCo Amberserk Amber Ale\nSoCo American Amber Ale\nSoCo American Red Ale\nSoCo Beach Lounger Amber\nSoCo Imperial Irish Red Ale\nSoCo Irish Red\nSoCo Pink Boots Society Red Ale\nSoCo Red Hot Red Ale\nSoCo Strong Amber Ale\nSoCo Texas Amber Ale\nSoCo Texas Red Ale\nSoCo Wandering Egret Amber Ale\nTexasBigtooth Amber Ale\nVienna Amber\nYou Had Me At Amber Ale",
     "crumbs": [
-      "Recipes (Alpha)"
+      "Recipes (Style)"
     ]
   },
   {
-    "objectID": "01-recipes-alpha.html#d",
-    "href": "01-recipes-alpha.html#d",
-    "title": "Recipes (Alpha)",
-    "section": "D",
-    "text": "D\n\nDark Chocolate Strawberry Stout\nDillo Trolley Pale Ale\nDry Hop Blonde Ale\nDunkles Bock",
+    "objectID": "04-recipes-by-style.html#blonde-golden-ales",
+    "href": "04-recipes-by-style.html#blonde-golden-ales",
+    "title": "Recipes (Style)",
+    "section": "Blonde & Golden Ales",
+    "text": "Blonde & Golden Ales\n\nBritish Sunset Golden Ale\nCashmere Blonde Ale\nDry Hop Blonde Ale\nLemondrop Blonde Ale\nNew Zealand Blonde Ale\nSoCo Blackberry Blonde Ale\nSoCo Blonde\nSoCo Blueberry Blonde Ale\nSoCo British Golden Ale\nSoCo Citra Blonde Ale\nSoCo Eclipse Black Blonde Ale\nSoCo Imperial Blonde Ale\nSoCo Light Blonde Ale\nSoCo Raspberry Blonde\nSoCo Strawberry Blonde Ale\nSoCo Texas Blonde Ale\nSoCo Texas Golden Ale\nSoCo Watermelon Blonde\nSoCo White Chocolate Blonde Ale\nTurtle Pile Golden Ale\nWest Coast Blonde Ale",
     "crumbs": [
-      "Recipes (Alpha)"
+      "Recipes (Style)"
     ]
   },
   {
-    "objectID": "01-recipes-alpha.html#e",
-    "href": "01-recipes-alpha.html#e",
-    "title": "Recipes (Alpha)",
-    "section": "E",
-    "text": "E\n\nElani Pale Ale\nEnglish Pale Ale",
+    "objectID": "04-recipes-by-style.html#brown-ales",
+    "href": "04-recipes-by-style.html#brown-ales",
+    "title": "Recipes (Style)",
+    "section": "Brown Ales",
+    "text": "Brown Ales\n\nJanets Brown Ale\nNew House English Brown Ale\nSoCo American Brown\nSoCo Dark Mild\nSoCo Double Brown Ale\nSoCo English Brown\nSoCo Honey Badger Brown\nSoCo Imperial Nut Brown Ale\nSoCo London Brown\nSoCo Nut Brown\nSoCo Oatmeal Brown Ale\nSoCo Pecan Brown Ale\nSoCo Sasquatch Street Brown Ale\nSoCo Smoky Brown Ale\nSoCo Texas Brown Ale\nTree Bench Brown Ale",
     "crumbs": [
-      "Recipes (Alpha)"
+      "Recipes (Style)"
     ]
   },
   {
-    "objectID": "01-recipes-alpha.html#f",
-    "href": "01-recipes-alpha.html#f",
-    "title": "Recipes (Alpha)",
-    "section": "F",
-    "text": "F\n\nFrayed Aglet IPA\nFruity McCutie Juicy IPA",
+    "objectID": "04-recipes-by-style.html#stouts",
+    "href": "04-recipes-by-style.html#stouts",
+    "title": "Recipes (Style)",
+    "section": "Stouts",
+    "text": "Stouts\n\nDark Chocolate Strawberry Stout\nGlaring Grackle Imperial Stout\nGranite Dome Oat Stout\nImperial Bourbon Barrel Chocolate Stout\nOat Dear I Created A Maltster Oat Stout\nSoCo Belgian Stout\nSoCo Chocolate Milk Stout\nSoCo Chocolate Stout\nSoCo Double Chocolate Stout\nSoCo Faux Coffee Stout\nSoCo Holiday Stout\nSoCo Irish Extra Stout\nSoCo Irish Stout\nSoCo Leaky Tent Stout\nSoCo Milk Stout\nSoCo Oat Stout\nSoCo Peppermint Chocolate Milk Stout\nSoCo Russian Imperial Stout\nSoCo Rye Stout\nSoCo Spiced Stout\nSoCo Texas Stout\nSoCo Tropical Stout\nSoCo Whiskey Barrel Stout\nSoCo White Stout\nStrawberry Milk Stout\nTexas Milk Stout\nTexas Oat Stout\nTexas Style Irish Stout",
     "crumbs": [
-      "Recipes (Alpha)"
+      "Recipes (Style)"
     ]
   },
   {
-    "objectID": "01-recipes-alpha.html#g",
-    "href": "01-recipes-alpha.html#g",
-    "title": "Recipes (Alpha)",
-    "section": "G",
-    "text": "G\n\nGlaring Grackle Imperial Stout\nGranite Dome Oat Stout",
+    "objectID": "04-recipes-by-style.html#porters",
+    "href": "04-recipes-by-style.html#porters",
+    "title": "Recipes (Style)",
+    "section": "Porters",
+    "text": "Porters\n\nBourbon Barrel Porter\nChristmas Porter\nPlodding Bear Porter\nSoCo Black Licorice Porter\nSoCo Brown Porter\nSoCo Chocolate Porter\nSoCo Coconut Porter\nSoCo English Porter\nSoCo Maddies English Porter\nSoCo Pecan Porter\nSoCo Porter\nSoCo Robust Porter\nSoCo Smoky Porter\nSoCo Spiced Porter\nSoCo Strong American Porter\nSoCo Texas Porter\nSoCo Vanilla Cream Porter",
     "crumbs": [
-      "Recipes (Alpha)"
+      "Recipes (Style)"
     ]
   },
   {
-    "objectID": "01-recipes-alpha.html#h",
-    "href": "01-recipes-alpha.html#h",
-    "title": "Recipes (Alpha)",
-    "section": "H",
-    "text": "H\n\nHaze Austin Juicy NEIPA",
+    "objectID": "04-recipes-by-style.html#wheat-beers-hefeweizens",
+    "href": "04-recipes-by-style.html#wheat-beers-hefeweizens",
+    "title": "Recipes (Style)",
+    "section": "Wheat Beers & Hefeweizens",
+    "text": "Wheat Beers & Hefeweizens\n\nBlackberry Witbier\nCoconut Hefeweizen\nLonely Pier Wheat Ale\nSoCo Ahoy Wheaty Wheat Ale\nSoCo American Hefeweizen\nSoCo American Wheat\nSoCo Apricot Wheat Ale\nSoCo Bavarian Hefeweizen\nSoCo Blackberry Wheat Ale\nSoCo Blueberry Wheat Ale\nSoCo Coconut Wheat Ale\nSoCo Dark Wheat\nSoCo Double Wit\nSoCo Dunkelweizen\nSoCo Hefeweizen\nSoCo Honey Wheat\nSoCo Hoppy Wheat\nSoCo Menchaca Hefeweizen\nSoCo Raspberry Wheat Ale\nSoCo Red Ryerson Roggenbier\nSoCo Strawberry Wheat\nSoCo Summer Wheat\nSoCo Texas Hefeweizen\nSoCo Witbier\nTexas Dunkelweizen\nWheatys Comet",
     "crumbs": [
-      "Recipes (Alpha)"
+      "Recipes (Style)"
     ]
   },
   {
-    "objectID": "01-recipes-alpha.html#i",
-    "href": "01-recipes-alpha.html#i",
-    "title": "Recipes (Alpha)",
-    "section": "I",
-    "text": "I\n\nImperial Bourbon Barrel Chocolate Stout",
+    "objectID": "04-recipes-by-style.html#belgian-styles",
+    "href": "04-recipes-by-style.html#belgian-styles",
+    "title": "Recipes (Style)",
+    "section": "Belgian Styles",
+    "text": "Belgian Styles\n\nSoCo Apricot Saison\nSoCo Belgian Dark Strong\nSoCo Belgian Dubbel\nSoCo Belgian Pale Ale\nSoCo Belgian Saison\nSoCo Belgian Tripel\nSoCo Goud Belgian Pale Ale\nSoCo Passion Fruit Saison\nSoCo Patersbier\nWauterss Belgian Dubbel",
     "crumbs": [
-      "Recipes (Alpha)"
+      "Recipes (Style)"
     ]
   },
   {
-    "objectID": "01-recipes-alpha.html#j",
-    "href": "01-recipes-alpha.html#j",
-    "title": "Recipes (Alpha)",
-    "section": "J",
-    "text": "J\n\nJanets Brown Ale\nJollyville Red Ale",
+    "objectID": "04-recipes-by-style.html#bitters-esbs",
+    "href": "04-recipes-by-style.html#bitters-esbs",
+    "title": "Recipes (Style)",
+    "section": "Bitters & ESBs",
+    "text": "Bitters & ESBs\n\nBiscuits and Jam ESB\nBitter Butler\nSoCo Best Bitter\nSoCo ESB\nSoCo Ordinary Bitter\nSouth Austins Best Bitter\nStalwart Bulldog ESB\nTexas Best Bitter",
     "crumbs": [
-      "Recipes (Alpha)"
+      "Recipes (Style)"
     ]
   },
   {
-    "objectID": "01-recipes-alpha.html#l",
-    "href": "01-recipes-alpha.html#l",
-    "title": "Recipes (Alpha)",
-    "section": "L",
-    "text": "L\n\nLake Buchana IPA\nLake Travis IPA\nLemondrop Blonde Ale\nLofty Loblolly IPA\nLonely Pier Wheat Ale",
+    "objectID": "04-recipes-by-style.html#scottish-ales",
+    "href": "04-recipes-by-style.html#scottish-ales",
+    "title": "Recipes (Style)",
+    "section": "Scottish Ales",
+    "text": "Scottish Ales\n\nSoCo 120 Shilling\nSoCo 60 Shilling\nSoCo 70 Shilling\nSoCo 80 Shilling\nSoCo 90 Shilling\nSoCo Scottish Export\nSoCo Scottish Heavy\nSoCo Scottish Light\nSoCo Strong Scotch Ale",
     "crumbs": [
-      "Recipes (Alpha)"
+      "Recipes (Style)"
     ]
   },
   {
-    "objectID": "01-recipes-alpha.html#m",
-    "href": "01-recipes-alpha.html#m",
-    "title": "Recipes (Alpha)",
-    "section": "M",
-    "text": "M\n\nMad Jacks Hoppy Amber Ale\nMars the Duck Oat Pale Ale\nMosaic & Citra Pale Ale",
+    "objectID": "04-recipes-by-style.html#lagers-pilsners-bocks",
+    "href": "04-recipes-by-style.html#lagers-pilsners-bocks",
+    "title": "Recipes (Style)",
+    "section": "Lagers, Pilsners & Bocks",
+    "text": "Lagers, Pilsners & Bocks\n\nDunkles Bock\nSoCo California Common\nSoCo Doppelbock\nSoCo Oktoberfest\nSoCo Rye Lager\nSoCo Schwarzbier\nSoCo Texas Kolsch\nSoCo Vienna Lager\nSoCo Yodeling Coyote Oktoberfest\nStein Half Full Oktoberfest\nTexas Pilsner\nWest Coast Lager",
     "crumbs": [
-      "Recipes (Alpha)"
+      "Recipes (Style)"
     ]
   },
   {
-    "objectID": "01-recipes-alpha.html#n",
-    "href": "01-recipes-alpha.html#n",
-    "title": "Recipes (Alpha)",
-    "section": "N",
-    "text": "N\n\nNearly Nirvana\nNectaron & Elani IPA\nNectaron IPA\nNectaron Pale Ale\nNew House English Brown Ale\nNew Zealand Blonde Ale\nNew Zealand IPA",
+    "objectID": "04-recipes-by-style.html#strong-ales-barleywines",
+    "href": "04-recipes-by-style.html#strong-ales-barleywines",
+    "title": "Recipes (Style)",
+    "section": "Strong Ales & Barleywines",
+    "text": "Strong Ales & Barleywines\n\nSoCo American Barleywine\nSoCo American Strong Ale\nSoCo British Strong Ale\nSoCo English Barleywine\nSoCo Old Ale\nSoCo Texas Strong Ale\nSoCo Wheatwine",
     "crumbs": [
-      "Recipes (Alpha)"
+      "Recipes (Style)"
     ]
   },
   {
-    "objectID": "01-recipes-alpha.html#o",
-    "href": "01-recipes-alpha.html#o",
-    "title": "Recipes (Alpha)",
-    "section": "O",
-    "text": "O\n\nOat Dear I Created A Maltster Oat Stout\nOat of Luck\nOatmeal Pale Ale",
+    "objectID": "04-recipes-by-style.html#sours",
+    "href": "04-recipes-by-style.html#sours",
+    "title": "Recipes (Style)",
+    "section": "Sours",
+    "text": "Sours\n\nSoCo Berliner Weisse Advanced\nSoCo Berliner Weisse Easy\nSoCo Gose\nSoCo Gose Kettle Sour",
     "crumbs": [
-      "Recipes (Alpha)"
+      "Recipes (Style)"
     ]
   },
   {
-    "objectID": "01-recipes-alpha.html#p",
-    "href": "01-recipes-alpha.html#p",
-    "title": "Recipes (Alpha)",
-    "section": "P",
-    "text": "P\n\nPacific Coast Juicy IPA\nPlodding Bear Porter\nPool Floatie Amber Ale",
+    "objectID": "04-recipes-by-style.html#specialty-seasonal",
+    "href": "04-recipes-by-style.html#specialty-seasonal",
+    "title": "Recipes (Style)",
+    "section": "Specialty & Seasonal",
+    "text": "Specialty & Seasonal\n\nBeans The Elf Christmas Ale\nSoCo Australian Sparkling Ale\nSoCo Grodziskie\nSoCo Mugwort Lemon Gruit\nSoCo Mugwort Red Ale\nSoCo Strong Winter Ale\nSoCo Warm Winter\nTexas Christmas Red Ale\nWinter Red Ale",
     "crumbs": [
-      "Recipes (Alpha)"
+      "Recipes (Style)"
     ]
   },
   {
-    "objectID": "01-recipes-alpha.html#r",
-    "href": "01-recipes-alpha.html#r",
-    "title": "Recipes (Alpha)",
-    "section": "R",
-    "text": "R\n\nRooftop Sunbathing NEIPA",
+    "objectID": "04-recipes-by-style.html#other",
+    "href": "04-recipes-by-style.html#other",
+    "title": "Recipes (Style)",
+    "section": "Other",
+    "text": "Other\n\nNearly Nirvana\nOat of Luck\nSeaside Ride\nSoCo Amarillo Armadillo\nSoCo American Rye Ale\nSoCo Breezy Nights Black Ale\nSoCo Flying Kiwi\nSoCo McKinney Falls\nSoCo Moontower White\nSoCo Serendipitous Citrus\nSoCo The Hard Way\nSummer Waves",
     "crumbs": [
-      "Recipes (Alpha)"
-    ]
-  },
-  {
-    "objectID": "01-recipes-alpha.html#s",
-    "href": "01-recipes-alpha.html#s",
-    "title": "Recipes (Alpha)",
-    "section": "S",
-    "text": "S\n\nSabro Pale Ale\nSandyPupJuicyIPA_AllGrain\nSeaside Ride\nSoCo 120 Shilling\nSoCo 60 Shilling\nSoCo 70 Shilling\nSoCo 80 Shilling\nSoCo 90 Shilling\nSoCo Ahoy Wheaty Wheat Ale\nSoCo Amarillo Armadillo\nSoCo Amarillo IPA\nSoCo Amber Hue\nSoCo Amberserk Amber Ale\nSoCo American Amber Ale\nSoCo American Barleywine\nSoCo American Brown\nSoCo American Hefeweizen\nSoCo American Red Ale\nSoCo American Rye Ale\nSoCo American Strong Ale\nSoCo American Wheat\nSoCo Anniversary IPA\nSoCo Apricot Saison\nSoCo Apricot Wheat Ale\nSoCo Australian Sparkling Ale\nSoCo Bat Bridge Black IPA\nSoCo Bavarian Hefeweizen\nSoCo Beach Lounger Amber\nSoCo Belgian Dark Strong\nSoCo Belgian Dubbel\nSoCo Belgian IPA\nSoCo Belgian Pale Ale\nSoCo Belgian Saison\nSoCo Belgian Stout\nSoCo Belgian Tripel\nSoCo Berliner Weisse Advanced\nSoCo Berliner Weisse Easy\nSoCo Best Bitter\nSoCo Black IPA\nSoCo Black Licorice Porter\nSoCo Blackberry Blonde Ale\nSoCo Blackberry Wheat Ale\nSoCo Blonde\nSoCo Blueberry Blonde Ale\nSoCo Blueberry Wheat Ale\nSoCo Breezy Nights Black Ale\nSoCo British Golden Ale\nSoCo British Strong Ale\nSoCo Brown IPA\nSoCo Brown Porter\nSoCo California Common\nSoCo Cascadian Dark Ale\nSoCo Centennial IPA\nSoCo Chocolate Milk Stout\nSoCo Chocolate Porter\nSoCo Chocolate Stout\nSoCo Christmas IPA\nSoCo Citra Amarillo NEIPA\nSoCo Citra Blonde Ale\nSoCo Citra IPA\nSoCo Citra Juicy NEIPA\nSoCo Citra Pale Ale\nSoCo Citra SMaSH IPA\nSoCo CitSim\nSoCo Coconut Porter\nSoCo Coconut Wheat Ale\nSoCo Columbus IPA\nSoCo Dark Mild\nSoCo Dark Wheat\nSoCo Doppelbock\nSoCo Double Brown Ale\nSoCo Double Chocolate Stout\nSoCo Double Wit\nSoCo Dunkelweizen\nSoCo Eclipse Black Blonde Ale\nSoCo Eclipse Black IPA\nSoCo English Barleywine\nSoCo English Brown\nSoCo English IPA\nSoCo English Porter\nSoCo ESB\nSoCo Falconers Flight Pale Ale\nSoCo Faux Coffee Stout\nSoCo Flying Kiwi\nSoCo Gose\nSoCo Gose Kettle Sour\nSoCo Goud Belgian Pale Ale\nSoCo Grapefruit IPA\nSoCo Grodziskie\nSoCo Hefeweizen\nSoCo Holiday Stout\nSoCo Honey Badger Brown\nSoCo Honey Wheat\nSoCo Hoppy Wheat\nSoCo Imperial Blonde Ale\nSoCo Imperial Irish Red Ale\nSoCo Imperial Nut Brown Ale\nSoCo IPA IPA Double IPA\nSoCo Irish Extra Stout\nSoCo Irish Red\nSoCo Irish Stout\nSoCo Island Chicken Pale Ale\nSoCo Leaky Tent Stout\nSoCo Light Blonde Ale\nSoCo London Brown\nSoCo Maddies English Porter\nSoCo McKinney Falls\nSoCo Menchaca Hefeweizen\nSoCo Milk Stout\nSoCo Milkshake IPA (1)\nSoCo Moontower White\nSoCo Mosaic SMaSH IPA\nSoCo Mugwort Lemon Gruit\nSoCo Mugwort Red Ale\nSoCo Nut Brown\nSoCo Oat Stout\nSoCo Oatmeal Brown Ale\nSoCo Oktoberfest\nSoCo Old Ale\nSoCo Ordinary Bitter\nSoCo Passion Fruit Saison\nSoCo Patersbier\nSoCo Pecan Brown Ale\nSoCo Pecan Porter\nSoCo Pennybacker Double IPA\nSoCo Peppermint Chocolate Milk Stout\nSoCo Pink Boots Society Red Ale\nSoCo Porter\nSoCo Raspberry Blonde\nSoCo Raspberry Wheat Ale\nSoCo Red APA\nSoCo Red Hot Red Ale\nSoCo Red IPA\nSoCo Red Ryerson Roggenbier\nSoCo Robust Porter\nSoCo Russian Imperial Stout\nSoCo Rye IPA\nSoCo Rye Lager\nSoCo Rye Pale\nSoCo Rye Stout\nSoCo Sabro IPA\nSoCo Sasquatch Street Brown Ale\nSoCo Schwarzbier\nSoCo Scottish Export\nSoCo Scottish Heavy\nSoCo Scottish Light\nSoCo Serendipitous Citrus\nSoCo SimCitIPA\nSoCo Simcoe IPA\nSoCo Simcoe Pale Ale\nSoCo Simcoe SMaSH IPA\nSoCo Smoky Brown Ale\nSoCo Smoky Porter\nSoCo South Lamar IPA\nSoCo Spiced IPA\nSoCo Spiced Porter\nSoCo Spiced Stout\nSoCo Strata Pale Ale\nSoCo Strawberry Blonde Ale\nSoCo Strawberry Wheat\nSoCo Strong Amber Ale\nSoCo Strong American Porter\nSoCo Strong Scotch Ale\nSoCo Strong Winter Ale\nSoCo Summer Wheat\nSoCo Texas Amber Ale\nSoCo Texas Blonde Ale\nSoCo Texas Brown Ale\nSoCo Texas Citra IPA\nSoCo Texas Golden Ale\nSoCo Texas Hefeweizen\nSoCo Texas IPA\nSoCo Texas Juicy IPA\nSoCo Texas Kolsch\nSoCo Texas Mosaic IPA\nSoCo Texas Pale Ale\nSoCo Texas Porter\nSoCo Texas Red Ale\nSoCo Texas Stout\nSoCo Texas Strong Ale\nSoCo The Hard Way\nSoCo Town Lake IPA\nSoCo Tropical Stout\nSoCo Vanilla Cream Porter\nSoCo Vic Secret Pale Ale\nSoCo Vienna Lager\nSoCo Vista IPA\nSoCo Wandering Egret Amber Ale\nSoCo Warm Winter\nSoCo Watermelon Blonde\nSoCo West Coast IPA\nSoCo West Coast Pale\nSoCo Wheatwine\nSoCo Whiskey Barrel Stout\nSoCo White Chocolate Blonde Ale\nSoCo White Stout\nSoCo Whole Lotta Citrus NEIPA\nSoCo Witbier\nSoCo Yellow Bells Juicy NEIPA\nSoCo Yodeling Coyote Oktoberfest\nSoCo Zilker Park Pale\nSoCo-Fastest-IPA-in-the-Galaxy\nSouth Austins Best Bitter\nSquawking Parrot IPA\nStalwart Bulldog ESB\nStein Half Full Oktoberfest\nStrawberry Milk Stout\nSummer Waves\nSuperdelic Pale Ale",
-    "crumbs": [
-      "Recipes (Alpha)"
-    ]
-  },
-  {
-    "objectID": "01-recipes-alpha.html#t",
-    "href": "01-recipes-alpha.html#t",
-    "title": "Recipes (Alpha)",
-    "section": "T",
-    "text": "T\n\nTalus Pale Ale\nTexas Best Bitter\nTexas Christmas Red Ale\nTexas Dunkelweizen\nTexas Milk Stout\nTexas Oat Stout\nTexas Pilsner\nTexas Style Irish Stout\nTexasBigtooth Amber Ale\nTops For The Win Pale Ale\nTree Bench Brown Ale\nTropical Heavens IPA\nTurtle Pile Golden Ale\nTwo Z’s IPA",
-    "crumbs": [
-      "Recipes (Alpha)"
-    ]
-  },
-  {
-    "objectID": "01-recipes-alpha.html#v",
-    "href": "01-recipes-alpha.html#v",
-    "title": "Recipes (Alpha)",
-    "section": "V",
-    "text": "V\n\nVienna Amber",
-    "crumbs": [
-      "Recipes (Alpha)"
-    ]
-  },
-  {
-    "objectID": "01-recipes-alpha.html#w",
-    "href": "01-recipes-alpha.html#w",
-    "title": "Recipes (Alpha)",
-    "section": "W",
-    "text": "W\n\nWauterss Belgian Dubbel\nWest Coast Blonde Ale\nWest Coast Lager\nWheatys Comet\nWinter Red Ale",
-    "crumbs": [
-      "Recipes (Alpha)"
-    ]
-  },
-  {
-    "objectID": "01-recipes-alpha.html#y",
-    "href": "01-recipes-alpha.html#y",
-    "title": "Recipes (Alpha)",
-    "section": "Y",
-    "text": "Y\n\nYou Had Me At Amber Ale",
-    "crumbs": [
-      "Recipes (Alpha)"
-    ]
-  },
-  {
-    "objectID": "01-recipes-alpha.html#z",
-    "href": "01-recipes-alpha.html#z",
-    "title": "Recipes (Alpha)",
-    "section": "Z",
-    "text": "Z\n\nZappa IPA",
-    "crumbs": [
-      "Recipes (Alpha)"
+      "Recipes (Style)"
     ]
   },
   {
@@ -520,173 +470,313 @@
     ]
   },
   {
-    "objectID": "04-recipes-by-style.html",
-    "href": "04-recipes-by-style.html",
-    "title": "Recipes (Style)",
+    "objectID": "01-recipes-alpha.html",
+    "href": "01-recipes-alpha.html",
+    "title": "Recipes (Alpha)",
     "section": "",
-    "text": "A to CTZ IPA\nAppalled Apollo IPA\nBitter Texan IPA\nChinook IPA\nCruisin Canoe IPA\nFrayed Aglet IPA\nFruity McCutie Juicy IPA\nHaze Austin Juicy NEIPA\nLake Buchana IPA\nLake Travis IPA\nLofty Loblolly IPA\nNectaron & Elani IPA\nNectaron IPA\nNew Zealand IPA\nPacific Coast Juicy IPA\nRooftop Sunbathing NEIPA\nSandyPupJuicyIPA_AllGrain\nSoCo Amarillo IPA\nSoCo Anniversary IPA\nSoCo Bat Bridge Black IPA\nSoCo Belgian IPA\nSoCo Black IPA\nSoCo Brown IPA\nSoCo Cascadian Dark Ale\nSoCo Centennial IPA\nSoCo Christmas IPA\nSoCo Citra Amarillo NEIPA\nSoCo Citra IPA\nSoCo Citra Juicy NEIPA\nSoCo Citra SMaSH IPA\nSoCo CitSim\nSoCo Columbus IPA\nSoCo Eclipse Black IPA\nSoCo English IPA\nSoCo Grapefruit IPA\nSoCo IPA IPA Double IPA\nSoCo Milkshake IPA (1)\nSoCo Mosaic SMaSH IPA\nSoCo Pennybacker Double IPA\nSoCo Red IPA\nSoCo Rye IPA\nSoCo Sabro IPA\nSoCo SimCitIPA\nSoCo Simcoe IPA\nSoCo Simcoe SMaSH IPA\nSoCo South Lamar IPA\nSoCo Spiced IPA\nSoCo Texas Citra IPA\nSoCo Texas IPA\nSoCo Texas Juicy IPA\nSoCo Texas Mosaic IPA\nSoCo Town Lake IPA\nSoCo Vista IPA\nSoCo West Coast IPA\nSoCo Whole Lotta Citrus NEIPA\nSoCo Yellow Bells Juicy NEIPA\nSoCo-Fastest-IPA-in-the-Galaxy\nSquawking Parrot IPA\nTropical Heavens IPA\nTwo Z’s IPA\nZappa IPA",
+    "text": "22nd State Amber Ale",
     "crumbs": [
-      "Recipes (Style)"
+      "Recipes (Alpha)"
     ]
   },
   {
-    "objectID": "04-recipes-by-style.html#ipas",
-    "href": "04-recipes-by-style.html#ipas",
-    "title": "Recipes (Style)",
+    "objectID": "01-recipes-alpha.html#section",
+    "href": "01-recipes-alpha.html#section",
+    "title": "Recipes (Alpha)",
     "section": "",
-    "text": "A to CTZ IPA\nAppalled Apollo IPA\nBitter Texan IPA\nChinook IPA\nCruisin Canoe IPA\nFrayed Aglet IPA\nFruity McCutie Juicy IPA\nHaze Austin Juicy NEIPA\nLake Buchana IPA\nLake Travis IPA\nLofty Loblolly IPA\nNectaron & Elani IPA\nNectaron IPA\nNew Zealand IPA\nPacific Coast Juicy IPA\nRooftop Sunbathing NEIPA\nSandyPupJuicyIPA_AllGrain\nSoCo Amarillo IPA\nSoCo Anniversary IPA\nSoCo Bat Bridge Black IPA\nSoCo Belgian IPA\nSoCo Black IPA\nSoCo Brown IPA\nSoCo Cascadian Dark Ale\nSoCo Centennial IPA\nSoCo Christmas IPA\nSoCo Citra Amarillo NEIPA\nSoCo Citra IPA\nSoCo Citra Juicy NEIPA\nSoCo Citra SMaSH IPA\nSoCo CitSim\nSoCo Columbus IPA\nSoCo Eclipse Black IPA\nSoCo English IPA\nSoCo Grapefruit IPA\nSoCo IPA IPA Double IPA\nSoCo Milkshake IPA (1)\nSoCo Mosaic SMaSH IPA\nSoCo Pennybacker Double IPA\nSoCo Red IPA\nSoCo Rye IPA\nSoCo Sabro IPA\nSoCo SimCitIPA\nSoCo Simcoe IPA\nSoCo Simcoe SMaSH IPA\nSoCo South Lamar IPA\nSoCo Spiced IPA\nSoCo Texas Citra IPA\nSoCo Texas IPA\nSoCo Texas Juicy IPA\nSoCo Texas Mosaic IPA\nSoCo Town Lake IPA\nSoCo Vista IPA\nSoCo West Coast IPA\nSoCo Whole Lotta Citrus NEIPA\nSoCo Yellow Bells Juicy NEIPA\nSoCo-Fastest-IPA-in-the-Galaxy\nSquawking Parrot IPA\nTropical Heavens IPA\nTwo Z’s IPA\nZappa IPA",
+    "text": "22nd State Amber Ale",
     "crumbs": [
-      "Recipes (Style)"
+      "Recipes (Alpha)"
     ]
   },
   {
-    "objectID": "04-recipes-by-style.html#pale-ales",
-    "href": "04-recipes-by-style.html#pale-ales",
-    "title": "Recipes (Style)",
-    "section": "Pale Ales",
-    "text": "Pale Ales\n\nAmarillo Pale Ale - SHS\nApollo Single Hop Pale Ale\nAzacca Pale Ale\nCluster SMaSH Pale Ale\nDillo Trolley Pale Ale\nElani Pale Ale\nEnglish Pale Ale\nMars the Duck Oat Pale Ale\nMosaic & Citra Pale Ale\nNectaron Pale Ale\nOatmeal Pale Ale\nSabro Pale Ale\nSoCo Citra Pale Ale\nSoCo Falconers Flight Pale Ale\nSoCo Island Chicken Pale Ale\nSoCo Red APA\nSoCo Rye Pale\nSoCo Simcoe Pale Ale\nSoCo Strata Pale Ale\nSoCo Texas Pale Ale\nSoCo Vic Secret Pale Ale\nSoCo West Coast Pale\nSoCo Zilker Park Pale\nSuperdelic Pale Ale\nTalus Pale Ale\nTops For The Win Pale Ale",
+    "objectID": "01-recipes-alpha.html#a",
+    "href": "01-recipes-alpha.html#a",
+    "title": "Recipes (Alpha)",
+    "section": "A",
+    "text": "A\n\nA to CTZ IPA\nAmarillo Pale Ale - SHS\nAmberlievable Amber Ale\nApollo Single Hop Pale Ale\nAppalled Apollo IPA\nAzacca Pale Ale",
     "crumbs": [
-      "Recipes (Style)"
+      "Recipes (Alpha)"
     ]
   },
   {
-    "objectID": "04-recipes-by-style.html#amber-red-ales",
-    "href": "04-recipes-by-style.html#amber-red-ales",
-    "title": "Recipes (Style)",
-    "section": "Amber & Red Ales",
-    "text": "Amber & Red Ales\n\n22nd State Amber Ale\nAmberlievable Amber Ale\nButlers Irish Red Ale\nJollyville Red Ale\nMad Jacks Hoppy Amber Ale\nPool Floatie Amber Ale\nSoCo Amber Hue\nSoCo Amberserk Amber Ale\nSoCo American Amber Ale\nSoCo American Red Ale\nSoCo Beach Lounger Amber\nSoCo Imperial Irish Red Ale\nSoCo Irish Red\nSoCo Pink Boots Society Red Ale\nSoCo Red Hot Red Ale\nSoCo Strong Amber Ale\nSoCo Texas Amber Ale\nSoCo Texas Red Ale\nSoCo Wandering Egret Amber Ale\nTexasBigtooth Amber Ale\nVienna Amber\nYou Had Me At Amber Ale",
+    "objectID": "01-recipes-alpha.html#b",
+    "href": "01-recipes-alpha.html#b",
+    "title": "Recipes (Alpha)",
+    "section": "B",
+    "text": "B\n\nBeans The Elf Christmas Ale\nBiscuits and Jam ESB\nBitter Butler\nBitter Texan IPA\nBlackberry Witbier\nBourbon Barrel Porter\nBritish Sunset Golden Ale\nButlers Irish Red Ale",
     "crumbs": [
-      "Recipes (Style)"
+      "Recipes (Alpha)"
     ]
   },
   {
-    "objectID": "04-recipes-by-style.html#blonde-golden-ales",
-    "href": "04-recipes-by-style.html#blonde-golden-ales",
-    "title": "Recipes (Style)",
-    "section": "Blonde & Golden Ales",
-    "text": "Blonde & Golden Ales\n\nBritish Sunset Golden Ale\nCashmere Blonde Ale\nDry Hop Blonde Ale\nLemondrop Blonde Ale\nNew Zealand Blonde Ale\nSoCo Blackberry Blonde Ale\nSoCo Blonde\nSoCo Blueberry Blonde Ale\nSoCo British Golden Ale\nSoCo Citra Blonde Ale\nSoCo Eclipse Black Blonde Ale\nSoCo Imperial Blonde Ale\nSoCo Light Blonde Ale\nSoCo Raspberry Blonde\nSoCo Strawberry Blonde Ale\nSoCo Texas Blonde Ale\nSoCo Texas Golden Ale\nSoCo Watermelon Blonde\nSoCo White Chocolate Blonde Ale\nTurtle Pile Golden Ale\nWest Coast Blonde Ale",
+    "objectID": "01-recipes-alpha.html#c",
+    "href": "01-recipes-alpha.html#c",
+    "title": "Recipes (Alpha)",
+    "section": "C",
+    "text": "C\n\nCashmere Blonde Ale\nChinook IPA\nChristmas Porter\nCluster SMaSH Pale Ale\nCoconut Hefeweizen\nCruisin Canoe IPA",
     "crumbs": [
-      "Recipes (Style)"
+      "Recipes (Alpha)"
     ]
   },
   {
-    "objectID": "04-recipes-by-style.html#brown-ales",
-    "href": "04-recipes-by-style.html#brown-ales",
-    "title": "Recipes (Style)",
-    "section": "Brown Ales",
-    "text": "Brown Ales\n\nJanets Brown Ale\nNew House English Brown Ale\nSoCo American Brown\nSoCo Dark Mild\nSoCo Double Brown Ale\nSoCo English Brown\nSoCo Honey Badger Brown\nSoCo Imperial Nut Brown Ale\nSoCo London Brown\nSoCo Nut Brown\nSoCo Oatmeal Brown Ale\nSoCo Pecan Brown Ale\nSoCo Sasquatch Street Brown Ale\nSoCo Smoky Brown Ale\nSoCo Texas Brown Ale\nTree Bench Brown Ale",
+    "objectID": "01-recipes-alpha.html#d",
+    "href": "01-recipes-alpha.html#d",
+    "title": "Recipes (Alpha)",
+    "section": "D",
+    "text": "D\n\nDark Chocolate Strawberry Stout\nDillo Trolley Pale Ale\nDry Hop Blonde Ale\nDunkles Bock",
     "crumbs": [
-      "Recipes (Style)"
+      "Recipes (Alpha)"
     ]
   },
   {
-    "objectID": "04-recipes-by-style.html#stouts",
-    "href": "04-recipes-by-style.html#stouts",
-    "title": "Recipes (Style)",
-    "section": "Stouts",
-    "text": "Stouts\n\nDark Chocolate Strawberry Stout\nGlaring Grackle Imperial Stout\nGranite Dome Oat Stout\nImperial Bourbon Barrel Chocolate Stout\nOat Dear I Created A Maltster Oat Stout\nSoCo Belgian Stout\nSoCo Chocolate Milk Stout\nSoCo Chocolate Stout\nSoCo Double Chocolate Stout\nSoCo Faux Coffee Stout\nSoCo Holiday Stout\nSoCo Irish Extra Stout\nSoCo Irish Stout\nSoCo Leaky Tent Stout\nSoCo Milk Stout\nSoCo Oat Stout\nSoCo Peppermint Chocolate Milk Stout\nSoCo Russian Imperial Stout\nSoCo Rye Stout\nSoCo Spiced Stout\nSoCo Texas Stout\nSoCo Tropical Stout\nSoCo Whiskey Barrel Stout\nSoCo White Stout\nStrawberry Milk Stout\nTexas Milk Stout\nTexas Oat Stout\nTexas Style Irish Stout",
+    "objectID": "01-recipes-alpha.html#e",
+    "href": "01-recipes-alpha.html#e",
+    "title": "Recipes (Alpha)",
+    "section": "E",
+    "text": "E\n\nElani Pale Ale\nEnglish Pale Ale",
     "crumbs": [
-      "Recipes (Style)"
+      "Recipes (Alpha)"
     ]
   },
   {
-    "objectID": "04-recipes-by-style.html#porters",
-    "href": "04-recipes-by-style.html#porters",
-    "title": "Recipes (Style)",
-    "section": "Porters",
-    "text": "Porters\n\nBourbon Barrel Porter\nChristmas Porter\nPlodding Bear Porter\nSoCo Black Licorice Porter\nSoCo Brown Porter\nSoCo Chocolate Porter\nSoCo Coconut Porter\nSoCo English Porter\nSoCo Maddies English Porter\nSoCo Pecan Porter\nSoCo Porter\nSoCo Robust Porter\nSoCo Smoky Porter\nSoCo Spiced Porter\nSoCo Strong American Porter\nSoCo Texas Porter\nSoCo Vanilla Cream Porter",
+    "objectID": "01-recipes-alpha.html#f",
+    "href": "01-recipes-alpha.html#f",
+    "title": "Recipes (Alpha)",
+    "section": "F",
+    "text": "F\n\nFrayed Aglet IPA\nFruity McCutie Juicy IPA",
     "crumbs": [
-      "Recipes (Style)"
+      "Recipes (Alpha)"
     ]
   },
   {
-    "objectID": "04-recipes-by-style.html#wheat-beers-hefeweizens",
-    "href": "04-recipes-by-style.html#wheat-beers-hefeweizens",
-    "title": "Recipes (Style)",
-    "section": "Wheat Beers & Hefeweizens",
-    "text": "Wheat Beers & Hefeweizens\n\nBlackberry Witbier\nCoconut Hefeweizen\nLonely Pier Wheat Ale\nSoCo Ahoy Wheaty Wheat Ale\nSoCo American Hefeweizen\nSoCo American Wheat\nSoCo Apricot Wheat Ale\nSoCo Bavarian Hefeweizen\nSoCo Blackberry Wheat Ale\nSoCo Blueberry Wheat Ale\nSoCo Coconut Wheat Ale\nSoCo Dark Wheat\nSoCo Double Wit\nSoCo Dunkelweizen\nSoCo Hefeweizen\nSoCo Honey Wheat\nSoCo Hoppy Wheat\nSoCo Menchaca Hefeweizen\nSoCo Raspberry Wheat Ale\nSoCo Red Ryerson Roggenbier\nSoCo Strawberry Wheat\nSoCo Summer Wheat\nSoCo Texas Hefeweizen\nSoCo Witbier\nTexas Dunkelweizen\nWheatys Comet",
+    "objectID": "01-recipes-alpha.html#g",
+    "href": "01-recipes-alpha.html#g",
+    "title": "Recipes (Alpha)",
+    "section": "G",
+    "text": "G\n\nGlaring Grackle Imperial Stout\nGranite Dome Oat Stout",
     "crumbs": [
-      "Recipes (Style)"
+      "Recipes (Alpha)"
     ]
   },
   {
-    "objectID": "04-recipes-by-style.html#belgian-styles",
-    "href": "04-recipes-by-style.html#belgian-styles",
-    "title": "Recipes (Style)",
-    "section": "Belgian Styles",
-    "text": "Belgian Styles\n\nSoCo Apricot Saison\nSoCo Belgian Dark Strong\nSoCo Belgian Dubbel\nSoCo Belgian Pale Ale\nSoCo Belgian Saison\nSoCo Belgian Tripel\nSoCo Goud Belgian Pale Ale\nSoCo Passion Fruit Saison\nSoCo Patersbier\nWauterss Belgian Dubbel",
+    "objectID": "01-recipes-alpha.html#h",
+    "href": "01-recipes-alpha.html#h",
+    "title": "Recipes (Alpha)",
+    "section": "H",
+    "text": "H\n\nHaze Austin Juicy NEIPA",
     "crumbs": [
-      "Recipes (Style)"
+      "Recipes (Alpha)"
     ]
   },
   {
-    "objectID": "04-recipes-by-style.html#bitters-esbs",
-    "href": "04-recipes-by-style.html#bitters-esbs",
-    "title": "Recipes (Style)",
-    "section": "Bitters & ESBs",
-    "text": "Bitters & ESBs\n\nBiscuits and Jam ESB\nBitter Butler\nSoCo Best Bitter\nSoCo ESB\nSoCo Ordinary Bitter\nSouth Austins Best Bitter\nStalwart Bulldog ESB\nTexas Best Bitter",
+    "objectID": "01-recipes-alpha.html#i",
+    "href": "01-recipes-alpha.html#i",
+    "title": "Recipes (Alpha)",
+    "section": "I",
+    "text": "I\n\nImperial Bourbon Barrel Chocolate Stout",
     "crumbs": [
-      "Recipes (Style)"
+      "Recipes (Alpha)"
     ]
   },
   {
-    "objectID": "04-recipes-by-style.html#scottish-ales",
-    "href": "04-recipes-by-style.html#scottish-ales",
-    "title": "Recipes (Style)",
-    "section": "Scottish Ales",
-    "text": "Scottish Ales\n\nSoCo 120 Shilling\nSoCo 60 Shilling\nSoCo 70 Shilling\nSoCo 80 Shilling\nSoCo 90 Shilling\nSoCo Scottish Export\nSoCo Scottish Heavy\nSoCo Scottish Light\nSoCo Strong Scotch Ale",
+    "objectID": "01-recipes-alpha.html#j",
+    "href": "01-recipes-alpha.html#j",
+    "title": "Recipes (Alpha)",
+    "section": "J",
+    "text": "J\n\nJanets Brown Ale\nJollyville Red Ale",
     "crumbs": [
-      "Recipes (Style)"
+      "Recipes (Alpha)"
     ]
   },
   {
-    "objectID": "04-recipes-by-style.html#lagers-pilsners-bocks",
-    "href": "04-recipes-by-style.html#lagers-pilsners-bocks",
-    "title": "Recipes (Style)",
-    "section": "Lagers, Pilsners & Bocks",
-    "text": "Lagers, Pilsners & Bocks\n\nDunkles Bock\nSoCo California Common\nSoCo Doppelbock\nSoCo Oktoberfest\nSoCo Rye Lager\nSoCo Schwarzbier\nSoCo Texas Kolsch\nSoCo Vienna Lager\nSoCo Yodeling Coyote Oktoberfest\nStein Half Full Oktoberfest\nTexas Pilsner\nWest Coast Lager",
+    "objectID": "01-recipes-alpha.html#l",
+    "href": "01-recipes-alpha.html#l",
+    "title": "Recipes (Alpha)",
+    "section": "L",
+    "text": "L\n\nLake Buchana IPA\nLake Travis IPA\nLemondrop Blonde Ale\nLofty Loblolly IPA\nLonely Pier Wheat Ale",
     "crumbs": [
-      "Recipes (Style)"
+      "Recipes (Alpha)"
     ]
   },
   {
-    "objectID": "04-recipes-by-style.html#strong-ales-barleywines",
-    "href": "04-recipes-by-style.html#strong-ales-barleywines",
-    "title": "Recipes (Style)",
-    "section": "Strong Ales & Barleywines",
-    "text": "Strong Ales & Barleywines\n\nSoCo American Barleywine\nSoCo American Strong Ale\nSoCo British Strong Ale\nSoCo English Barleywine\nSoCo Old Ale\nSoCo Texas Strong Ale\nSoCo Wheatwine",
+    "objectID": "01-recipes-alpha.html#m",
+    "href": "01-recipes-alpha.html#m",
+    "title": "Recipes (Alpha)",
+    "section": "M",
+    "text": "M\n\nMad Jacks Hoppy Amber Ale\nMars the Duck Oat Pale Ale\nMosaic & Citra Pale Ale",
     "crumbs": [
-      "Recipes (Style)"
+      "Recipes (Alpha)"
     ]
   },
   {
-    "objectID": "04-recipes-by-style.html#sours",
-    "href": "04-recipes-by-style.html#sours",
-    "title": "Recipes (Style)",
-    "section": "Sours",
-    "text": "Sours\n\nSoCo Berliner Weisse Advanced\nSoCo Berliner Weisse Easy\nSoCo Gose\nSoCo Gose Kettle Sour",
+    "objectID": "01-recipes-alpha.html#n",
+    "href": "01-recipes-alpha.html#n",
+    "title": "Recipes (Alpha)",
+    "section": "N",
+    "text": "N\n\nNearly Nirvana\nNectaron & Elani IPA\nNectaron IPA\nNectaron Pale Ale\nNew House English Brown Ale\nNew Zealand Blonde Ale\nNew Zealand IPA",
     "crumbs": [
-      "Recipes (Style)"
+      "Recipes (Alpha)"
     ]
   },
   {
-    "objectID": "04-recipes-by-style.html#specialty-seasonal",
-    "href": "04-recipes-by-style.html#specialty-seasonal",
-    "title": "Recipes (Style)",
-    "section": "Specialty & Seasonal",
-    "text": "Specialty & Seasonal\n\nBeans The Elf Christmas Ale\nSoCo Australian Sparkling Ale\nSoCo Grodziskie\nSoCo Mugwort Lemon Gruit\nSoCo Mugwort Red Ale\nSoCo Strong Winter Ale\nSoCo Warm Winter\nTexas Christmas Red Ale\nWinter Red Ale",
+    "objectID": "01-recipes-alpha.html#o",
+    "href": "01-recipes-alpha.html#o",
+    "title": "Recipes (Alpha)",
+    "section": "O",
+    "text": "O\n\nOat Dear I Created A Maltster Oat Stout\nOat of Luck\nOatmeal Pale Ale",
     "crumbs": [
-      "Recipes (Style)"
+      "Recipes (Alpha)"
     ]
   },
   {
-    "objectID": "04-recipes-by-style.html#other",
-    "href": "04-recipes-by-style.html#other",
-    "title": "Recipes (Style)",
-    "section": "Other",
-    "text": "Other\n\nNearly Nirvana\nOat of Luck\nSeaside Ride\nSoCo Amarillo Armadillo\nSoCo American Rye Ale\nSoCo Breezy Nights Black Ale\nSoCo Flying Kiwi\nSoCo McKinney Falls\nSoCo Moontower White\nSoCo Serendipitous Citrus\nSoCo The Hard Way\nSummer Waves",
+    "objectID": "01-recipes-alpha.html#p",
+    "href": "01-recipes-alpha.html#p",
+    "title": "Recipes (Alpha)",
+    "section": "P",
+    "text": "P\n\nPacific Coast Juicy IPA\nPlodding Bear Porter\nPool Floatie Amber Ale",
     "crumbs": [
-      "Recipes (Style)"
+      "Recipes (Alpha)"
+    ]
+  },
+  {
+    "objectID": "01-recipes-alpha.html#r",
+    "href": "01-recipes-alpha.html#r",
+    "title": "Recipes (Alpha)",
+    "section": "R",
+    "text": "R\n\nRooftop Sunbathing NEIPA",
+    "crumbs": [
+      "Recipes (Alpha)"
+    ]
+  },
+  {
+    "objectID": "01-recipes-alpha.html#s",
+    "href": "01-recipes-alpha.html#s",
+    "title": "Recipes (Alpha)",
+    "section": "S",
+    "text": "S\n\nSabro Pale Ale\nSandyPupJuicyIPA_AllGrain\nSeaside Ride\nSoCo 120 Shilling\nSoCo 60 Shilling\nSoCo 70 Shilling\nSoCo 80 Shilling\nSoCo 90 Shilling\nSoCo Ahoy Wheaty Wheat Ale\nSoCo Amarillo Armadillo\nSoCo Amarillo IPA\nSoCo Amber Hue\nSoCo Amberserk Amber Ale\nSoCo American Amber Ale\nSoCo American Barleywine\nSoCo American Brown\nSoCo American Hefeweizen\nSoCo American Red Ale\nSoCo American Rye Ale\nSoCo American Strong Ale\nSoCo American Wheat\nSoCo Anniversary IPA\nSoCo Apricot Saison\nSoCo Apricot Wheat Ale\nSoCo Australian Sparkling Ale\nSoCo Bat Bridge Black IPA\nSoCo Bavarian Hefeweizen\nSoCo Beach Lounger Amber\nSoCo Belgian Dark Strong\nSoCo Belgian Dubbel\nSoCo Belgian IPA\nSoCo Belgian Pale Ale\nSoCo Belgian Saison\nSoCo Belgian Stout\nSoCo Belgian Tripel\nSoCo Berliner Weisse Advanced\nSoCo Berliner Weisse Easy\nSoCo Best Bitter\nSoCo Black IPA\nSoCo Black Licorice Porter\nSoCo Blackberry Blonde Ale\nSoCo Blackberry Wheat Ale\nSoCo Blonde\nSoCo Blueberry Blonde Ale\nSoCo Blueberry Wheat Ale\nSoCo Breezy Nights Black Ale\nSoCo British Golden Ale\nSoCo British Strong Ale\nSoCo Brown IPA\nSoCo Brown Porter\nSoCo California Common\nSoCo Cascadian Dark Ale\nSoCo Centennial IPA\nSoCo Chocolate Milk Stout\nSoCo Chocolate Porter\nSoCo Chocolate Stout\nSoCo Christmas IPA\nSoCo Citra Amarillo NEIPA\nSoCo Citra Blonde Ale\nSoCo Citra IPA\nSoCo Citra Juicy NEIPA\nSoCo Citra Pale Ale\nSoCo Citra SMaSH IPA\nSoCo CitSim\nSoCo Coconut Porter\nSoCo Coconut Wheat Ale\nSoCo Columbus IPA\nSoCo Dark Mild\nSoCo Dark Wheat\nSoCo Doppelbock\nSoCo Double Brown Ale\nSoCo Double Chocolate Stout\nSoCo Double Wit\nSoCo Dunkelweizen\nSoCo Eclipse Black Blonde Ale\nSoCo Eclipse Black IPA\nSoCo English Barleywine\nSoCo English Brown\nSoCo English IPA\nSoCo English Porter\nSoCo ESB\nSoCo Falconers Flight Pale Ale\nSoCo Faux Coffee Stout\nSoCo Flying Kiwi\nSoCo Gose\nSoCo Gose Kettle Sour\nSoCo Goud Belgian Pale Ale\nSoCo Grapefruit IPA\nSoCo Grodziskie\nSoCo Hefeweizen\nSoCo Holiday Stout\nSoCo Honey Badger Brown\nSoCo Honey Wheat\nSoCo Hoppy Wheat\nSoCo Imperial Blonde Ale\nSoCo Imperial Irish Red Ale\nSoCo Imperial Nut Brown Ale\nSoCo IPA IPA Double IPA\nSoCo Irish Extra Stout\nSoCo Irish Red\nSoCo Irish Stout\nSoCo Island Chicken Pale Ale\nSoCo Leaky Tent Stout\nSoCo Light Blonde Ale\nSoCo London Brown\nSoCo Maddies English Porter\nSoCo McKinney Falls\nSoCo Menchaca Hefeweizen\nSoCo Milk Stout\nSoCo Milkshake IPA (1)\nSoCo Moontower White\nSoCo Mosaic SMaSH IPA\nSoCo Mugwort Lemon Gruit\nSoCo Mugwort Red Ale\nSoCo Nut Brown\nSoCo Oat Stout\nSoCo Oatmeal Brown Ale\nSoCo Oktoberfest\nSoCo Old Ale\nSoCo Ordinary Bitter\nSoCo Passion Fruit Saison\nSoCo Patersbier\nSoCo Pecan Brown Ale\nSoCo Pecan Porter\nSoCo Pennybacker Double IPA\nSoCo Peppermint Chocolate Milk Stout\nSoCo Pink Boots Society Red Ale\nSoCo Porter\nSoCo Raspberry Blonde\nSoCo Raspberry Wheat Ale\nSoCo Red APA\nSoCo Red Hot Red Ale\nSoCo Red IPA\nSoCo Red Ryerson Roggenbier\nSoCo Robust Porter\nSoCo Russian Imperial Stout\nSoCo Rye IPA\nSoCo Rye Lager\nSoCo Rye Pale\nSoCo Rye Stout\nSoCo Sabro IPA\nSoCo Sasquatch Street Brown Ale\nSoCo Schwarzbier\nSoCo Scottish Export\nSoCo Scottish Heavy\nSoCo Scottish Light\nSoCo Serendipitous Citrus\nSoCo SimCitIPA\nSoCo Simcoe IPA\nSoCo Simcoe Pale Ale\nSoCo Simcoe SMaSH IPA\nSoCo Smoky Brown Ale\nSoCo Smoky Porter\nSoCo South Lamar IPA\nSoCo Spiced IPA\nSoCo Spiced Porter\nSoCo Spiced Stout\nSoCo Strata Pale Ale\nSoCo Strawberry Blonde Ale\nSoCo Strawberry Wheat\nSoCo Strong Amber Ale\nSoCo Strong American Porter\nSoCo Strong Scotch Ale\nSoCo Strong Winter Ale\nSoCo Summer Wheat\nSoCo Texas Amber Ale\nSoCo Texas Blonde Ale\nSoCo Texas Brown Ale\nSoCo Texas Citra IPA\nSoCo Texas Golden Ale\nSoCo Texas Hefeweizen\nSoCo Texas IPA\nSoCo Texas Juicy IPA\nSoCo Texas Kolsch\nSoCo Texas Mosaic IPA\nSoCo Texas Pale Ale\nSoCo Texas Porter\nSoCo Texas Red Ale\nSoCo Texas Stout\nSoCo Texas Strong Ale\nSoCo The Hard Way\nSoCo Town Lake IPA\nSoCo Tropical Stout\nSoCo Vanilla Cream Porter\nSoCo Vic Secret Pale Ale\nSoCo Vienna Lager\nSoCo Vista IPA\nSoCo Wandering Egret Amber Ale\nSoCo Warm Winter\nSoCo Watermelon Blonde\nSoCo West Coast IPA\nSoCo West Coast Pale\nSoCo Wheatwine\nSoCo Whiskey Barrel Stout\nSoCo White Chocolate Blonde Ale\nSoCo White Stout\nSoCo Whole Lotta Citrus NEIPA\nSoCo Witbier\nSoCo Yellow Bells Juicy NEIPA\nSoCo Yodeling Coyote Oktoberfest\nSoCo Zilker Park Pale\nSoCo-Fastest-IPA-in-the-Galaxy\nSouth Austins Best Bitter\nSquawking Parrot IPA\nStalwart Bulldog ESB\nStein Half Full Oktoberfest\nStrawberry Milk Stout\nSummer Waves\nSuperdelic Pale Ale",
+    "crumbs": [
+      "Recipes (Alpha)"
+    ]
+  },
+  {
+    "objectID": "01-recipes-alpha.html#t",
+    "href": "01-recipes-alpha.html#t",
+    "title": "Recipes (Alpha)",
+    "section": "T",
+    "text": "T\n\nTalus Pale Ale\nTexas Best Bitter\nTexas Christmas Red Ale\nTexas Dunkelweizen\nTexas Milk Stout\nTexas Oat Stout\nTexas Pilsner\nTexas Style Irish Stout\nTexasBigtooth Amber Ale\nTops For The Win Pale Ale\nTree Bench Brown Ale\nTropical Heavens IPA\nTurtle Pile Golden Ale\nTwo Z’s IPA",
+    "crumbs": [
+      "Recipes (Alpha)"
+    ]
+  },
+  {
+    "objectID": "01-recipes-alpha.html#v",
+    "href": "01-recipes-alpha.html#v",
+    "title": "Recipes (Alpha)",
+    "section": "V",
+    "text": "V\n\nVienna Amber",
+    "crumbs": [
+      "Recipes (Alpha)"
+    ]
+  },
+  {
+    "objectID": "01-recipes-alpha.html#w",
+    "href": "01-recipes-alpha.html#w",
+    "title": "Recipes (Alpha)",
+    "section": "W",
+    "text": "W\n\nWauterss Belgian Dubbel\nWest Coast Blonde Ale\nWest Coast Lager\nWheatys Comet\nWinter Red Ale",
+    "crumbs": [
+      "Recipes (Alpha)"
+    ]
+  },
+  {
+    "objectID": "01-recipes-alpha.html#y",
+    "href": "01-recipes-alpha.html#y",
+    "title": "Recipes (Alpha)",
+    "section": "Y",
+    "text": "Y\n\nYou Had Me At Amber Ale",
+    "crumbs": [
+      "Recipes (Alpha)"
+    ]
+  },
+  {
+    "objectID": "01-recipes-alpha.html#z",
+    "href": "01-recipes-alpha.html#z",
+    "title": "Recipes (Alpha)",
+    "section": "Z",
+    "text": "Z\n\nZappa IPA",
+    "crumbs": [
+      "Recipes (Alpha)"
+    ]
+  },
+  {
+    "objectID": "03-recipes-filter.html",
+    "href": "03-recipes-filter.html",
+    "title": "Recipe (Filter)",
+    "section": "",
+    "text": "2 · A · B · C · D · E · F · G · H · I · J · L · M · N · O · P · R · S · T · V · W · Y · Z\n\n\n\n2\n\n  22nd State Amber Ale\n\n\n\n\nA\n\n  A to CTZ IPA\n  Amarillo Pale Ale - SHS\n  Amberlievable Amber Ale\n  Apollo Single Hop Pale Ale\n  Appalled Apollo IPA\n  Azacca Pale Ale\n\n\n\n\nB\n\n  Beans The Elf Christmas Ale\n  Biscuits and Jam ESB\n  Bitter Butler\n  Bitter Texan IPA\n  Blackberry Witbier\n  Bourbon Barrel Porter\n  British Sunset Golden Ale\n  Butlers Irish Red Ale\n\n\n\n\nC\n\n  Cashmere Blonde Ale\n  Chinook IPA\n  Christmas Porter\n  Cluster SMaSH Pale Ale\n  Coconut Hefeweizen\n  Cruisin Canoe IPA\n\n\n\n\nD\n\n  Dark Chocolate Strawberry Stout\n  Dillo Trolley Pale Ale\n  Dry Hop Blonde Ale\n  Dunkles Bock\n\n\n\n\nE\n\n  Elani Pale Ale\n  English Pale Ale\n\n\n\n\nF\n\n  Frayed Aglet IPA\n  Fruity McCutie Juicy IPA\n\n\n\n\nG\n\n  Glaring Grackle Imperial Stout\n  Granite Dome Oat Stout\n\n\n\n\nH\n\n  Haze Austin Juicy NEIPA\n\n\n\n\nI\n\n  Imperial Bourbon Barrel Chocolate Stout\n\n\n\n\nJ\n\n  Janets Brown Ale\n  Jollyville Red Ale\n\n\n\n\nL\n\n  Lake Buchana IPA\n  Lake Travis IPA\n  Lemondrop Blonde Ale\n  Lofty Loblolly IPA\n  Lonely Pier Wheat Ale\n\n\n\n\nM\n\n  Mad Jacks Hoppy Amber Ale\n  Mars the Duck Oat Pale Ale\n  Mosaic & Citra Pale Ale\n\n\n\n\nN\n\n  Nearly Nirvana\n  Nectaron & Elani IPA\n  Nectaron IPA\n  Nectaron Pale Ale\n  New House English Brown Ale\n  New Zealand Blonde Ale\n  New Zealand IPA\n\n\n\n\nO\n\n  Oat Dear I Created A Maltster Oat Stout\n  Oat of Luck\n  Oatmeal Pale Ale\n\n\n\n\nP\n\n  Pacific Coast Juicy IPA\n  Plodding Bear Porter\n  Pool Floatie Amber Ale\n\n\n\n\nR\n\n  Rooftop Sunbathing NEIPA\n\n\n\n\nS\n\n  Sabro Pale Ale\n  SandyPupJuicyIPA_AllGrain\n  Seaside Ride\n  SoCo 120 Shilling\n  SoCo 60 Shilling\n  SoCo 70 Shilling\n  SoCo 80 Shilling\n  SoCo 90 Shilling\n  SoCo Ahoy Wheaty Wheat Ale\n  SoCo Amarillo Armadillo\n  SoCo Amarillo IPA\n  SoCo Amber Hue\n  SoCo Amberserk Amber Ale\n  SoCo American Amber Ale\n  SoCo American Barleywine\n  SoCo American Brown\n  SoCo American Hefeweizen\n  SoCo American Red Ale\n  SoCo American Rye Ale\n  SoCo American Strong Ale\n  SoCo American Wheat\n  SoCo Anniversary IPA\n  SoCo Apricot Saison\n  SoCo Apricot Wheat Ale\n  SoCo Australian Sparkling Ale\n  SoCo Bat Bridge Black IPA\n  SoCo Bavarian Hefeweizen\n  SoCo Beach Lounger Amber\n  SoCo Belgian Dark Strong\n  SoCo Belgian Dubbel\n  SoCo Belgian IPA\n  SoCo Belgian Pale Ale\n  SoCo Belgian Saison\n  SoCo Belgian Stout\n  SoCo Belgian Tripel\n  SoCo Berliner Weisse Advanced\n  SoCo Berliner Weisse Easy\n  SoCo Best Bitter\n  SoCo Black IPA\n  SoCo Black Licorice Porter\n  SoCo Blackberry Blonde Ale\n  SoCo Blackberry Wheat Ale\n  SoCo Blonde\n  SoCo Blueberry Blonde Ale\n  SoCo Blueberry Wheat Ale\n  SoCo Breezy Nights Black Ale\n  SoCo British Golden Ale\n  SoCo British Strong Ale\n  SoCo Brown IPA\n  SoCo Brown Porter\n  SoCo California Common\n  SoCo Cascadian Dark Ale\n  SoCo Centennial IPA\n  SoCo Chocolate Milk Stout\n  SoCo Chocolate Porter\n  SoCo Chocolate Stout\n  SoCo Christmas IPA\n  SoCo Citra Amarillo NEIPA\n  SoCo Citra Blonde Ale\n  SoCo Citra IPA\n  SoCo Citra Juicy NEIPA\n  SoCo Citra Pale Ale\n  SoCo Citra SMaSH IPA\n  SoCo CitSim\n  SoCo Coconut Porter\n  SoCo Coconut Wheat Ale\n  SoCo Columbus IPA\n  SoCo Dark Mild\n  SoCo Dark Wheat\n  SoCo Doppelbock\n  SoCo Double Brown Ale\n  SoCo Double Chocolate Stout\n  SoCo Double Wit\n  SoCo Dunkelweizen\n  SoCo Eclipse Black Blonde Ale\n  SoCo Eclipse Black IPA\n  SoCo English Barleywine\n  SoCo English Brown\n  SoCo English IPA\n  SoCo English Porter\n  SoCo ESB\n  SoCo Falconers Flight Pale Ale\n  SoCo Faux Coffee Stout\n  SoCo Flying Kiwi\n  SoCo Gose\n  SoCo Gose Kettle Sour\n  SoCo Goud Belgian Pale Ale\n  SoCo Grapefruit IPA\n  SoCo Grodziskie\n  SoCo Hefeweizen\n  SoCo Holiday Stout\n  SoCo Honey Badger Brown\n  SoCo Honey Wheat\n  SoCo Hoppy Wheat\n  SoCo Imperial Blonde Ale\n  SoCo Imperial Irish Red Ale\n  SoCo Imperial Nut Brown Ale\n  SoCo IPA IPA Double IPA\n  SoCo Irish Extra Stout\n  SoCo Irish Red\n  SoCo Irish Stout\n  SoCo Island Chicken Pale Ale\n  SoCo Leaky Tent Stout\n  SoCo Light Blonde Ale\n  SoCo London Brown\n  SoCo Maddies English Porter\n  SoCo McKinney Falls\n  SoCo Menchaca Hefeweizen\n  SoCo Milk Stout\n  SoCo Milkshake IPA (1)\n  SoCo Moontower White\n  SoCo Mosaic SMaSH IPA\n  SoCo Mugwort Lemon Gruit\n  SoCo Mugwort Red Ale\n  SoCo Nut Brown\n  SoCo Oat Stout\n  SoCo Oatmeal Brown Ale\n  SoCo Oktoberfest\n  SoCo Old Ale\n  SoCo Ordinary Bitter\n  SoCo Passion Fruit Saison\n  SoCo Patersbier\n  SoCo Pecan Brown Ale\n  SoCo Pecan Porter\n  SoCo Pennybacker Double IPA\n  SoCo Peppermint Chocolate Milk Stout\n  SoCo Pink Boots Society Red Ale\n  SoCo Porter\n  SoCo Raspberry Blonde\n  SoCo Raspberry Wheat Ale\n  SoCo Red APA\n  SoCo Red Hot Red Ale\n  SoCo Red IPA\n  SoCo Red Ryerson Roggenbier\n  SoCo Robust Porter\n  SoCo Russian Imperial Stout\n  SoCo Rye IPA\n  SoCo Rye Lager\n  SoCo Rye Pale\n  SoCo Rye Stout\n  SoCo Sabro IPA\n  SoCo Sasquatch Street Brown Ale\n  SoCo Schwarzbier\n  SoCo Scottish Export\n  SoCo Scottish Heavy\n  SoCo Scottish Light\n  SoCo Serendipitous Citrus\n  SoCo SimCitIPA\n  SoCo Simcoe IPA\n  SoCo Simcoe Pale Ale\n  SoCo Simcoe SMaSH IPA\n  SoCo Smoky Brown Ale\n  SoCo Smoky Porter\n  SoCo South Lamar IPA\n  SoCo Spiced IPA\n  SoCo Spiced Porter\n  SoCo Spiced Stout\n  SoCo Strata Pale Ale\n  SoCo Strawberry Blonde Ale\n  SoCo Strawberry Wheat\n  SoCo Strong Amber Ale\n  SoCo Strong American Porter\n  SoCo Strong Scotch Ale\n  SoCo Strong Winter Ale\n  SoCo Summer Wheat\n  SoCo Texas Amber Ale\n  SoCo Texas Blonde Ale\n  SoCo Texas Brown Ale\n  SoCo Texas Citra IPA\n  SoCo Texas Golden Ale\n  SoCo Texas Hefeweizen\n  SoCo Texas IPA\n  SoCo Texas Juicy IPA\n  SoCo Texas Kolsch\n  SoCo Texas Mosaic IPA\n  SoCo Texas Pale Ale\n  SoCo Texas Porter\n  SoCo Texas Red Ale\n  SoCo Texas Stout\n  SoCo Texas Strong Ale\n  SoCo The Hard Way\n  SoCo Town Lake IPA\n  SoCo Tropical Stout\n  SoCo Vanilla Cream Porter\n  SoCo Vic Secret Pale Ale\n  SoCo Vienna Lager\n  SoCo Vista IPA\n  SoCo Wandering Egret Amber Ale\n  SoCo Warm Winter\n  SoCo Watermelon Blonde\n  SoCo West Coast IPA\n  SoCo West Coast Pale\n  SoCo Wheatwine\n  SoCo Whiskey Barrel Stout\n  SoCo White Chocolate Blonde Ale\n  SoCo White Stout\n  SoCo Whole Lotta Citrus NEIPA\n  SoCo Witbier\n  SoCo Yellow Bells Juicy NEIPA\n  SoCo Yodeling Coyote Oktoberfest\n  SoCo Zilker Park Pale\n  SoCo-Fastest-IPA-in-the-Galaxy\n  South Austins Best Bitter\n  Squawking Parrot IPA\n  Stalwart Bulldog ESB\n  Stein Half Full Oktoberfest\n  Strawberry Milk Stout\n  Summer Waves\n  Superdelic Pale Ale\n\n\n\n\nT\n\n  Talus Pale Ale\n  Texas Best Bitter\n  Texas Christmas Red Ale\n  Texas Dunkelweizen\n  Texas Milk Stout\n  Texas Oat Stout\n  Texas Pilsner\n  Texas Style Irish Stout\n  TexasBigtooth Amber Ale\n  Tops For The Win Pale Ale\n  Tree Bench Brown Ale\n  Tropical Heavens IPA\n  Turtle Pile Golden Ale\n  Two Z's IPA\n\n\n\n\nV\n\n  Vienna Amber\n\n\n\n\nW\n\n  Wauterss Belgian Dubbel\n  West Coast Blonde Ale\n  West Coast Lager\n  Wheatys Comet\n  Winter Red Ale\n\n\n\n\nY\n\n  You Had Me At Amber Ale\n\n\n\n\nZ\n\n  Zappa IPA\n\n\n\nNo recipes match your search.",
+    "crumbs": [
+      "Recipe (Filter)"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "All Grain Beer Recipes",
+    "section": "",
+    "text": "This is a work in progress to create a website to preserve SoCo Homebrew All Grain recipes before the store closes.\nThe recipes are saved as PDFs.\nThere are several organizations of the same recipes:",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#future-work",
+    "href": "index.html#future-work",
+    "title": "All Grain Beer Recipes",
+    "section": "Future work?",
+    "text": "Future work?\n\nI’d like the scrape the main information from the pdfs and store in a CSV.\n\nUPDATE: This is mostly done, except I didn’t capture “THE BOIL” portion that tracks extract additions.\n\nI want to make simple Quarto page for each recipe with good indexes that also include links to the original PDFs.\nAnd/or make a database.",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#how-this-was-done",
+    "href": "index.html#how-this-was-done",
+    "title": "All Grain Beer Recipes",
+    "section": "How this was done",
+    "text": "How this was done\n\nI used Posit Assistant (an AI tool by posit built into RStudio) to build the scraper and pull all the pdfs. See the original prompt in pa-scrape. This yielded the file x-scrape (it was renamed later) that has the code that did the scraping. It took me about 5 minutes to write the prompt. It took working with PA another 15 minutes to get a test version of the scraper, and then 10 minutes for it to download them. (I didn’t save that full conversation with Posit Assistant).\nI used PA again to make most of the indexes. You can see the prompts in pa-extract. I also saved the full conversation in the pa-conversations folder.\nI used PA again to fix some text on the indexes. pa-indexes for prompt.\nI used PA to extract some key information from the PDFs to put into a csv. pa-extract. It got most of the way there before I ran out of credits, so I did some cleanup in the file data-processed/receipes.xlsx.",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "pa-indexes.html",
+    "href": "pa-indexes.html",
+    "title": "Prompt: Indexes",
+    "section": "",
+    "text": "This is the first prompt to build the index of PDFs:\n“OK, within the page 02-site-pdfs I want you to create a list in alphabetical order of all the recipes in the recipe-pdfs folder, and link to that recipe. The idea is to when this site is rendered a user could use that page to get to each recipe.”\nIt suggested some changes to add a search/filter for the page, and to build A-Z breadcrumbs. I said yes to both.\nThe result was a complicated HTML page, which was fine, but might be harder to maintain, so I suggested this: “While this is fine, can you make a new page that had the original list as a simple Quarto file?”\nThen I wanted a different version: “How about this … try to make another recipe list page that organizes the lists by common beer styles. Just use simple Quarto/Markdown headers and not html/javascript.”\nNext: “On 02-recipe-list, add Markdown headers for letters of the alphabet.”\nNext: “Let’s try another new page: Make another alpha list like in 03-recipe, but if the the recipe name starts with”SoCo”, take that out and re-alphabatize. (Don’t break the link, though!)”",
+    "crumbs": [
+      "pa-indexes"
+    ]
+  },
+  {
+    "objectID": "pa-indexes.html#making-the-indexes",
+    "href": "pa-indexes.html#making-the-indexes",
+    "title": "Prompt: Indexes",
+    "section": "",
+    "text": "This is the first prompt to build the index of PDFs:\n“OK, within the page 02-site-pdfs I want you to create a list in alphabetical order of all the recipes in the recipe-pdfs folder, and link to that recipe. The idea is to when this site is rendered a user could use that page to get to each recipe.”\nIt suggested some changes to add a search/filter for the page, and to build A-Z breadcrumbs. I said yes to both.\nThe result was a complicated HTML page, which was fine, but might be harder to maintain, so I suggested this: “While this is fine, can you make a new page that had the original list as a simple Quarto file?”\nThen I wanted a different version: “How about this … try to make another recipe list page that organizes the lists by common beer styles. Just use simple Quarto/Markdown headers and not html/javascript.”\nNext: “On 02-recipe-list, add Markdown headers for letters of the alphabet.”\nNext: “Let’s try another new page: Make another alpha list like in 03-recipe, but if the the recipe name starts with”SoCo”, take that out and re-alphabatize. (Don’t break the link, though!)”",
+    "crumbs": [
+      "pa-indexes"
+    ]
+  },
+  {
+    "objectID": "pa-indexes.html#fix-some-titles",
+    "href": "pa-indexes.html#fix-some-titles",
+    "title": "Prompt: Indexes",
+    "section": "Fix some titles",
+    "text": "Fix some titles\nNext I wanted to clean some stuff up:\n“OK … first, I renamed the files, just so you know. There are now four pages that all have”recipes” in the name of the quarto files. What I want you to do next is in the text of each recipe title, take out the phrase ” All Grain Recipe Instructions”. I just want the name of the beer. Make sure not to break the links to the actual filenames!”\nNext: “Oh, it looks like there were some names with this phrase that we need to remove:” All Grain Recipe Sheet””\nNext: “Also remove”All Grain Brewing Instructions” and “-All-Grain-Recipe” and “All Grain Recipe V2””",
+    "crumbs": [
+      "pa-indexes"
     ]
   }
 ]

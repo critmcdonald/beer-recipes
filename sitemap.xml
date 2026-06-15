@@ -1,23 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://critmcdonald.github.io/beer-recipes/index.html</loc>
-    <lastmod>2026-06-14T00:24:47.392Z</lastmod>
+    <loc>https://critmcdonald.github.io/beer-recipes/pa-scrape.html</loc>
+    <lastmod>2026-06-15T19:03:44.050Z</lastmod>
   </url>
   <url>
-    <loc>https://critmcdonald.github.io/beer-recipes/03-recipes-filter.html</loc>
-    <lastmod>2026-06-14T00:47:46.323Z</lastmod>
+    <loc>https://critmcdonald.github.io/beer-recipes/pa-extract.html</loc>
+    <lastmod>2026-06-15T19:03:10.678Z</lastmod>
   </url>
   <url>
-    <loc>https://critmcdonald.github.io/beer-recipes/01-recipes-alpha.html</loc>
-    <lastmod>2026-06-14T00:47:46.316Z</lastmod>
+    <loc>https://critmcdonald.github.io/beer-recipes/04-recipes-by-style.html</loc>
+    <lastmod>2026-06-14T00:47:46.319Z</lastmod>
   </url>
   <url>
     <loc>https://critmcdonald.github.io/beer-recipes/02-recipes-nosoco.html</loc>
     <lastmod>2026-06-14T00:47:46.317Z</lastmod>
   </url>
   <url>
-    <loc>https://critmcdonald.github.io/beer-recipes/04-recipes-by-style.html</loc>
-    <lastmod>2026-06-14T00:47:46.319Z</lastmod>
+    <loc>https://critmcdonald.github.io/beer-recipes/01-recipes-alpha.html</loc>
+    <lastmod>2026-06-14T00:47:46.316Z</lastmod>
+  </url>
+  <url>
+    <loc>https://critmcdonald.github.io/beer-recipes/03-recipes-filter.html</loc>
+    <lastmod>2026-06-14T00:47:46.323Z</lastmod>
+  </url>
+  <url>
+    <loc>https://critmcdonald.github.io/beer-recipes/index.html</loc>
+    <lastmod>2026-06-15T17:41:16.960Z</lastmod>
+  </url>
+  <url>
+    <loc>https://critmcdonald.github.io/beer-recipes/pa-indexes.html</loc>
+    <lastmod>2026-06-15T19:03:31.775Z</lastmod>
   </url>
 </urlset>

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>All Grain Beer Recipes – Beer recipes</title>
+<title>Prompt: extract – Beer recipes</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -84,7 +84,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Home</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./pa-extract.html">x-extract</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -111,7 +111,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Home</span></a>
   </div>
 </li>
@@ -141,7 +141,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./pa-extract.html" class="sidebar-item-text sidebar-link">
+  <a href="./pa-extract.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">x-extract</span></a>
   </div>
 </li>
@@ -167,8 +167,8 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#future-work" id="toc-future-work" class="nav-link active" data-scroll-target="#future-work">Future work?</a></li>
-  <li><a href="#how-this-was-done" id="toc-how-this-was-done" class="nav-link" data-scroll-target="#how-this-was-done">How this was done</a></li>
+  <li><a href="#original-prompt" id="toc-original-prompt" class="nav-link active" data-scroll-target="#original-prompt">Original prompt</a></li>
+  <li><a href="#followup-prompts" id="toc-followup-prompts" class="nav-link" data-scroll-target="#followup-prompts">Followup prompts</a></li>
   </ul>
 </nav>
     </div>
@@ -177,7 +177,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">All Grain Beer Recipes</h1>
+<h1 class="title">Prompt: extract</h1>
 </div>
 
 
@@ -194,34 +194,28 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>This is a work in progress to create a website to preserve <a href="https://socohomebrew.com/homebrew-recipe-kits/all-grain-recipe-kits/?page=1">SoCo Homebrew All Grain recipes</a> before the store closes.</p>
-<p>The recipes are saved as PDFs.</p>
-<p>There are several organizations of the same recipes:</p>
+<section id="original-prompt" class="level2">
+<h2 class="anchored" data-anchor-id="original-prompt">Original prompt</h2>
+<p>I have a collection of beer recipes as PDFs. I want to extract some specific information from each PDF and save it in a csv file.</p>
+<p>Most of the PDFs are structured the same, but I know there are at least some that are different.</p>
+<p>Here is the information I want to save. I’m using the recipe “22nd State Amber Ale All Grain Recipe Instructions” as an example:</p>
 <ul>
-<li><a href="./01-recipes-alpha.html">Recipes (Alpha)</a> is in alphabetical order by name.</li>
-<li><a href="./02-recipes-nosoco.html">Recipes (No Soco)</a> is similar, but removes “SoCo” from recipe names.</li>
-<li><a href="./03-recipes-filter.html">Recipes (Filter)</a> allows you to filter the list based on keywords to find things more quickly.</li>
-<li><a href="./04-recipes-by-style.html">Recipes (Style)</a> organizes the recipes by beer style.</li>
+<li>The recipe name. It’s in a box at the top of the page, under the SoCo Homebrew logo. Like “22nd State Amber Ale”</li>
+<li>All the grains listed under “The Mash”. They are in a table after the text “Your kit will contain the following grain:”. You can put all the ingredients in the same field, separated by returns.</li>
+<li>In the “Adding the Hops” portion, there are three tables to list hops: for bittering, flavor and aroma. I want those listed as three separate fields. If there is more than one item in one of these tables, keep them in the same field, separated by returns.</li>
+<li>I want to record the “original specific gravity”. It is usually a number, like “1.051”</li>
+<li>Under pitching your yeast, there is a table that includes different yeasts. For each yeast there is usually a manufacturer like “White Labs” and then the style like “California Ale V 051”. You can put them together like this: “White Labs California Ale V 051”. Include all the yeast varieties in the same cell, separated by returns.</li>
+<li>Under “Dry Hopping” I want all the hops listed here in the same cell, similar to others with more than one ingredient.</li>
+<li>I want to record the “final specific gravity”. It is usually a number, like “1.012”.</li>
+<li>The last thing to record is “Flavoring to add before bottling”. If the table or box says only “No Flavoring”, then leave it blank. Otherwise list the ingredient with returns between multiple ingredients.</li>
 </ul>
-<section id="future-work" class="level2">
-<h2 class="anchored" data-anchor-id="future-work">Future work?</h2>
-<ul>
-<li>I’d like the scrape the main information from the pdfs and store in a CSV.
-<ul>
-<li>UPDATE: This is mostly done, except I didn’t capture “THE BOIL” portion that tracks extract additions.</li>
-</ul></li>
-<li>I want to make simple Quarto page for each recipe with good indexes that also include links to the original PDFs.</li>
-<li>And/or make a database.</li>
-</ul>
+<p>Let’s do a single one and check it before doing the other 200+ PDFs.</p>
 </section>
-<section id="how-this-was-done" class="level2">
-<h2 class="anchored" data-anchor-id="how-this-was-done">How this was done</h2>
-<ul>
-<li>I used <a href="https://posit-dev.github.io/assistant/">Posit Assistant</a> (an AI tool by posit built into RStudio) to build the scraper and pull all the pdfs. See the original prompt in <a href="./pa-scrape.html">pa-scrape</a>. This yielded the file <a href="x-scrape.qmd">x-scrape</a> (it was renamed later) that has the code that did the scraping. It took me about 5 minutes to write the prompt. It took working with PA another 15 minutes to get a test version of the scraper, and then 10 minutes for it to download them. (I didn’t save that full conversation with Posit Assistant).</li>
-<li>I used PA again to make most of the indexes. You can see the prompts in <a href="./pa-extract.html">pa-extract</a>. I also saved the full conversation in the pa-conversations folder.</li>
-<li>I used PA again to fix some text on the indexes. <a href="./pa-indexes.html">pa-indexes</a> for prompt.</li>
-<li>I used PA to extract some key information from the PDFs to put into a csv. <a href="./pa-extract.html">pa-extract</a>. It got most of the way there before I ran out of credits, so I did some cleanup in the file <code>data-processed/receipes.xlsx</code>.</li>
-</ul>
+<section id="followup-prompts" class="level2">
+<h2 class="anchored" data-anchor-id="followup-prompts">Followup prompts</h2>
+<p>When it finished, it suggested some tests, or to run and look for NAs, or to just go for it. I said: “Test on a few more PDFs — especially ones that look different — before committing to the full batch.”</p>
+<p>At this point I was about out of my free credits, so I just wanted a good place to stop so I could do some manual work: “You found there were two different layouts for the PDFs and did a fairly good job of parsing both. The most common one is great, but I need to hand-check the alternative layout. Can you make me a list of the recipes that have the alternative layouts so I can check them?”</p>
+<p>It found them and then saved as a csv so I could refer to it.</p>
 
 
 </section>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://critmcdonald.github.io/beer-recipes/pa-scrape.html</loc>
-    <lastmod>2026-06-15T19:03:44.050Z</lastmod>
+    <loc>https://critmcdonald.github.io/beer-recipes/pa-03-extract.html</loc>
+    <lastmod>2026-06-15T20:07:38.162Z</lastmod>
   </url>
   <url>
-    <loc>https://critmcdonald.github.io/beer-recipes/pa-extract.html</loc>
-    <lastmod>2026-06-15T19:03:10.678Z</lastmod>
+    <loc>https://critmcdonald.github.io/beer-recipes/pa-01-scrape.html</loc>
+    <lastmod>2026-06-15T20:06:57.319Z</lastmod>
   </url>
   <url>
     <loc>https://critmcdonald.github.io/beer-recipes/04-recipes-by-style.html</loc>
@@ -26,10 +26,10 @@
   </url>
   <url>
     <loc>https://critmcdonald.github.io/beer-recipes/index.html</loc>
-    <lastmod>2026-06-15T17:41:16.960Z</lastmod>
+    <lastmod>2026-06-15T20:29:33.694Z</lastmod>
   </url>
   <url>
-    <loc>https://critmcdonald.github.io/beer-recipes/pa-indexes.html</loc>
+    <loc>https://critmcdonald.github.io/beer-recipes/pa-02-indexes.html</loc>
     <lastmod>2026-06-15T19:03:31.775Z</lastmod>
   </url>
 </urlset>

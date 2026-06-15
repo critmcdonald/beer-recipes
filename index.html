@@ -141,20 +141,20 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./pa-extract.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">x-extract</span></a>
+  <a href="./pa-01-scrape.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Prompt: Scrape</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./pa-indexes.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">pa-indexes</span></a>
+  <a href="./pa-02-indexes.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Prompt: Indexes</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./pa-scrape.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">pa-scrape</span></a>
+  <a href="./pa-03-extract.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Prompt: Extract PDFs</span></a>
   </div>
 </li>
     </ul>
@@ -217,10 +217,9 @@ ul.task-list li input[type="checkbox"] {
 <section id="how-this-was-done" class="level2">
 <h2 class="anchored" data-anchor-id="how-this-was-done">How this was done</h2>
 <ul>
-<li>I used <a href="https://posit-dev.github.io/assistant/">Posit Assistant</a> (an AI tool by posit built into RStudio) to build the scraper and pull all the pdfs. See the original prompt in <a href="./pa-scrape.html">pa-scrape</a>. This yielded the file <a href="x-scrape.qmd">x-scrape</a> (it was renamed later) that has the code that did the scraping. It took me about 5 minutes to write the prompt. It took working with PA another 15 minutes to get a test version of the scraper, and then 10 minutes for it to download them. (I didn’t save that full conversation with Posit Assistant).</li>
-<li>I used PA again to make most of the indexes. You can see the prompts in <a href="./pa-extract.html">pa-extract</a>. I also saved the full conversation in the pa-conversations folder.</li>
-<li>I used PA again to fix some text on the indexes. <a href="./pa-indexes.html">pa-indexes</a> for prompt.</li>
-<li>I used PA to extract some key information from the PDFs to put into a csv. <a href="./pa-extract.html">pa-extract</a>. It got most of the way there before I ran out of credits, so I did some cleanup in the file <code>data-processed/receipes.xlsx</code>.</li>
+<li>I used <a href="https://posit-dev.github.io/assistant/">Posit Assistant</a> (an AI tool by posit built into RStudio) to build the scraper and pull all the pdfs. See the original prompt in <a href="./pa-01-scrape.html">Prompt: Scrape</a>. This yielded the file <a href="x-scrape.qmd">x-scrape</a> (it was renamed later) that has the code that did the scraping. It took me about 5 minutes to write the prompt. It took working with PA another 15 minutes to get a test version of the scraper, and then 10 minutes for it to download them. (I didn’t save that full conversation with Posit Assistant).</li>
+<li>I used PA again to make most of the indexes. You can see the prompts in <a href="./pa-02-indexes.html">Prompt: Indexes</a>. I also saved the full conversation <a href="pa-conversations/conversation-export-indexes.html">here</a> and <a href="pa-conversations/conversation-export-textfix.html">here</a> in the pa-conversations folder. That also has some followup prompts to fix some titles.</li>
+<li>I used PA to extract some key information from the PDFs to put into a csv. <a href="./pa-03-extract.html">Prompt: Extract PDFs</a>. It got most of the way there before I ran out of credits, so I did some cleanup in the file <code>data-processed/receipes.xlsx</code>. Conversation <a href="pa-conversations/conversation-export-extract.html">here</a>.</li>
 </ul>
 
 

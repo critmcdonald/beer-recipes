@@ -1,5 +1,5 @@
 ---
-title: "x-extract"
+title: "Prompt: extract"
 format: html
 ---
 

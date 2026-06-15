@@ -22,7 +22,7 @@ There are several organizations of the same recipes:
 
 ## How this was done
 
-- I used [Posit Assistant](https://posit-dev.github.io/assistant/) (an AI tool by posit built into RStudio) to build the scraper and pull all the pdfs. See the original prompt in [pa-scrape](pa-scrape.qmd). This yielded the file [x-extract-recipes](x-extract-recipes.qmd) that has the code that did the extraction. It took me about 5 minutes to write the prompt. It took working with PA another 15 minutes to get a test version of the scraper, and then 10 minutes for it to download them. This was done in a different account so I didn't save the full conversation.
+- I used [Posit Assistant](https://posit-dev.github.io/assistant/) (an AI tool by posit built into RStudio) to build the scraper and pull all the pdfs. See the original prompt in [pa-scrape](pa-scrape.qmd). This yielded the file [x-scrape](x-scrape.qmd) (it was renamed later) that has the code that did the scraping. It took me about 5 minutes to write the prompt. It took working with PA another 15 minutes to get a test version of the scraper, and then 10 minutes for it to download them. (I didn't save that full conversation with Posit Assistant).
 - I used PA again to make most of the indexes. You can see the prompts in [pa-extract](pa-extract.qmd). I also saved the full conversation in the pa-conversations folder.
 - I used PA again to fix some text on the indexes. [pa-indexes](pa-indexes.qmd) for prompt.
 - I used PA to extract some key information from the PDFs to put into a csv. [pa-extract](pa-extract.qmd). It got most of the way there before I ran out of credits, so I did some cleanup in the file `data-processed/receipes.xlsx`.

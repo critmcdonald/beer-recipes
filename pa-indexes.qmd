@@ -1,5 +1,5 @@
 ---
-title: "pa-indexes"
+title: "Prompt: Indexes"
 format: html
 ---
 

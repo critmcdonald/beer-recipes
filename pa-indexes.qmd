@@ -1,0 +1,30 @@
+---
+title: "pa-indexes"
+format: html
+---
+
+## Making the indexes
+
+This is the first prompt to build the index of PDFs:
+
+"OK, within the page 02-site-pdfs I want you to create a list in alphabetical order of all the recipes in the recipe-pdfs folder, and link to that recipe. The idea is to when this site is rendered a user could use that page to get to each recipe."
+
+It suggested some changes to add a search/filter for the page, and to build A-Z breadcrumbs. I said yes to both.
+
+The result was a complicated HTML page, which was fine, but might be harder to maintain, so I suggested this: "While this is fine, can you make a new page that had the original list as a simple Quarto file?"
+
+Then I wanted a different version: "How about this ... try to make another recipe list page that organizes the lists by common beer styles. Just use simple Quarto/Markdown headers and not html/javascript."
+
+Next: "On 02-recipe-list, add Markdown headers for letters of the alphabet."
+
+Next: "Let's try another new page: Make another alpha list like in 03-recipe, but if the the recipe name starts with "SoCo", take that out and re-alphabatize. (Don't break the link, though!)"
+
+## Fix some titles
+
+Next I wanted to clean some stuff up:
+
+"OK ... first, I renamed the files, just so you know. There are now four pages that all have "recipes" in the name of the quarto files. What I want you to do next is in the text of each recipe title, take out the phrase " All Grain Recipe Instructions". I just want the name of the beer. Make sure not to break the links to the actual filenames!"
+
+Next: "Oh, it looks like there were some names with this phrase that we need to remove: " All Grain Recipe Sheet""
+
+Next: "Also remove "All Grain Brewing Instructions" and "-All-Grain-Recipe" and "All Grain Recipe V2""

@@ -5,5 +5,6 @@ This project saves all of the All Grain recipes from SoCo Homebrew before the st
 There are several goals:
 
 - [x] Scrape and save all the PDFS
-- [ ] Make a quarto site that allows us to search for and find a recipe, using the PDFs.
-- [ ] Eventually scrape all the PDFs to pull the key parts into Quarto documents, creating a mobile-friendly way to search for and view the recipes.
+- [x] Make a quarto site that allows us to search for and find a recipe, using the PDFs.
+- [ ] Scrape the important recipe data from PDFs and put into a CSV. (Partially done. Needs "Boil" additions.)
+- [ ] Made a Markdown-based website or database from the CSV.

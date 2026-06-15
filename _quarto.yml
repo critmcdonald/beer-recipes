@@ -1,7 +1,7 @@
 project:
   type: website
   render:
-  - "!x-scrape.qmd"
+  - "!x-*.qmd"
   - "*.qmd"
 
 website:

@@ -1,0 +1,332 @@
+---
+title: "Extract Recipe Data from PDFs"
+format: html
+---
+
+```{r}
+#| label: setup
+#| message: false
+
+library(pdftools)
+library(tidyverse)
+```
+
+## Helper functions
+
+```{r}
+#| label: helpers
+
+# Reconstruct text from a horizontal slice of a PDF page (coordinate-based)
+reconstruct_column <- function(page_data, x_min = 0, x_max = Inf) {
+  page_data |>
+    filter(x >= x_min, x < x_max) |>
+    arrange(y, x) |>
+    mutate(line_group = cumsum(c(0, diff(y)) > 3)) |>
+    group_by(line_group) |>
+    summarise(line = paste(text, collapse = " "), .groups = "drop") |>
+    pull(line) |>
+    paste(collapse = "\n")
+}
+
+# Some PDFs split "hops:" across lines as "ho\n  ps:" — rejoin before parsing
+preprocess_col <- function(text) {
+  str_replace_all(text, "(?m)ho\n\\s*ps:", "hops:\n")
+}
+
+# Pull lines that look like ingredient quantities (e.g. "9 LB Pale Malt")
+extract_ingredients <- function(text) {
+  lines <- str_split(text, "\n")[[1]]
+  hits  <- lines[str_detect(lines, "^\\s*\\d+\\.?\\d*\\s+(oz|LB|lb|lbs|g|kg)\\s+\\w")]
+  str_trim(hits)
+}
+
+# Extract bittering / flavor / aroma hops — line-by-line search, robust to
+# word-order scrambling that can occur in two-column coordinate reconstruction
+extract_hop_section <- function(col_text, hop_type) {
+  col_text <- preprocess_col(col_text)
+  lines    <- str_split(col_text, "\n")[[1]]
+  # Header: line containing hop_type AND ("hops:" or ends with "ho" = split word)
+  header_idx <- which(
+    str_detect(str_to_lower(lines), hop_type) &
+    (str_detect(lines, "hops:") | str_detect(str_trim(lines), "\\bho$"))
+  )
+  if (length(header_idx) == 0) return(NA_character_)
+  idx       <- header_idx[1]
+  remaining <- lines[seq(idx + 1, length(lines))]
+  # Stop at next hop header or STEP
+  stop_idx <- which(
+    (str_detect(str_to_lower(remaining), "bittering|flavor|aroma") &
+       (str_detect(remaining, "hops:") | str_detect(str_trim(remaining), "\\bho$"))) |
+    str_detect(remaining, "STEP")
+  )
+  if (length(stop_idx) > 0) remaining <- remaining[seq_len(stop_idx[1] - 1)]
+  ing <- extract_ingredients(paste(remaining, collapse = "\n"))
+  if (length(ing) == 0) return(NA_character_)
+  paste(ing, collapse = "\n")
+}
+
+# Extract yeast entries — lines come in pairs: manufacturer / style
+extract_yeast <- function(left_p2) {
+  section <- str_extract(left_p2, "(?s)Recommended Yeast:\\n(.+?)(?=\nIf you have wet)")
+  if (is.na(section)) return(NA_character_)
+  lines <- str_split(section, "\n")[[1]]
+  lines <- str_trim(lines[!str_detect(lines, "^Recommended Yeast:|^\\s*$")])
+  if (length(lines) >= 2 && length(lines) %% 2 == 0) {
+    pairs <- paste(lines[c(TRUE, FALSE)], lines[c(FALSE, TRUE)])
+  } else {
+    pairs <- lines
+  }
+  paste(pairs, collapse = "\n")
+}
+
+# Extract dry hop ingredients; empty form fields appear as "Text90:" prefix
+extract_dry_hops <- function(left_p2) {
+  section <- str_extract(left_p2, "(?s)secondary fermenter at this point:\\n(.+?)(?=\nAfter you add)")
+  if (is.na(section)) return(NA_character_)
+  lines <- str_split(section, "\n")[[1]]
+  # Strip "Text90: " prefix; if line then has content, keep it
+  lines <- str_trim(str_remove(lines, "^Text90:\\s*"))
+  lines <- lines[lines != "" & !str_detect(lines, "secondary fermenter at this point")]
+  if (length(lines) == 0) return(NA_character_)
+  paste(lines, collapse = "\n")
+}
+
+# Extract flavoring — return NA if "No Flavoring"
+extract_flavoring <- function(right_p2) {
+  section <- str_extract(right_p2, "(?s)Flavoring to add before bottling\\n(.+?)(?=\nOnce the beer|$)")
+  if (is.na(section)) return(NA_character_)
+  lines <- str_split(section, "\n")[[1]]
+  lines <- str_trim(lines[!str_detect(lines, "Flavoring to add before bottling|^\\s*$")])
+  lines <- lines[lines != ""]
+  if (length(lines) == 0 || all(lines == "No Flavoring")) return(NA_character_)
+  paste(lines[lines != "No Flavoring"], collapse = "\n")
+}
+```
+
+## Main extraction functions
+
+Two PDF formats exist in this collection: the standard step-by-step "Recipe
+Instructions" layout and a condensed "Recipe Sheet" layout. The wrapper
+`extract_recipe()` auto-detects which format to use.
+
+```{r}
+#| label: extract-instructions
+
+# Standard step-by-step "Recipe Instructions" format
+extract_recipe_instructions <- function(pdf_path) {
+  pages    <- pdf_data(pdf_path)
+  raw_text <- paste(pdf_text(pdf_path), collapse = "\n")
+
+  page_w       <- max(pages[[1]]$x + pages[[1]]$width)
+  col_boundary <- page_w / 2
+
+  left_p1  <- reconstruct_column(pages[[1]], x_min = 0,            x_max = col_boundary)
+  right_p1 <- reconstruct_column(pages[[1]], x_min = col_boundary, x_max = Inf)
+  left_p2  <- if (length(pages) >= 2) reconstruct_column(pages[[2]], x_min = 0,            x_max = col_boundary) else ""
+  right_p2 <- if (length(pages) >= 2) reconstruct_column(pages[[2]], x_min = col_boundary, x_max = Inf) else ""
+
+  # 1. Recipe name (parentheses allowed for e.g. "Session IPA (SIPA)")
+  name_m      <- str_match(raw_text, "(?m)^\\s+([\\w][\\w\\s&''\\-()]+?)\\s{5,}Kit Type:")
+  recipe_name <- if (!is.na(name_m[1, 2])) str_trim(name_m[1, 2]) else NA_character_
+
+  # 2. Grains (left column, page 1)
+  grain_section <- str_extract(left_p1, "(?s)following grain:\\n(.+?)(?=\n\nHeat|\nHeat)")
+  grains_str    <- if (!is.na(grain_section)) {
+    ing <- extract_ingredients(grain_section)
+    if (length(ing) > 0) paste(ing, collapse = "\n") else NA_character_
+  } else NA_character_
+
+  # 3–5. Hops (right column, page 1)
+  bittering_hops <- extract_hop_section(right_p1, "bittering")
+  flavor_hops    <- extract_hop_section(right_p1, "flavor")
+  aroma_hops     <- extract_hop_section(right_p1, "aroma")
+
+  # 6 & 9. Specific gravity — use raw text to avoid coordinate-sort issues
+  og_m        <- str_match(raw_text, "original specific gravity should be approximately:\\s*([\\d.]+)")
+  original_sg <- if (!is.na(og_m[1, 2])) og_m[1, 2] else NA_character_
+  fg_m        <- str_match(raw_text, "final specific gravity should be approximately:\\s*([\\d.]+)")
+  final_sg    <- if (!is.na(fg_m[1, 2])) fg_m[1, 2] else NA_character_
+
+  # 7. Yeast (left column, page 2)
+  yeast_str <- extract_yeast(left_p2)
+
+  # 8. Dry hops (left column, page 2)
+  dry_hops_str <- extract_dry_hops(left_p2)
+
+  # 10. Flavoring (right column, page 2)
+  flavoring_str <- extract_flavoring(right_p2)
+
+  tibble(
+    recipe_name    = recipe_name,
+    grains         = grains_str,
+    bittering_hops = bittering_hops,
+    flavor_hops    = flavor_hops,
+    aroma_hops     = aroma_hops,
+    original_sg    = original_sg,
+    yeast          = yeast_str,
+    dry_hops       = dry_hops_str,
+    final_sg       = final_sg,
+    flavoring      = flavoring_str
+  )
+}
+```
+
+```{r}
+#| label: extract-sheet
+
+# Condensed "Recipe Sheet" format (also used by some mislabeled "Instructions" files)
+extract_recipe_sheet <- function(pdf_path) {
+  raw_text <- paste(pdf_text(pdf_path), collapse = "\n")
+
+  # 1. Recipe name — two variants:
+  #    a) "Recipe Name: Foo Bar"
+  #    b) Name on its own line before "Recipe Type:"
+  name_m <- str_match(raw_text, "Recipe Name:\\s*(.+)")
+  if (!is.na(name_m[1, 2])) {
+    recipe_name <- str_trim(name_m[1, 2])
+  } else {
+    name_m2 <- str_match(raw_text, "(?m)^([A-Z][A-Za-z0-9 &'()\\-]+)\\s*\nRecipe Type:")
+    recipe_name <- if (!is.na(name_m2[1, 2])) str_trim(name_m2[1, 2]) else NA_character_
+  }
+
+  # 2. Grains (header may have trailing right-column text on same line)
+  grain_section <- str_extract(raw_text,
+    "(?s)Grains Included in this Kit:[^\n]*\n(.+?)(?=\n[A-Z][a-z]+ [A-Z]|\\nExtract|\\nHops)")
+  grains_str <- if (!is.na(grain_section)) {
+    ing <- extract_ingredients(grain_section)
+    if (length(ing) > 0) paste(ing, collapse = "\n") else NA_character_
+  } else NA_character_
+
+  # 3-5. Hops — three formats:
+  #   a) "1 oz Foo Hops Boil for 60 minutes"
+  #   b) "1 oz Foo Hops – Whirlpool at 180°F"
+  #   c) "1 oz Foo Hops add with 60 minutes left in boil"
+  hop_section <- str_extract(raw_text,
+    "(?s)Hops Included in this Kit:[^\n]*\n(.+?)(?=\nTotal Boil Time|\\Z)")
+
+  parse_hops <- function(keyword) {
+    if (is.na(hop_section)) return(NA_character_)
+    lines <- str_split(hop_section, "\n")[[1]]
+    # Merge continuation lines (lines not starting with a digit)
+    joined <- character()
+    for (ln in lines) {
+      if (str_detect(str_trim(ln), "^\\d")) {
+        joined <- c(joined, str_trim(ln))
+      } else if (length(joined) > 0 && str_trim(ln) != "") {
+        joined[length(joined)] <- paste(joined[length(joined)], str_trim(ln))
+      }
+    }
+    hits <- joined[str_detect(str_to_lower(joined), keyword)]
+    if (length(hits) == 0) return(NA_character_)
+    # Extract quantity + hop name up to the usage description
+    parsed <- str_extract(hits,
+      "\\d+\\.?\\d*\\s+(?:oz|LB|lb)\\s+[\\w][\\w &]+?Hops?")
+    parsed <- str_trim(na.omit(parsed))
+    if (length(parsed) == 0) return(NA_character_)
+    paste(parsed, collapse = "\n")
+  }
+
+  bittering_hops <- parse_hops("boil")
+  flavor_hops    <- parse_hops("whirlpool")
+  dry_hops       <- parse_hops("dry hop")
+
+  # 6. Original SG (take first number if range like "1.059 – 1.061")
+  og_m        <- str_match(raw_text, "Estimated Original Gravity \\(OG\\):\\s*([\\d.]+)")
+  original_sg <- if (!is.na(og_m[1, 2])) og_m[1, 2] else NA_character_
+
+  # 7. Yeast
+  yeast_section <- str_extract(raw_text,
+    "(?s)Recommended Yeast[^:\n]*:[^\n]*\n(.+?)(?=\nNotes About|\\Z)")
+  yeast_str <- if (!is.na(yeast_section)) {
+    lines <- str_split(yeast_section, "\n")[[1]]
+    lines <- str_trim(lines[!str_detect(lines, "Recommended Yeast|^\\s*$")])
+    lines <- lines[nchar(lines) > 0]
+    if (length(lines) > 0) paste(lines, collapse = "\n") else NA_character_
+  } else NA_character_
+
+  # 8. Final SG
+  fg_m     <- str_match(raw_text, "Estimated Final Gravity \\(FG\\):\\s*([\\d.]+)")
+  final_sg <- if (!is.na(fg_m[1, 2])) fg_m[1, 2] else NA_character_
+
+  # 9. Flavoring ("None" or blank → NA)
+  flav_section <- str_extract(raw_text,
+    "(?s)Flavoring or Spices in this Kit:[^\n]*\n([^\n]+)")
+  flav_line <- if (!is.na(flav_section)) {
+    str_trim(str_split(flav_section, "\n")[[1]][2])
+  } else NA_character_
+  flavoring_str <- if (is.na(flav_line) || flav_line %in% c("", "None")) NA_character_ else flav_line
+
+  tibble(
+    recipe_name    = recipe_name,
+    grains         = grains_str,
+    bittering_hops = bittering_hops,
+    flavor_hops    = flavor_hops,
+    aroma_hops     = NA_character_,   # not differentiated in sheet format
+    original_sg    = original_sg,
+    yeast          = yeast_str,
+    dry_hops       = dry_hops,
+    final_sg       = final_sg,
+    flavoring      = flavoring_str
+  )
+}
+```
+
+```{r}
+#| label: extract-wrapper
+
+# Auto-detect format by content (some "Instructions" files use the Sheet layout)
+extract_recipe <- function(pdf_path) {
+  raw_text <- paste(pdf_text(pdf_path), collapse = "\n")
+  if (str_detect(raw_text, fixed("Kit Type: All Grain"))) {
+    extract_recipe_instructions(pdf_path)
+  } else {
+    extract_recipe_sheet(pdf_path)
+  }
+}
+```
+
+## Test on a single recipe
+
+```{r}
+#| label: test-single
+
+result <- extract_recipe(
+  "recipe-pdfs/22nd State Amber Ale All Grain Recipe Instructions.pdf"
+)
+
+result |> t() |> as.data.frame() |> setNames("value")
+
+result |> write_csv("data-processed/test.csv")
+```
+
+## Run on all PDFs
+
+Once the single-recipe test looks good, run this chunk to process all PDFs and
+save to CSV. Any PDFs that fail to parse will appear in the `error` column.
+
+```{r}
+#| label: run-all
+#| eval: false
+
+pdf_files <- list.files("recipe-pdfs", pattern = "\\.pdf$", full.names = TRUE)
+
+recipes <- map(pdf_files, \(f) {
+  tryCatch(
+    extract_recipe(f),
+    error = function(e) {
+      tibble(
+        recipe_name = basename(f), grains = NA, bittering_hops = NA,
+        flavor_hops = NA, aroma_hops = NA, original_sg = NA,
+        yeast = NA, dry_hops = NA, final_sg = NA, flavoring = NA,
+        error = conditionMessage(e)
+      )
+    }
+  )
+}, .progress = TRUE) |>
+  list_rbind()
+
+write_csv(recipes, "data-processed/recipes.csv")
+
+# Report any failures
+recipes |> filter(!is.na(error))
+```

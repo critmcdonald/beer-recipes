@@ -1,0 +1,31 @@
+---
+title: "x-extract"
+format: html
+---
+
+## Original prompt
+
+I have a collection of beer recipes as PDFs. I want to extract some specific information from each PDF and save it in a csv file.
+
+Most of the PDFs are structured the same, but I know there are at least some that are different.
+
+Here is the information I want to save. I'm using the recipe "22nd State Amber Ale All Grain Recipe Instructions" as an example:
+
+- The recipe name. It's in a box at the top of the page, under the SoCo Homebrew logo. Like "22nd State Amber Ale"
+- All the grains listed under "The Mash". They are in a table after the text "Your kit will contain the following grain:". You can put all the ingredients in the same field, separated by returns.
+- In the "Adding the Hops" portion, there are three tables to list hops: for bittering, flavor and aroma. I want those listed as three separate fields. If there is more than one item in one of these tables, keep them in the same field, separated by returns.
+- I want to record the "original specific gravity". It is usually a number, like "1.051"
+- Under pitching your yeast, there is a table that includes different yeasts. For each yeast there is usually a manufacturer like "White Labs" and then the style like "California Ale V 051". You can put them together like this: "White Labs California Ale V 051". Include all the yeast varieties in the same cell, separated by returns.
+- Under "Dry Hopping" I want all the hops listed here in the same cell, similar to others with more than one ingredient.
+- I want to record the "final specific gravity". It is usually a number, like "1.012".
+- The last thing to record is "Flavoring to add before bottling". If the table or box says only "No Flavoring", then leave it blank. Otherwise list the ingredient with returns between multiple ingredients.
+
+Let's do a single one and check it before doing the other 200+ PDFs.
+
+## Followup prompts
+
+When it finished, it suggested some tests, or to run and look for NAs, or to just go for it. I said: "Test on a few more PDFs — especially ones that look different — before committing to the full batch."
+
+At this point I was about out of my free credits, so I just wanted a good place to stop so I could do some manual work: "You found there were two different layouts for the PDFs and did a fairly good job of parsing both. The most common one is great, but I need to hand-check the alternative layout. Can you make me a list of the recipes that have the alternative layouts so I can check them?"
+
+It found them and then saved as a csv so I could refer to it.

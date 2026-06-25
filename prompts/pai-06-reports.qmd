@@ -1,0 +1,13 @@
+---
+title: "pai-06-reports"
+format: html
+---
+
+## Directions for ai
+
+Using R and tidyverse functions when available, I want you to build parameterized reports based on data in "data-processed/recipes.xlsx" and the file "template-recipe.qmd". Build these as HTML pages in a typical _site folder along with the other pages already in this project. I want to be able to later make adjustments to the template and regenerate the pages.
+
+One thing I forgot on the template was to add a link to matching PDF file in the recipe-pdf folder. You should be able to make a link based on the recipe_name in the data, but make sure those match the filenames so they work, as I'm not certain.
+
+Lastly, I want you to create a new index file similar to what already exists in  "04-recipes-by-style.qmd" that points to these new HTML pages.
+

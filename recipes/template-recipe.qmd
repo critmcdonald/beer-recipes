@@ -1,0 +1,133 @@
+---
+title: "All-grain recipe"
+format: html
+params:
+  recipe_id: 1
+---
+
+```{r}
+#| label: setup
+#| warning: false
+#| message: false
+#| include: false
+
+library(tidyverse)
+library(janitor)
+library(readxl)
+library(htmltools)
+
+recipes_raw <- read_excel("../data-processed/recipes.xlsx")
+pdf_lookup   <- read_csv("../data-processed/recipe-pdfs.csv", show_col_types = FALSE)
+
+recipe <- recipes_raw |> filter(id == params$recipe_id)
+
+headline <- recipe$recipe_name
+
+abv <- ((recipe$original_sg - recipe$final_sg) * 131.25) |> round(1)
+
+pdf_filename <- pdf_lookup |>
+  filter(id == params$recipe_id) |>
+  pull(pdf_filename)
+```
+
+# `r headline`
+
+::: callout-important
+
+These all-grain recipe ingredients are inserted into a standard template, so some details may be missing or included with ingredients. If you need a brewing tutorial, you might start with [Northern Brewer's guide](https://www.northernbrewer.com/blogs/new-to-brewing-start-here/how-to-brew-beer-homebrewing-101).
+
+:::
+
+```{r}
+#| echo: false
+if (!is.na(pdf_filename)) {
+  pdf_path <- paste0("../recipe-pdfs/", pdf_filename)
+  HTML(paste0('<p><a href="', pdf_path, '">📄 Download original recipe PDF</a></p>'))
+}
+```
+
+## Measurements
+
+| Original gravity       | Final gravity       | ABV     |
+| ---------------------- | ------------------- | ------- |
+| `r recipe$original_sg` | `r recipe$final_sg` | `r abv` |
+
+## Grain bill
+
+```{r}
+#| echo: false
+HTML(gsub("\r\n", "<br>", recipe$grains, fixed = TRUE))
+```
+
+### Boil additions (if any)
+
+```{r}
+#| echo: false
+
+HTML(gsub("\r\n", "<br>", recipe$boil_additions, fixed = TRUE))
+```
+
+
+## Hops schedule
+
+### Bittering
+
+```{r}
+#| echo: false
+
+HTML(gsub("\r\n", "<br>", recipe$bittering_hops, fixed = TRUE))
+```
+
+### Flavor
+
+```{r}
+#| echo: false
+
+HTML(gsub("\r\n", "<br>", recipe$flavor_hops, fixed = TRUE))
+```
+
+### Aroma
+
+```{r}
+#| echo: false
+
+HTML(gsub("\r\n", "<br>", recipe$aroma_hops, fixed = TRUE))
+```
+
+
+## Yeast options
+
+Possible yeasts to use with this recipe:
+
+```{r}
+#| echo: false
+
+HTML(gsub("\r\n", "<br>", recipe$yeast, fixed = TRUE))
+```
+
+
+## Additions
+
+### Dry hopping
+
+```{r}
+#| echo: false
+
+if (is.na(recipe$dry_hops) || recipe$dry_hops == "NA") {
+  HTML("No dry hop additions")
+} else {
+  HTML(gsub("\r\n", "<br>", recipe$dry_hops, fixed = TRUE))  
+}
+```
+
+### Flavoring
+
+```{r}
+#| echo: false
+
+if (is.na(recipe$flavoring) || recipe$flavoring == "NA") {
+  HTML("No flavoring additions")
+} else {
+  HTML(gsub("\r\n", "<br>", recipe$flavoring, fixed = TRUE))  
+}
+```

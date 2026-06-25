@@ -2,17 +2,25 @@ project:
   type: website
   render:
   - "!x-*.qmd"
+  - "!prompts"
+  - "!archive"
   - "*.qmd"
   post-render:
-    - R/copy-pa-conversations.R
+    - R/render-recipes.R
 
 website:
   title: "Beer recipes"
   sidebar:
+    tools:
+      - icon: github
+        menu:
+          - text: Source Code
+            href: https://github.com/critmcdonald/beer-recipes
     contents:
       - href: index.qmd
-        text: Home
-      - auto: "*.qmd"
+        text: Recipes
+      - href: index-about.qmd
+        text: About
 
 format:
   html:

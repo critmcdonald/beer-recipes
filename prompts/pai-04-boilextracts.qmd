@@ -1,0 +1,12 @@
+---
+title: "Prompt:  Boil ingredients"
+format: html
+---
+
+## Instructions to claude
+
+There is a folder called `beer-recipes` in this project that contains recipes. I've extracted and hand-corrected most of the information, but I missed one part.
+
+What I need to know is this: Which pdfs have a section called "THE BOIL" that have ingredients listed in the table in that section (before ADDING THE HOPS).
+
+I'll likely want a file saved that has the titles of the PDFs that have BOIL ingredients, but for now just tell me how many there are.

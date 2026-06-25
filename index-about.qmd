@@ -1,0 +1,21 @@
+---
+title: "About this site"
+---
+
+This is a work in progress to create a website to preserve [SoCo Homebrew All Grain recipes](https://socohomebrew.com/homebrew-recipe-kits/all-grain-recipe-kits/?page=1) before the store closes.
+
+This site creates web pages with the basic ingredients, then links to the saved PDFs.
+
+See the [Recipes](index.qmd) page.
+
+## How this was done
+
+There were several iterations, and some of those saved versions are in the `archive/` folder.
+
+> All prompts referenced here are now in the `prompts/` folder on Github.
+
+- I used [Posit Assistant](https://posit-dev.github.io/assistant/) (an AI tool by posit built into RStudio) to build the scraper and pull all the pdfs. See the original prompt pai-01-scrape.qmd. This yielded the file x-scrape.qmd that is now renamed and in the `R` folder.It took me about 5 minutes to write the prompt. It took working with PA another 15 minutes to get a test version of the scraper, and then 10 minutes for it to download them. (I didn't save that full conversation with Posit Assistant).
+- I used PA again to make most of the indexes. You can see the prompts in pai-02-indexes.qmd. I also saved the full conversation in the prompts folder.
+- I used PA to extract some key information from the PDFs to put into a csv. Prompt in pai-03-extract.qmd. It got most of the way there before I ran out of credits, so I did some cleanup in the file `data-processed/receipes.xlsx`. Conversation is also in prompts.
+- While working on the PDF extracts, I ran out of Posit Assistant credits, so I moved to Claude Code to help find the PDFs that had boiling additions that I missed on the first pass. Those instructions are at pai-04-boilextracts.qmd.
+- I used Posit Assistant (after subscribing) to build a parameters-based workflow to crate a basic HTML page for each recipe, which then links to the PDF. pai-06-reports is in prompts, but there was more conversation to fix everything that I didn't save.

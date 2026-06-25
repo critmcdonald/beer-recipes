@@ -6,5 +6,7 @@ There are several goals:
 
 - [x] Scrape and save all the PDFS
 - [x] Make a quarto site that allows us to search for and find a recipe, using the PDFs.
-- [ ] Scrape the important recipe data from PDFs and put into a CSV. (Partially done. Needs "Boil" additions.)
-- [ ] Made a Markdown-based website or database from the CSV.
+- [x] Scrape the important recipe data from PDFs and put into a CSV. (Partially done. Needs "Boil" additions.)
+- [x] Made a Markdown-based website or database from the CSV.
+
+See the link under About for the published site.

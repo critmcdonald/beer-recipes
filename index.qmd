@@ -1,27 +1,93 @@
 ---
-title: "All Grain Beer Recipes"
+title: "Recipes"
+format: html
 ---
 
-This is a work in progress to create a website to preserve [SoCo Homebrew All Grain recipes](https://socohomebrew.com/homebrew-recipe-kits/all-grain-recipe-kits/?page=1) before the store closes.
+All-grain beer recipe ingredients.
 
-The recipes are saved as PDFs.
+```{r}
+#| label: setup
+#| include: false
 
-There are several organizations of the same recipes:
+library(tidyverse)
+library(readxl)
+library(htmltools)
 
-- [Recipes (Alpha)](01-recipes-alpha.qmd) is in alphabetical order by name.
-- [Recipes (No Soco)](02-recipes-nosoco.qmd) is similar, but removes "SoCo" from recipe names.
-- [Recipes (Filter)](03-recipes-filter.qmd) allows you to filter the list based on keywords to find things more quickly.
-- [Recipes (Style)](04-recipes-by-style.qmd) organizes the recipes by beer style.
+make_slug <- function(name) {
+  name |>
+    str_to_lower() |>
+    str_replace_all("[^a-z0-9]+", "-") |>
+    str_remove_all("-+$") |>
+    str_remove_all("^-+")
+}
 
-## Future work?
+infer_style <- function(name) {
+  n <- str_to_lower(name)
+  case_when(
+    str_detect(n, "\\bipa\\b|india pale ale|neipa|double ipa|triple ipa|imperial ipa") ~ "IPAs",
+    str_detect(n, "pale ale|pale")                                           ~ "Pale Ales",
+    str_detect(n, "amber|red|red ale|irish red")                            ~ "Amber & Red Ales",
+    str_detect(n, "blonde|golden ale|golden")                           ~ "Blonde & Golden Ales",
+    str_detect(n, "brown ale|brown|nut brown|dark mild")                ~ "Brown Ales",
+    str_detect(n, "stout")                                              ~ "Stouts",
+    str_detect(n, "porter")                                             ~ "Porters",
+    str_detect(n, "wheat|hefeweizen|witbier|dunkelweizen|weizen|roggenbier|wit\\b") ~ "Wheat Beers & Hefeweizens",
+    str_detect(n, "belgian|saison|dubbel|tripel|patersbier|goud|white")      ~ "Belgian Styles",
+    str_detect(n, "\\besb\\b|bitter")                                   ~ "Bitters & ESBs",
+    str_detect(n, "scottish|shilling|scotch ale|wee heavy")             ~ "Scottish Ales",
+    str_detect(n, "lager|pilsner|bock|oktoberfest|kolsch|schwarzbier|california common|doppelbock") ~ "Lagers, Pilsners & Bocks",
+    str_detect(n, "barleywine|old ale|strong ale|wheatwine")            ~ "Strong Ales & Barleywines",
+    str_detect(n, "berliner|gose|sour|kettle sour")                    ~ "Sours",
+    TRUE                                                                ~ "Other"
+  )
+}
 
-- I'd like the scrape the main information from the pdfs and store in a CSV.
-    - UPDATE: This is mostly done, except I didn't capture "THE BOIL" portion that tracks extract additions.
-- I want to make simple Quarto page for each recipe with good indexes that also include links to the original PDFs.
-- And/or make a database.
+# Style display order (mirrors 04-recipes-by-style.qmd)
+style_order <- c(
+  "Amber & Red Ales",
+  "Pale Ales",
+  "Lagers, Pilsners & Bocks",
+  "Blonde & Golden Ales",
+  "Brown Ales",
+  "Stouts",
+  "Porters",
+  "Bitters & ESBs",
+  "Scottish Ales",
+  "Strong Ales & Barleywines",
+  "IPAs",
+  "Wheat Beers & Hefeweizens",
+  "Belgian Styles",
+  "Sours",
+  "Other"
+)
 
-## How this was done
+recipes <- read_excel("data-processed/recipes.xlsx") |>
+  select(id, recipe_name) |>
+  mutate(
+    slug  = make_slug(recipe_name),
+    style = factor(infer_style(recipe_name), levels = style_order)
+  ) |>
+  arrange(style, recipe_name)
+```
 
-- I used [Posit Assistant](https://posit-dev.github.io/assistant/) (an AI tool by posit built into RStudio) to build the scraper and pull all the pdfs. See the original prompt in [Prompt: Scrape](pa-01-scrape.qmd). This yielded the file [x-scrape](x-scrape.qmd) (it was renamed later) that has the code that did the scraping. It took me about 5 minutes to write the prompt. It took working with PA another 15 minutes to get a test version of the scraper, and then 10 minutes for it to download them. (I didn't save that full conversation with Posit Assistant).
-- I used PA again to make most of the indexes. You can see the prompts in [Prompt: Indexes](pa-02-indexes.qmd). I also saved the full conversation [here](pa-conversations/conversation-export-indexes.html) and [here](pa-conversations/conversation-export-textfix.html) in the pa-conversations folder. That also has some followup prompts to fix some titles.
-- I used PA to extract some key information from the PDFs to put into a csv. [Prompt: Extract PDFs](pa-03-extract.qmd). It got most of the way there before I ran out of credits, so I did some cleanup in the file `data-processed/receipes.xlsx`. Conversation [here](pa-conversations/conversation-export-extract.html).
+
+
+```{r}
+#| echo: false
+#| results: asis
+
+# Individual recipe pages are generated with a post-render script `source("R/render-recipes.R")`.
+
+# Emit markdown sections for each style group
+recipes |>
+  group_by(style) |>
+  group_walk(function(df, key) {
+    cat(sprintf("\n## %s\n\n", key$style))
+    df |>
+      mutate(link = sprintf("- [%s](recipes/%s.html)", recipe_name, slug)) |>
+      pull(link) |>
+      paste(collapse = "\n") |>
+      cat()
+    cat("\n")
+  })
+```

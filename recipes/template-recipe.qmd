@@ -34,7 +34,7 @@ pdf_filename <- pdf_lookup |>
 
 ::: callout-important
 
-These all-grain recipe ingredients are inserted into a standard template, so some details may be missing or included with ingredients. If you need a brewing tutorial, you might start with [Northern Brewer's guide](https://www.northernbrewer.com/blogs/new-to-brewing-start-here/how-to-brew-beer-homebrewing-101).
+These all-grain recipe ingredients are inserted into a standard template, so some details may be missing or included with ingredients. If you need a brewing tutorial, you might start with [Northern Brewer's guide](https://www.northernbrewer.com/blogs/new-to-brewing-start-here/how-to-brew-beer-homebrewing-101). Each recipe also includes a link to the original PDF saved from SoCo Homebrew.
 
 :::
 

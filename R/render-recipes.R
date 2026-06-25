@@ -8,6 +8,15 @@
 # Or from the shell:
 #   Rscript R/render-recipes.R
 
+# There was an AI note about a couple of recipes:
+# Two recipes couldn't be matched to PDFs (the links simply won't appear for them):
+#   
+#   - Menchacaweizen Hefeweizen — the PDF is "SoCo Menchaca Hefeweizen", quite different
+#   - SoCo English Export Imperial Stout — no clear PDF match found
+
+
+
+
 library(tidyverse)
 library(readxl)
 library(quarto)
